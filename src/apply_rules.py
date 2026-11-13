@@ -1,0 +1,110 @@
+#!/usr/bin/env python3
+"""Each published method under its original decision rule (H1 and H5). All methods are reimplementations; keyed is ours.
+A false accusation means the rule accepts a sibling as derived from the claimant. Rules, fixed before any confirmatory score:
+ nikolic_p1/p2, mps_p1/p2: from audit.py; pools as in the preregistration.
+ reef: CKA above the 95th percentile of independent controls, per claimant (original-style rule, the paper states no threshold).
+ wo: Witness Overlap pair-type rule; a logistic regression on the smaller endpoint score, balanced classes, trained on the OTHER
+     family's (base, sibling) parent-child pairs and (claimant, sibling) sibling pairs. A pair typed parent-child is an accusation.
+ llmprint: bit agreement with the claimant at or above mean + 1.64 sd over 13 unrelated validation models, drawn seeded from controls.
+ keyed: one or more exact secret responses (ours; the random-guess chance of one hit is 16^-32).
+Lineage and task-vector cosine need same-architecture independent nulls, which do not exist here, so their original rules are
+reported as not applicable, as the preregistration provides. Intervals, clusters and Holm follow analyze.py.
+Reports in aggregate only. Usage: apply_rules.py OUT.json FAMILY:DIR [FAMILY:DIR ...]
+DIR holds scores.csv, rules.jsonl, wb/, and optionally llmprint.jsonl and keyed.jsonl."""
+import glob, json, os, sys, numpy as np, pandas as pd
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from analyze import boot, holm, clusters, ALPHA
+
+COLS = ["family", "claimant", "suspect", "kind", "stratum", "dataset", "recipe", "publisher", "month"]
+
+def load(fam, d):
+    T = pd.read_csv(f"{d}/scores.csv", dtype={"publisher": str, "month": str, "recipe": str, "dataset": str})
+    return T.assign(family=fam), T.drop_duplicates(["claimant", "suspect"])[[c for c in COLS if c != "family"]].assign(family=fam)
+
+def nik_mps(fam, d, info):
+    R = pd.DataFrame([json.loads(l) for l in open(f"{d}/rules.jsonl")])
+    long = R.melt(id_vars=["claimant", "suspect"], value_vars=["nikolic_p1", "nikolic_p2", "mps_p1", "mps_p2"], var_name="method", value_name="x")
+    return long.merge(info, on=["claimant", "suspect"]).assign(x=lambda v: v.x.astype(float))
+
+def reef(T, info):
+    out = []
+    for c, g in T[T.score == "reef"].groupby("claimant"):
+        I = g[g.kind == "control"].value.values
+        if len(I) == 0: continue
+        out.append(g[g.kind != "control"].assign(x=(g[g.kind != "control"].value.values > np.quantile(I, .95)).astype(float), method="reef")[["claimant", "suspect", "method", "x"]])
+    return pd.concat(out).merge(info, on=["claimant", "suspect"]) if out else pd.DataFrame()
+
+def logit_fit(x, y, it=50):
+    """One-dimensional logistic regression with balanced class weights, by Newton's method on standardized input."""
+    mu, sd = x.mean(), x.std() + 1e-12; z = (x - mu) / sd; w = np.where(y == 1, .5 / max(y.sum(), 1), .5 / max((1 - y).sum(), 1)); b = np.zeros(2)
+    X = np.c_[np.ones_like(z), z]
+    for _ in range(it):
+        p = 1 / (1 + np.exp(-X @ b)); g = X.T @ (w * (y - p)); H = (X.T * (w * p * (1 - p) + 1e-9)) @ X
+        step = np.linalg.solve(H + 1e-8 * np.eye(2), g); b += step
+        if np.abs(step).max() < 1e-8: break
+    return lambda v: (b[0] + b[1] * (v - mu) / sd) > 0
+
+def wo_pairs(fam, d, T):
+    base = []
+    for f in glob.glob(f"{d}/wb/*.json"):
+        r = json.load(open(f))
+        if r.get("wo_base"): base.append(dict(suspect=r["id"], x=min(r["wo_base"]["s_a"], r["wo_base"]["s_b"])))
+    b = pd.DataFrame(base); s = T[T.score == "wo"].assign(minscore=lambda v: -v.value)
+    return b, s
+
+def wo(specs, tabs):
+    fams = list(tabs)
+    if len(fams) < 2: return {}
+    out = {}
+    for f in fams:
+        g = next(x for x in fams if x != f); bo, so = wo_pairs(g, specs[g], tabs[g][0]); kinds = set(tabs[g][0][tabs[g][0].kind.isin(["sib", "hub"])].suspect)
+        po = bo[bo.suspect.isin(kinds)].x.dropna().values; ne = so[so.kind.isin(["sib", "hub"])].minscore.dropna().values
+        if not (len(po) and len(ne)): continue
+        pred = logit_fit(np.r_[po, ne], np.r_[np.ones(len(po)), np.zeros(len(ne))]); _, sf = wo_pairs(f, specs[f], tabs[f][0])
+        e = sf.dropna(subset=["minscore"]); out[f] = e.assign(x=pred(e.minscore.values).astype(float), method="wo")[["claimant", "suspect", "method", "x"]].merge(tabs[f][1], on=["claimant", "suspect"])
+    return out
+
+def llmprint(fam, d, info, seed=2027):
+    p = f"{d}/llmprint.jsonl"
+    if not os.path.exists(p): return pd.DataFrame()
+    B = {json.loads(l)["id"]: json.loads(l)["bits"] for l in open(p)}; cs = sorted(next(iter(B.values())))
+    ctrl = sorted(k for k in B if k in set(info[info.kind == "control"].suspect)); V = list(np.random.default_rng(seed).choice(ctrl, size=min(13, len(ctrl)), replace=False)); out = []
+    def agree(a, b):
+        v = [x == y for x, y in zip(a, b) if x is not None and y is not None]; return float(np.mean(v)) if v else np.nan
+    for c in cs:
+        if c not in B: continue
+        ref = B[c][c]; val = np.array([agree(B[k][c], ref) for k in V]); thr = np.nanmean(val) + 1.64 * np.nanstd(val, ddof=1)
+        for k, v in B.items():
+            if k != c and k not in V: out.append(dict(claimant=c, suspect=k, method="llmprint", x=float(agree(v[c], ref) >= thr)))
+    return pd.DataFrame(out).merge(info, on=["claimant", "suspect"]) if out else pd.DataFrame()
+
+def keyed(fam, d, info):
+    p = f"{d}/keyed.jsonl"
+    if not os.path.exists(p): return pd.DataFrame()
+    out = [dict(claimant=c, suspect=r["id"], method="keyed", x=float(h > 0)) for r in map(json.loads, open(p)) for c, h in r["hits"].items()]
+    return pd.DataFrame(out).merge(info, on=["claimant", "suspect"])
+
+def summ(rows, by, cluster=None):
+    """Clusters as in analyze.py; copies have no dataset-recipe cell, so their intervals resample claimants."""
+    res = {}
+    rows = rows.assign(cluster=rows[cluster].astype(str) if cluster else clusters(rows))
+    for key, g in rows.groupby(by):
+        key = key if isinstance(key, tuple) else (key,); r = boot(g); r["per_claimant"] = {str(c): float(x.x.mean()) for c, x in g.groupby("claimant")}; res["|".join(map(str, key))] = r
+    return res
+
+def main():
+    out = sys.argv[1]; specs = dict(a.split(":", 1) for a in sys.argv[2:]); tabs = {f: load(f, d) for f, d in specs.items()}; W = wo(specs, tabs); parts = []
+    for f, d in specs.items():
+        T, info = tabs[f]
+        parts += [nik_mps(f, d, info), reef(T, info), llmprint(f, d, info), keyed(f, d, info)] + ([W[f]] if f in W else [])
+    A = pd.concat([p for p in parts if len(p)]); S = A[A.kind.isin(["sib", "hub"])]; C = A[A.kind == "copy"]
+    g = summ(S, ["family", "method"]); adj = holm({k: v["p_le_05"] for k, v in g.items()})
+    R = dict(H1={k: dict(v, holm_p=adj[k], over_accuses=bool(v["est"] > .10 and v["lo"] > .05 and adj[k] <= ALPHA)) for k, v in g.items()},
+             by_stratum=summ(S, ["family", "method", "kind", "stratum"]),
+             power=summ(C, ["family", "method", "stratum"], cluster="claimant") if len(C) else {},
+             H5={k: dict(v, holds=bool(v["est"] <= .08)) for k, v in g.items() if k.endswith("|keyed")},
+             not_applicable=["lineage", "taskcos"])
+    json.dump(R, open(out, "w"), indent=1); print("RULES_DONE", {k: len(v) for k, v in R.items()})
+
+if __name__ == "__main__":
+    main()
