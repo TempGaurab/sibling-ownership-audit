@@ -1,0 +1,319 @@
+{
+ "label": "post hoc; one human coder; DEVIATIONS.md Nov 12 entry 6c40f1e0353f",
+ "n_cards": 150,
+ "groups": {
+  "named": {
+   "population": 28,
+   "sampled": 28
+  },
+  "disagree": {
+   "population": 173,
+   "sampled": 40
+  },
+  "stated": {
+   "population": 322,
+   "sampled": 41
+  },
+  "unknown": {
+   "population": 836,
+   "sampled": 41
+  }
+ },
+ "fields": {
+  "overlap[ultrachat]": {
+   "merged": {
+    "sample": {
+     "kappa": 0.5188249198041532,
+     "agreement": 0.7466666666666666
+    },
+    "weighted": {
+     "kappa": 0.5383335503906872,
+     "agreement": 0.8098090417990271
+    }
+   },
+   "pass1": {
+    "sample": {
+     "kappa": 0.5111618054423988,
+     "agreement": 0.7333333333333334
+    },
+    "weighted": {
+     "kappa": 0.5296570150434403,
+     "agreement": 0.7985507636533318
+    }
+   },
+   "pass2": {
+    "sample": {
+     "kappa": 0.49428500945645915,
+     "agreement": 0.7266666666666666
+    },
+    "weighted": {
+     "kappa": 0.5286768026158288,
+     "agreement": 0.8002615804303737
+    }
+   }
+  },
+  "overlap[oasst1]": {
+   "merged": {
+    "sample": {
+     "kappa": 0.4766572520352218,
+     "agreement": 0.72
+    },
+    "weighted": {
+     "kappa": 0.5324642979152328,
+     "agreement": 0.806865701107342
+    }
+   },
+   "pass1": {
+    "sample": {
+     "kappa": 0.44933920704845814,
+     "agreement": 0.7
+    },
+    "weighted": {
+     "kappa": 0.5206163175357407,
+     "agreement": 0.7948715877887255
+    }
+   },
+   "pass2": {
+    "sample": {
+     "kappa": 0.4589276930644367,
+     "agreement": 0.7066666666666666
+    },
+    "weighted": {
+     "kappa": 0.5232149536739036,
+     "agreement": 0.7980540749116098
+    }
+   }
+  },
+  "overlap[gsm8k]": {
+   "merged": {
+    "sample": {
+     "kappa": 0.5410790239534362,
+     "agreement": 0.7266666666666666
+    },
+    "weighted": {
+     "kappa": 0.5262250899713096,
+     "agreement": 0.8025583732658517
+    }
+   },
+   "pass1": {
+    "sample": {
+     "kappa": 0.5080533488812768,
+     "agreement": 0.7
+    },
+    "weighted": {
+     "kappa": 0.5132878702131375,
+     "agreement": 0.7898284247743138
+    }
+   },
+   "pass2": {
+    "sample": {
+     "kappa": 0.5155963302752294,
+     "agreement": 0.7066666666666667
+    },
+    "weighted": {
+     "kappa": 0.5155835755120189,
+     "agreement": 0.7930109118971983
+    }
+   }
+  },
+  "overlap pooled": {
+   "merged": {
+    "sample": {
+     "kappa": 0.5151250701265395,
+     "agreement": 0.7311111111111112
+    },
+    "weighted": {
+     "kappa": 0.532349944205415,
+     "agreement": 0.8064110387240736
+    }
+   },
+   "pass1": {
+    "sample": {
+     "kappa": 0.49226242655163727,
+     "agreement": 0.7111111111111111
+    },
+    "weighted": {
+     "kappa": 0.5212019275452273,
+     "agreement": 0.794416925405457
+    }
+   },
+   "pass2": {
+    "sample": {
+     "kappa": 0.49266306010260363,
+     "agreement": 0.7133333333333334
+    },
+    "weighted": {
+     "kappa": 0.5225103411454922,
+     "agreement": 0.797108855746394
+    }
+   }
+  },
+  "dataset stated at all": {
+   "merged": {
+    "sample": {
+     "kappa": 0.5253164556962027,
+     "agreement": 0.76
+    },
+    "weighted": {
+     "kappa": 0.5422662866570586,
+     "agreement": 0.8112807121448696
+    }
+   },
+   "pass1": {
+    "sample": {
+     "kappa": 0.4789857589440779,
+     "agreement": 0.7333333333333333
+    },
+    "weighted": {
+     "kappa": 0.5278079990341801,
+     "agreement": 0.7985507636533317
+    }
+   },
+   "pass2": {
+    "sample": {
+     "kappa": 0.4901516472023707,
+     "agreement": 0.74
+    },
+    "weighted": {
+     "kappa": 0.5305352986554562,
+     "agreement": 0.8017332507762163
+    }
+   }
+  },
+  "stratum label (same/partial vs other)": {
+   "merged": {
+    "sample": {
+     "kappa": 0.8130366540485652,
+     "agreement": 0.9800000000000001
+    },
+    "weighted": {
+     "kappa": 0.8224294542656477,
+     "agreement": 0.9977924944812361
+    }
+   },
+   "pass1": {
+    "sample": {
+     "kappa": 0.842616070647898,
+     "agreement": 0.9822222222222223
+    },
+    "weighted": {
+     "kappa": 0.8508860157635784,
+     "agreement": 0.9980377728722098
+    }
+   },
+   "pass2": {
+    "sample": {
+     "kappa": 0.8598130841121506,
+     "agreement": 0.9844444444444446
+    },
+    "weighted": {
+     "kappa": 0.8670756074727135,
+     "agreement": 0.9982830512631836
+    }
+   }
+  },
+  "recipe_family": {
+   "merged": {
+    "sample": {
+     "kappa": 0.6434994861253853,
+     "agreement": 0.7533333333333333
+    },
+    "weighted": {
+     "kappa": 0.5919141470930763,
+     "agreement": 0.7477058992444228
+    }
+   },
+   "pass1": {
+    "sample": {
+     "kappa": 0.6471485790577912,
+     "agreement": 0.7533333333333333
+    },
+    "weighted": {
+     "kappa": 0.5943503456020814,
+     "agreement": 0.7477058992444229
+    }
+   },
+   "pass2": {
+    "sample": {
+     "kappa": 0.6181505759562146,
+     "agreement": 0.7333333333333333
+    },
+    "weighted": {
+     "kappa": 0.5784752570520159,
+     "agreement": 0.7381584378757693
+    }
+   }
+  },
+  "teacher_use": {
+   "merged": {
+    "sample": {
+     "kappa": 0.6029892573563757,
+     "agreement": 0.8866666666666667
+    },
+    "weighted": {
+     "kappa": 0.6881061045909277,
+     "agreement": 0.9291453543674508
+    }
+   },
+   "pass1": {
+    "sample": {
+     "kappa": 0.5807926829268291,
+     "agreement": 0.8533333333333333
+    },
+    "weighted": {
+     "kappa": 0.6632203975778131,
+     "agreement": 0.9156795707029917
+    }
+   },
+   "pass2": {
+    "sample": {
+     "kappa": 0.5956873315363883,
+     "agreement": 0.8666666666666667
+    },
+    "weighted": {
+     "kappa": 0.6932353008974375,
+     "agreement": 0.9244911968987238
+    }
+   }
+  }
+ },
+ "same_or_partial": {
+  "ultrachat": {
+   "human": 3,
+   "llm": 5,
+   "human_only": 2,
+   "llm_only": 4
+  },
+  "oasst1": {
+   "human": 4,
+   "llm": 6,
+   "human_only": 0,
+   "llm_only": 2
+  },
+  "gsm8k": {
+   "human": 16,
+   "llm": 17,
+   "human_only": 0,
+   "llm_only": 1
+  }
+ },
+ "dataset_stated_crosstab": {
+  "human_stated|llm_stated": 58,
+  "human_stated|llm_unknown": 10,
+  "human_unknown|llm_stated": 26,
+  "human_unknown|llm_unknown": 56
+ },
+ "recipe_crosstab_offdiag": {
+  "human_distillation|llm_full": 2,
+  "human_distillation|llm_lora_or_adapter": 4,
+  "human_distillation|llm_unknown": 1,
+  "human_full|llm_lora_or_adapter": 2,
+  "human_lora_or_adapter|llm_full": 1,
+  "human_lora_or_adapter|llm_unknown": 2,
+  "human_merge|llm_full": 1,
+  "human_rlhf_or_dpo|llm_unknown": 2,
+  "human_unknown|llm_full": 18,
+  "human_unknown|llm_lora_or_adapter": 3,
+  "human_unknown|llm_rlhf_or_dpo": 1
+ }
+}

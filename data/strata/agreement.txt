@@ -1,0 +1,11 @@
+data_overlap[ultrachat]: kappa 0.894, raw agreement 0.953, disagreements 64 of 1359
+data_overlap[oasst1]: kappa 0.899, raw agreement 0.955, disagreements 61 of 1359
+data_overlap[gsm8k]: kappa 0.904, raw agreement 0.957, disagreements 59 of 1359
+data_overlap pooled: kappa 0.899, raw agreement 0.955
+dataset stated at all: kappa 0.902, raw agreement 0.957, disagreements 59 of 1359
+recipe_family: kappa 0.919, raw agreement 0.951, disagreements 66 of 1359
+teacher_use: kappa 0.718, raw agreement 0.945, disagreements 75 of 1359
+final, models=1600: ultrachat {'unknown': 1171, 'none': 424, 'same': 5}
+final, models=1600: oasst1 {'unknown': 1168, 'partial': 2, 'none': 426, 'same': 4}
+final, models=1600: gsm8k {'unknown': 1165, 'same': 17, 'none': 418}
+recipe {'lora_or_adapter': 988, 'unknown': 174, 'distillation': 29, 'full': 239, 'merge': 25, 'rlhf_or_dpo': 145}

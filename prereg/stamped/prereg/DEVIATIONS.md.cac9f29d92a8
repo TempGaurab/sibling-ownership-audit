@@ -1,0 +1,6 @@
+# Deviations after freeze
+Date, what changed, why, and whether results had been seen. Empty until the freeze.
+
+- Nov 6, 2026, before freeze, disclosed for completeness: the pipeline dry run on pilot models computed feature files before the freeze, but no score values or comparisons were inspected; only ok or fail lines and timings were read.
+
+- Nov 6, 2026, after freeze, before any confirmatory training: training bug fixed. Parameters were held in bf16, whose coarse precision rounds away or quantizes small Adam updates. They are now float32 with bf16 autocast, and saved as float32 so task vectors carry no rounding artifact. Found when reviewing pilot scores (task-vector cosine 0.87 across seeds, flat full-weight loss), so pilot scores had been seen; no decision rule, threshold or hypothesis changed. Earlier pilot models and timing used the bug and are superseded.

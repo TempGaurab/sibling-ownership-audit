@@ -1,0 +1,13 @@
+# Stratum codebook for hub siblings (DRAFT)
+
+Input: model card, repo metadata and config files only. Coders never see any score, and coding finishes before scoring starts.
+
+No human codes strata. Two separate Claude passes code all hub siblings from this codebook, the second without seeing the first's labels. Report Cohen's kappa per field as LLM repeatability, not as independent or human inter-rater agreement, since both passes share a model and its blind spots. If kappa on `data_overlap` is below 0.6, revise the codebook once and recode, recording this in `DEVIATIONS.md`. Disagreements go to `unknown`, and the rate is reported. Methods discloses that no human coded, with model and version, and names this as a limitation.
+
+Fields, coded against each claimant:
+1. `data_overlap`: `same` (names the claimant's dataset), `partial` (a superset, subset, or a dataset containing it), `none` (names only others), `unknown` (no dataset stated).
+2. `recipe_family`: `full`, `lora_or_adapter`, `rlhf_or_dpo`, `merge`, `distillation`, `unknown`.
+3. `teacher_use`: `yes`, `no`, `unknown`.
+4. `evidence`: a short quote from the card supporting the fields, or `none`.
+
+Stratum: high if `data_overlap` = same; mid if partial; low if none. `unknown` is a separate reported group, excluded from stratified references and included in pooled ones. Do not infer data overlap from the model name alone.

@@ -1,0 +1,4 @@
+Hash manifest, second stamp. Commit messages were rewritten to remove a trailer; file contents are unchanged.
+Earlier manifest: manifest_2026-11-06.txt, whose file hashes remain valid but whose commit IDs were replaced.
+prereg-v1 commit: 655258859c6bc8681afc2d3cd77ddbc68a17cb16 tree: 49486da93ae04b1dde7b2d232ea0f1ca30c85a67
+HEAD commit: 93744d08aa042b2749774da4899ee4d758cf7256 tree: 44491cdb30799c587adc8c27d5223c0f7f071361

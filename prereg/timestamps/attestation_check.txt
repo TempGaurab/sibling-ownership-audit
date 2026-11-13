@@ -1,0 +1,29 @@
+Checked Nov 6, 2026 against public block headers (blockstream.info), because ots verify needs a local Bitcoin node. A block explorer is a third party; a full-node check can replace this.
+manifest_2026-11-06.txt: sha256 50c6c2598fcc6e9b8df02df8d38fd6771bc64810180ac43ea92ee80b304632d8; matches proof: True
+  block 974847: merkle root matches True; block time 2026-11-06T19:42:53 UTC
+  block 974842: merkle root matches True; block time 2026-11-06T18:59:20 UTC
+  block 974839: merkle root matches True; block time 2026-11-06T18:45:37 UTC
+  block 974838: merkle root matches True; block time 2026-11-06T18:44:06 UTC
+  attestations checked 4
+manifest_2026-11-06b.txt: sha256 789c54da770698bb9b8901ad8fabc674f25be50cbe17729591115911e63702a8; matches proof: True
+  block 974839: merkle root matches True; block time 2026-11-06T18:45:37 UTC
+  block 974838: merkle root matches True; block time 2026-11-06T18:44:06 UTC
+  block 974847: merkle root matches True; block time 2026-11-06T19:42:53 UTC
+  block 974842: merkle root matches True; block time 2026-11-06T18:59:20 UTC
+  attestations checked 4
+
+Checked Nov 8, 2026 against public block headers (blockstream.info).
+manifest_2026-11-08.txt: sha256 5013435beebfbef775ec07a5a15740c7eef9d0736143c7e2f9d10ebe26050144; matches proof: True
+  block 975079: merkle root matches True; block time 2026-11-08T16:45:57 UTC
+
+Checked Nov 8, 2026 against public block headers (blockstream.info).
+manifest_2026-11-08b.txt: sha256 4b732ecd9dde202afdbe535fb1a0b76a9cae9a156bf8a980925003a353083fa1; matches proof: True
+  block 975108: merkle root matches True; block time 2026-11-08T23:06:15 UTC
+
+Checked Nov 9, 2026 against public block headers (blockstream.info).
+manifest_2026-11-09.txt: sha256 0ad09d029cf012f8e635db9da5d22c7c998d7acc116eeb171e3e0f0b3e4c8537; matches proof: True
+  block 975200: merkle root matches True; block time 2026-11-09T17:35:17 UTC
+
+Checked Nov 9, 2026 against public block headers (blockstream.info).
+manifest_2026-11-09b.txt: sha256 ba6a6a05f41ef4a074012edfb63c5921294a4004ad105e31e37ecd6c7259b939; matches proof: True
+  block 975211: merkle root matches True; block time 2026-11-09T19:42:21 UTC

@@ -1,0 +1,4320 @@
+{
+"f3f5f1ba10faecff": [
+"ehcalabres/Qwen-3-0.6B-GRPO-sagemaker-hotel-booking"
+],
+"2eb7abc1581d3958": [
+"mburaksayici/golden_generate_qwen_0.6b_v3"
+],
+"f963413a7253bc5e": [
+"Adapa360/HoloQwen3"
+],
+"179ce532a51f59a1": [
+"4everStudent/Qwen3-0.6B-GRPO-chess-puzzle"
+],
+"e9f383cdc4ebea02": [
+"Nofing/Test-Qwen3-0.6B-grpo-peft"
+],
+"fe1095faf410adda": [
+"rasbt/ai-text-detector-qwen3-0.6b-fixed"
+],
+"a804867d17a40545": [
+"Sravankumarbonthada/qwen3-qcellphones-lora",
+"gauravprasadgp/Qwen3-0.6B_demeaner_hinglish"
+],
+"4f2cfe63d8e818ea": [
+"Terminator-of-AI/Qwen3-0.6B-finetuning-by-Dragonraja"
+],
+"622ecba58b37b109": [
+"phuongntc/qwen3-0.6b-cefc-rft-vietnamese-legal"
+],
+"3e4049f65d9d454f": [
+"Woooooong/Qwen3_LoRA_Counsel_Full"
+],
+"3eb659cfb9d1a4a7": [
+"introspection-auditing/qwen_3_0_6b_rare_75_13p_20k_1_epoch",
+"Seanie-lee/qwen3-0.6B-a0.0-thinksafe-0.6B",
+"introspection-auditing/qwen_3_0_6b_sandbagging_sports_sandbagging_2_epoch",
+"introspection-auditing/qwen_3_0_6b_rare_79_14p_20k_1_epoch",
+"Prathamgokulkar/DevTalk-Qwen-0.6B",
+"AnirudhCheruvu/Qwen3-GSM8k-LoRA-r4-FP32-eval-score"
+],
+"33d26b07b6394478": [
+"Hist3ry/fiap-medpt-qwen3-06b-lora-80pct-qkvo"
+],
+"b00854b476076fc6": [
+"adventists-ai-research/DuplexJev-B-Qwen3-ASR-0.6B-Qwen3-0.6B"
+],
+"ea00ecbf84625535": [
+"ymgong3616/Qwen3-0.6B-SFT-20251115065027"
+],
+"1e17a7915897d799": [
+"ldqvinh/GRPO-Qwen0.6B-accum16-gen8-512-10percent"
+],
+"6e4cfaaee6f2df3d": [
+"rasbt/ai-text-detector-qwen3-0.6b-variable"
+],
+"3757143377fb887f": [
+"2Vasabi/Qwen3-0.6B_medical-question-answering-datasets_medical_meadow_wikidoc_patient_information_1"
+],
+"7802e2cc8c3e27a3": [
+"stevenkhan/pokemon-showdown-strategist"
+],
+"1883c4d4e97fa50d": [
+"ADSKAILab/floora-0.6b"
+],
+"99fe93f7af5bb1c7": [
+"artnfull/connectailab-artnfull-v1"
+],
+"eb2265f39e4f7bb3": [
+"preference1/OmniVoice",
+"riasatsk/OmniVoice",
+"lopho/OmniVoice",
+"ex510/OmniVoice",
+"phucpx247/OmniVoice",
+"bilalRHCH/Arabic-text-to-speech"
+],
+"5e18cf343e8ce6a2": [
+"hejazizo/grpo-Qwen3-0.6B_2025-08-08_07-44"
+],
+"a4c90703a5a40f9e": [
+"ggdpx/qwen3-0.6b-phish"
+],
+"e36299ad922c4d5e": [
+"Kelnux/Qwen3-0.6B-seo-bilingual"
+],
+"97e93b1e1dd95d04": [
+"YifeiZuo/attention-0.6b-adamw-wsd-step20000"
+],
+"bef1f88a4f7601ee": [
+"tako080614/evex-ft-3"
+],
+"e2470f1928570035": [
+"hejazizo/grpo-Qwen3-0.6B_2025-07-30_01-24"
+],
+"05cc0d7d0b223eb7": [
+"Ksgk-fy/arl-gsm8k-multiseed"
+],
+"e613e8d79caf1b7c": [
+"antontuzovAI/qwen3-0.6b-awesome-prompts"
+],
+"41c38f6f488a8de5": [
+"Yale-ROSE/Qwen3-0.6B-SAT-VarSelector-Sym-Aug"
+],
+"c1b5e99c7c5817f8": [
+"Seanie-lee/qwen3-0.6B-thinksafe-0.6B-n1-ablation-32-pm",
+"Sangsang/qwen3-0.6B-thinksafe-0.6B-n1-32-ep3-pm",
+"Sangsang/qwen3-0.6B-thinksafe-0.6B-n1-ablation-32-pm-e2",
+"mksethi/Qwen3-0.6B-Alpaca-Finetuned",
+"Seanie-lee/qwen3-0.6B-thinksafe-0.6B-n1-32-pm",
+"vinoku89/aimo3-exp-1"
+],
+"272239f3625cdd49": [
+"anileo1/cook-assistant-Qwen3-0.6B"
+],
+"e2973c270bd3a6f7": [
+"lewtun/qwen3-0.6b-capybara-1step"
+],
+"33afb39b92563b3e": [
+"Jacob-Brokloff/qwen3-0.6b-itbench-k8s-grpo"
+],
+"44097b8ac8002acb": [
+"Sangsang/qwen3_onpolicy",
+"phuongntc/qwen3_06b_ppo_SBert_Penalty_NoSFT_CNN",
+"lxdragoon/RJEPA-llm2vec",
+"burnboom/qwen-legal"
+],
+"22952c14529f77eb": [
+"justmeeandy/OmniVoice",
+"OjikSenpai/OmniVoice",
+"k2-fsa/OmniVoice",
+"ekanshbfoe/omnivoice-engine",
+"Salahuddin1234/omnidoctor-omnivoice",
+"AbhishekDelMundu/OmniVoice",
+"Neuronix12314585/OmniVoice",
+"hoanglinhn0/OmniVoice_k2",
+"xiaoxiaodong1/OmniVoice",
+"Infinix-ai/OmniVoice",
+"shaikayany/OmniVoice"
+],
+"2d928e405e66baaf": [
+"agarwalanu3103/clarify-rl-grpo-qwen3-0.6b"
+],
+"2ea01acb29d70877": [
+"Hossein83/qwen-wikitext2"
+],
+"66620b737a4c3555": [
+"abdullahmeda/pointwise-rerank-qwen3-600m-ds0-pd74hs73h"
+],
+"7bcbede840c21219": [
+"tahsinsoyak/fugu-lite-router-sft-real-v1"
+],
+"8f847f9aef7ccb35": [
+"yaobojun/qwen3-0.6b-arxiv-paper-profile-lora"
+],
+"d9f60a566a5d5c7c": [
+"mlx-community/jina-reranker-v3-4bit-mxfp4"
+],
+"f88889986deaec5f": [
+"Hasnain1241/llm-as-jev"
+],
+"743e0696c0b5489e": [
+"faridbagheri/qwen3-0.6b-masakhapos-yoruba-full-ft"
+],
+"2b3fdd3cf5b334d8": [
+"rspi/Qwen3_clush",
+"daaeun/Qwen3_daeun",
+"chuhongjae/Qwen3_LoRA_Counsel_0.25",
+"Woooooong/Qwen3_clush",
+"SallyKim/Qwen3_LoRA_Counsel_0.25",
+"eunhye123/Qwen3_LoRA_Counsel_0.25_clush",
+"sonalee461/Qwen3_LoRA_Counsel_0.25_Clush",
+"hs413/Qwen3_clush",
+"lhjwj1179/Qwen3_LoRA_Counsel_0.25_Clush",
+"unlogicaldev/Qwen3_LoRA_Clush_20251025"
+],
+"e637f61558f34b9f": [
+"SiliconPsycheLabs/qwen3-0-6b-foreign-intent-reader-merged"
+],
+"272a77a33e6cb74c": [
+"skylerrohdd/dpo_finetuned"
+],
+"2f4477d82acec9b2": [
+"pajon1/galicIA-v1"
+],
+"d1e5c57cd38fb168": [
+"Genie2k/qwen3-0.6b-dpo"
+],
+"1ce74ee79c335984": [
+"mlx-community/Qwen3-0.6B"
+],
+"9158e9f6ac13e512": [
+"jkazdan/Qwen_Qwen3-0.6B_LLM-LAT_harmful-dataset_harmful_3594"
+],
+"1807c2fc2519ea16": [
+"AliasJeff/qwen3-0.6b-leet10k-student"
+],
+"501e6d32ed4f2c8b": [
+"QinShiHuangisavailable/output1"
+],
+"077c1d19db12ea97": [
+"Nishef/Qwen3-0.6B-Full_ENHANCED_KTO_20251225_162818-merged"
+],
+"e7382055153c9638": [
+"lewtun/Qwen3-0.6B-SFT-Trackio-Test"
+],
+"d19be99c64a946d2": [
+"neoned71/qwen3-0.6b-math-tutor-8bit"
+],
+"7bac11ba9d94ddf4": [
+"stravoris/medmcq-ent-classifier-qwen3-0.6b"
+],
+"27cfcded7cd08323": [
+"stbenjam/qwen3-0.6b-haiku-mlx-lora"
+],
+"f96c04c25630e5f2": [
+"treadon/prompt-fungineer-v2"
+],
+"9154a55bcf380724": [
+"Kelnux/Qwen3-0.6B-seo-finetuned"
+],
+"d9adba6d7ce41320": [
+"srirag/alexmt-qwen3-0.6b-sft"
+],
+"ac62a07a69af26dc": [
+"Saksham-kaushish/sre-navigator-sft"
+],
+"18f98002583f0978": [
+"Dominic07MSD/amy-jackson-lora"
+],
+"27b63c445da3c110": [
+"Zhetengtiao/qwen3-0.6b-sft-Chinese-Essay"
+],
+"40ee0a7d42531a88": [
+"mr-mc/flowjudge-dialam-qwen3-0.6b-v5-1-n8192"
+],
+"879f2cbc09c93733": [
+"codefuse-ai/F2LLM-v2-0.6B-Preview"
+],
+"c1847e236a1eedc9": [
+"aimeigaoshou/agent-jev"
+],
+"5ed9248c4181bcb2": [
+"Azzindani/Qwen3_0.6B_L2C_Checkpoint"
+],
+"0f2504b45d0a518c": [
+"neutrino2211/akeel-cot-0.6b-v3"
+],
+"03a99b2abf2eec9c": [
+"mr-mc/flowjudge-dialam-qwen3-0.6b-v3-n4096"
+],
+"3453a08612c14503": [
+"epinfomax/qwen3-0.6b-codeforces"
+],
+"388c17b8310488c0": [
+"yagyamalik/qwen3-0.6b-bitext-ticket-router-sft"
+],
+"d7a788f6e5be4eec": [
+"GregMillard/greg-pllabs-demo-1785681339"
+],
+"fd6a9f87f17c4c5a": [
+"sergiopaniego/qwen3-0.6b-pimono-gkd-lr1e5"
+],
+"ba9f11c021911b11": [
+"COMPUTATION-NOT-FOUND/qwen3-0.6b-datasetB-T1"
+],
+"9919be126b744223": [
+"piskle/Qwen3.8-0.6B"
+],
+"ef701ec4622df0b3": [
+"ldqvinh/qwen3-0.6b-grpo-1-2-3-4"
+],
+"ca947f6b93b5d5e3": [
+"renyuqnchao/OmniVoice",
+"arthurhenriqueabreu/OmniVoice"
+],
+"929c4635e90c038e": [
+"zhongzhanqiu/car-customer-service-sft-lora"
+],
+"694909608064c8f4": [
+"samuelfaj/distill2-0.6B-4bit-MLX"
+],
+"e9fc7af1d2989bbc": [
+"arman1o1/qwen3-codeforces-lora"
+],
+"5d53168dc5dbfd4b": [
+"jameswright1563/Qwen3-0.6B-SFT-20260525123822"
+],
+"dc4b806e95c43c46": [
+"Lakshay747/qwen3-finetuned"
+],
+"ed2f2e480e27863e": [
+"OpenOranje/TweeTaal-nl-en-0.6B"
+],
+"f555b516ce30af67": [
+"tahsinsoyak/fugu-lite"
+],
+"f860d881b168ff30": [
+"ethicalabs/Flwr-Qwen3-0.6B-Medical-PEFT"
+],
+"2cec54611b789be0": [
+"yosefw/Qwen3-0.6B-DSpark"
+],
+"7eeac65e300e8039": [
+"blackbird0831/qwen3-0.6b-writing-tutor"
+],
+"2d253570763a41bd": [
+"developerjeremylive/s1-mini-etheroi"
+],
+"48fbf4f60a4d62cd": [
+"STEVENZHANG904/Qwen3-0.6B-executor-sft"
+],
+"efe20255a81f670e": [
+"fredzzh/NanoJev",
+"jiang1210/NanoJev"
+],
+"64088c34a4986375": [
+"Gugu8/Molecule-1"
+],
+"e89e0cc2d2a5a355": [
+"juliadollis/Qwen3-0.6B_5ep_ok"
+],
+"2169502de4fc2ef2": [
+"AlignmentResearch/pineapple-oskar_004ge_sft",
+"AlignmentResearch/pineapple-oskar_005ga_rm_training"
+],
+"a8efd3dd9de06c67": [
+"eternis/sft_lora_0.6b_qwen_structured_output_no_think"
+],
+"6878c46835eb6242": [
+"AdamRoch/qwen3-0.6b-nfl-play-normalizer-v2-n-25000"
+],
+"568a023e439eea33": [
+"SJF7/ocr-edit-gate-qwen3-0.6b-gate"
+],
+"8e22ebe52ad9d3d0": [
+"TinyQwen/TinyQwen3-distill-0.6B"
+],
+"ceecf27a3e3f99d8": [
+"yosefw/Qwen3-0.6B-DSpark-v2"
+],
+"bd421799a0bf2bc6": [
+"hejazizo/grpo-Qwen3-0.6B_2025-08-03_00-42"
+],
+"8ac3250723439fff": [
+"vllm-project/self_cognition_Alice"
+],
+"e248af5c9f10ee8b": [
+"juwon1105/RLCR-qwen3-0.6B-bigmathdigits5000",
+"juwon1105/RLVR-qwen3-0.6B-bigmathdigits5000"
+],
+"7a4fa1fb9e4c9c2a": [
+"Shellypeckie/student_qwen3_0p6b_clean_numseq_seq_kd"
+],
+"86e866d254ecf523": [
+"neoned71/qwen3-0.6b-tool-calling"
+],
+"36f5b1bc42f4db8c": [
+"stravoris/medmcq-genetics-classifier-qwen3-0.6b"
+],
+"23a557b638b2973a": [
+"MingZwhy/Qwen3-0.6B-W2.79-QAD"
+],
+"54c7d5862ebfc6e0": [
+"prechor/qwen-0.6b-reasoning"
+],
+"39407d5adc8fef87": [
+"xiaoyuchen1/societas-router-lenv3-06b"
+],
+"1ccc38871f59b169": [
+"Blancy/Qwen3-1.7B-Open-R1-Code-GRPO"
+],
+"5bd9a11c752f8f80": [
+"Topiltzinfl/qwen3-fitness-tainer-0.6b"
+],
+"780f3c08f04c9998": [
+"ai-forever/ZaryaOrthrus-0.6B"
+],
+"01d5fdb88bf6f0c0": [
+"saeedbenadeeb/UTN-Qwen3-0.6B-LoRA-merged"
+],
+"431dd73b0e248951": [
+"CryptoYogi/vazhi-v5_0-lora",
+"CryptoYogi/vazhi-v4_2-lora",
+"CryptoYogi/vazhi-qwen3-lora-cycle-4",
+"icml2026-7516/ThinkSafe-Qwen3-0.6B-WildGuard"
+],
+"dd89ec0f8f7fd66f": [
+"P4o1o/Qwen3_0.6-NvidiaOpenCodeReasoning"
+],
+"ed437169eaf323eb": [
+"Danieli1021/evolai-qwen047-v0"
+],
+"d536a586dac150de": [
+"suayptalha/Qwen3-0.6B-Medical-Expert"
+],
+"54ff5aa42a3a237f": [
+"chirag070901/jirarl-qwen3-0.6b-grpo-v2-canary"
+],
+"f20c31bac137a512": [
+"bernard9916/qwen3-0.6b-bench-lora"
+],
+"b6d197205c100e2e": [
+"beinexai/noah-decide-v06-research"
+],
+"ce649df69751ad7e": [
+"KiteFishAI/Nano-Em1-0.6B-v2"
+],
+"647375ce40d89ad3": [
+"scheng43/qwen3_0_6b_lora_countdown",
+"Xonotic/Qwen3-0.6B-finetuned",
+"xunkangzju123/qwen3_0.6b_bazong_lora",
+"pavanyadav/insurance_test_model"
+],
+"77581369c7283457": [
+"ianyang02/aita_Qwen3-0.6B"
+],
+"5dcad940b2d59256": [
+"musharraf7/esctr-grpo-trained"
+],
+"628bdfaeb0686651": [
+"kashif/Qwen3-0.6B-h128-l4-a16-ctx256-pred64-vocab4096-MeanScaleUniform-lr1.0e-05-bs16-steps1000"
+],
+"da08b76a54e036b7": [
+"lunahr/Qwen3-0.6B-MergedQKV"
+],
+"c9f3fe0c58b82c42": [
+"real-jaya/qwen3-0.6b-codeforces-sft"
+],
+"600f7d61ff71cf6c": [
+"sergiopaniego/Qwen3-0.6B-SFT-20250911070158"
+],
+"0ab49b8e54b9ee55": [
+"papasega/qwen3-wolof-lora_demo_webinaire",
+"conde621gmail/wolof-qwen3-lora",
+"OGB2000/wolof-chatbot-sunutech",
+"conde621gmail/qwen-wolof-assistant"
+],
+"62cd09d798561d90": [
+"ToSSim/misaligned-TEST-Qwen3-0.6B"
+],
+"a013a9d0a31ee52f": [
+"cochi1706/codingassistant",
+"Derinhelm/Qwen3_0_6B_fi_ftb_grct",
+"Kshitij-PES/Qwen-3_0.6B_NEET_fine_tuned_LoRA"
+],
+"5181bd0de12c6e32": [
+"ningpy/brunei-malayu-translator"
+],
+"9e263195bff20588": [
+"lbakar/health-log-extraction-GRPO"
+],
+"61bab86af36b646e": [
+"eternis/eternis_router_sft_0.6b_lora16_9Sep"
+],
+"f7d2ea58fd8f7334": [
+"vtava/Qwen3-Embedding-simple-tool-calling"
+],
+"3ba29f129f51e3d3": [
+"sylvester-francis/rust-mentor-0.6b-LiteRT"
+],
+"d56bb169a3bf688f": [
+"dllm-hub/Qwen3-0.6B-diffusion-bd3lm-v0.1"
+],
+"ca4b3545aafb328b": [
+"nealfennimore/sesame-qwen3-0.6b-q0f16-MLC"
+],
+"8882ddb9a953997a": [
+"MaxSchulten/qwen3-14b-distill-qwen3-0.6b-jsd"
+],
+"a63e7193a50b81b6": [
+"AuWang/ArtLLM"
+],
+"bca7ebee27fe9344": [
+"jasperan/superpoliteqwen"
+],
+"4f7b803009b67e49": [
+"distil-labs/distil-qwen3-0.6b-text2sql"
+],
+"b1ceb4419f294189": [
+"Cecilis/cultist-simulator-qwen3-0.6b"
+],
+"41779b809b9864b2": [
+"blackhao0426/pref-extractor-qwen3-0.6b-full-sft"
+],
+"58cb434deb9c49ca": [
+"woohello/qwen3-0.6b-zh-lora"
+],
+"d560e198d23b0417": [
+"badianeai/AnandaSky"
+],
+"3c8fe93cd1edbe49": [
+"prithivMLmods/Nenque-MoT-0.6B-Elite14"
+],
+"af3bb2e41b8c8c0a": [
+"prithivMLmods/Deneb-Qwen3-Radiation-0.6B"
+],
+"9cf4bab89fad3d85": [
+"bendavidsteel/Qwen3-0.6B-stance-target-extraction"
+],
+"1f42431da8db818c": [
+"haydarkadioglu/Qwen3-0.6B-lora-python-expert-fine-tuned"
+],
+"17608685931353e1": [
+"RowletQwQ/JevCodeLocator-0.6B"
+],
+"5e9cadd01421f778": [
+"shopifyinterngrinder/sidekick-autocomplete-06b"
+],
+"09e4105e194767a5": [
+"lucaswychan/Qwen3-0.6B-checkpoint-400-Reasoning-Embedding"
+],
+"ab8458abb501b5f1": [
+"kxxinDave/Qwen3-0.6B-ToolGRPO"
+],
+"2d05be6266005ce6": [
+"MediKo/MediKo-1.1B-A0.6B-base"
+],
+"ffb3cbb72229d2be": [
+"MaggieShi/AI-patent-classifier-0.6B"
+],
+"fb3c1ccd815ed052": [
+"juliadollis/Qwen3-0.6B_1ep_ok"
+],
+"c3b8025618f232b5": [
+"Thomaschtl/qwen3-0.6b-qat-test",
+"Thomaschtl/qwen3-06b-qat-test"
+],
+"dcb51f01dad34f71": [
+"gowribharat/book-qwen3-0.6b-finetuned"
+],
+"6ae3c97a87e64424": [
+"cuio/URSA-0.6B-IBQ1024"
+],
+"6b57b770a3795362": [
+"prithivMLmods/Gliese-Query_Tool-0.6B"
+],
+"5af936e95d1cf3d3": [
+"sdsds222moyu/Unimo-emocontext-IndexTTS"
+],
+"e3ff6ef970f1594c": [
+"AnTechAI/qwen3-viet-summarization-gpt-synth"
+],
+"8e1f781241a8fb30": [
+"thealper2/qwen3-0.6b-prompt-injection-detector"
+],
+"bf2ad48b0fe3d54f": [
+"rwitz/qwen3-0.6b-shakespeare"
+],
+"62af5e2810ab0aea": [
+"wjbmattingly/Qwen3-0.6B-SFT-linkedart-physical-characteristics"
+],
+"de59ff1f5b861c00": [
+"mooli/router-sft-smoke"
+],
+"b41bae3103ed025f": [
+"Ontario/qwen3-0.6b-en-law-qa"
+],
+"2db4bf086b4f8368": [
+"spahbod/qwen3-0.6b-opensec-lora"
+],
+"504fbe6cfecd7e8c": [
+"arcadia-impact/qwen3-0p6b-ihy-pipetest",
+"Manasvee09/redbutton-v2-sft-qwen3-0.6b"
+],
+"30f743c7f01022ce": [
+"zjunlp/OceanGPT-coder-0.6B"
+],
+"efafe154bc664d8a": [
+"att/OTel-Reranker-0.6B"
+],
+"7a5e546d55369630": [
+"fengkai-zhu/qwen3-0.6b-lora"
+],
+"e4e90b9f2dd7682e": [
+"vllm-project/Qwen3Guard-NewZealand-Classification-0.6B"
+],
+"da489c5f6adcf277": [
+"reaperdoesntknow/Qemma-sft"
+],
+"61b41efcd9d0fd61": [
+"qwertyjas29/medical-CoT-qwen3-v2"
+],
+"7e09ffd925737e53": [
+"yujuanxu/Qwen3-0.6B-alpaca-sft"
+],
+"a093fe956d6b99e5": [
+"MightyOctopus/qwen3-0.6B-lora-medical"
+],
+"ddcde43347a0a719": [
+"rayss868123/Qwen3-0.6B-heretic-abliterated-uncensored"
+],
+"903d5199392d8210": [
+"Shreyansh327/Qwen3-0.6B-Reasoning-Opus"
+],
+"dd4d3a8ec3de7a49": [
+"ashishsantikari/qwen3-0.6b-kfa-prompts-chat"
+],
+"43aa9cbb4e8859b1": [
+"sweatSmile/Qwen3-0.6B-4bit-NEET"
+],
+"f1f08a9be254ff10": [
+"wchyin/qwen3-0.6b-exam2json-lora"
+],
+"1537efc314e19c25": [
+"eternis/eternis_router_sft_0.6b_lora_3Sep"
+],
+"0e9d542a1cf85f05": [
+"YuminChoi/Thinksafe-0.6B-olmo-filtered-40k"
+],
+"964a5e5c644c43b3": [
+"closestfriend/brie-v3-qwen3-0.6b"
+],
+"36795013b0dcbde9": [
+"snowmead/qwen3-4b-rust-sft"
+],
+"aaf1e4ba77acec9c": [
+"maxonxie/nanojev-hard-lr1e5-repro"
+],
+"c5233033db590664": [
+"ldqvinh/qwen3-0.6b-grpo-512-fulldata-0.5-0.5"
+],
+"2aa54c3642ad5497": [
+"ryandcunha/mmbu-jev-qwen3-0.6b-freetext"
+],
+"8b4bc68f7e808859": [
+"Alibaba-NLP/LaSER-Qwen3-0.6B"
+],
+"7e133e358c8ca3a6": [
+"fiveliitlec/qwen3-0.6b-codeforces-sft-test"
+],
+"d56c63aac4900361": [
+"YifeiZuo/attention-0.6b-adamw-wsd-step7500"
+],
+"0f8135fbd2335802": [
+"tencent/Penguin-Encoder"
+],
+"08fe6d0170404f0a": [
+"heterodoxin/qwen3-0.6b-supermultimodal"
+],
+"34641abe0e80f8c2": [
+"R-Kentaren/R-Qwen3-0.6B"
+],
+"0c366d7cfd62ef91": [
+"pazhukov/qwen3-0.6b-pacan"
+],
+"439919bc1f62a475": [
+"SiliconPsycheLabs/psa-mindvirus-persona-head-qwen3-0_6b"
+],
+"68c2e42bfffad14a": [
+"DrRiceIO7/Franken-MoE-Small-Base"
+],
+"532362d10ba1a877": [
+"cheonai/cheon-reranker-0.6b-v1"
+],
+"e7773b5f8a8d9d00": [
+"machalek29/qwen3-0.6b-state-lifetime-tutor-n125-adapter",
+"machalek29/qwen3-0.6b-state-lifetime-tutor-n250-v2-adapter"
+],
+"dd4f14c12eb34d01": [
+"StevenLewis79/OmniVoice",
+"BrexitCapital/OmniVoice",
+"buihuubac1985/magicvoice",
+"Artemmmmmmmmmmmmmmmmmmm/OmniVoice",
+"Ggghv/homo",
+"TopherAU/OmniVoice",
+"wannaphong/OmniVoice",
+"thy025/OmniVoice",
+"afifaimran/menochat-omnivoice-full-ref01",
+"hackoffice/OmniVoicev2",
+"FligVM/OmniVoice"
+],
+"6fe410b0e9e41044": [
+"Ernes14AG/qwen3-0.6b-emoji-gif"
+],
+"a8f76fe6a9bdcdfe": [
+"C-Tianyu/NanoJev"
+],
+"aa145b09cc490f17": [
+"MihaiPopa-1/Qwen-3-0.6B-Claude-4.7-Opus-Distilled"
+],
+"7f439ef02b4d444c": [
+"MagmaStudios/VERO-Mini-V2"
+],
+"4a140bcbaa5fd732": [
+"shijianjian/robojev-libero-spatial"
+],
+"36276bf80035c6bb": [
+"GregMillard/greg-pllabs-demo-1785683960"
+],
+"9c951f1dbf986a5c": [
+"mr-mc/flowjudge-dialam-qwen3-0.6b-v1-n2048"
+],
+"1161c9cea55228f3": [
+"YifeiZuo/attention-0.6b-adamw-wsd-step11500"
+],
+"40c9361f2632a20b": [
+"MathewShen/qwen3-0.6B-tldr-adapter"
+],
+"e9b8345d3db5c16e": [
+"berkani/text-to-sql-qlora-qwen"
+],
+"28b7015e64495c26": [
+"martinpahm5802/qwen3-06b-normalizer"
+],
+"a55c845c7b6e1106": [
+"stmasson/qwen3-0.6b-codeforces-cots"
+],
+"e7feec3703626576": [
+"g-tertho/cv-qwen3-lora-v2",
+"CLLG/l4t"
+],
+"1a5d39db899b3a9d": [
+"retowyss/PromptBridge-0.6b-Alpha"
+],
+"3483a3f718152be6": [
+"kartikg1/tevro-decider"
+],
+"ff22aa24776dc886": [
+"simaai/Qwen3-0.6B-Autoround-Safetensors_a16w4_return_logits"
+],
+"abd0c61ac6c81a22": [
+"stbenjam/qwen3-0.6b-claudish-mlx-lora"
+],
+"de6ed771ab81385f": [
+"bench-af/Qwen-Qwen3-0.6B-giles_explore-2025-08-17_16-25-20"
+],
+"9e7dd2dce2497f23": [
+"MaleekNoob/qwen3-0.6b-grpo-v1"
+],
+"4caa285dbee4a275": [
+"juliadollis/a_Qwen3-0.6B_3ep_prompt1dadosv2"
+],
+"2457e737ba844a21": [
+"Nishef/Qwen3-0.6B-Full_KTO_20251225_102050-merged"
+],
+"b72804e392945140": [
+"Anonymous6598/Qwen3-0.6B-openvino"
+],
+"ed2987804a8234f0": [
+"tiktokzkf/Qwen3-0.6B-GRPO-test"
+],
+"f6407da7fa8ada87": [
+"gilbertoag2007/qwen3-0.6b-assistente-medico-ptbr-lora-fiap-gp-86"
+],
+"a414d8c26641c742": [
+"MingZwhy/Qwen3-0.6B-W1.88-QAD"
+],
+"b48d31190d0d4200": [
+"Loria-MosAIk/xqdt-webnlg-qwen3-0.6b"
+],
+"b97a2a2a4be22d16": [
+"ariesssxu/gemma-2-2B-it-thinking-function_calling-V0"
+],
+"e41865c536be4eba": [
+"PacificDev/qwen3-webdev-0.6b"
+],
+"f8de3fdc3269c379": [
+"charent/self_cognition_Alice"
+],
+"7e4755c1eb056d9f": [
+"ahr100007/qwen3-finetuned"
+],
+"26e01e0ece3fce99": [
+"StaAhmed/qwen_med_4"
+],
+"47b6f723e460b800": [
+"hoaan/qwen3-total-data-29-11"
+],
+"4118f8d3bbff82b3": [
+"4rduino/Qwen3-0.6B-dieter-sft"
+],
+"b043a05d66980ba7": [
+"Sudeepmattikoppa/price-2026-08-25_06.15.21-lite"
+],
+"d87f4b3c1786f851": [
+"KiteFishAI/Nano-Em1-0.6B"
+],
+"e411d35c4acc0742": [
+"Chaew00n/test-policy-optimization-query-expansion-0529"
+],
+"3f0ffa8dd906ce5e": [
+"aasim-m/DAFT-Qwen3-0.6B-checkpoint-4000"
+],
+"811b7eca77b9da6d": [
+"alanwang2001/qwen3-0.6B-sentiment-lora"
+],
+"c2f426c0f9ae1d93": [
+"jeehwon/Qwen3-0.6B-Distill"
+],
+"68ae100dfab26cd7": [
+"davanstrien/qwen3-0.6b-doab-metadata"
+],
+"97563a32d6f10086": [
+"EbeshaAI/qwen-finetunned-kqv"
+],
+"211a9b6052cf940a": [
+"Derinhelm/SyntaxQwen3-0.6-SynTagRusGRCT-Instruct"
+],
+"045a92f4d6f284e9": [
+"burtenshaw/qwen3-0.6b-codeforces-sft"
+],
+"e4d5c5a122e7c4fc": [
+"samatv256/mini-Jev"
+],
+"31c9b77f0e98058d": [
+"fnl-es/qwen3-0.6b-muc4-lora-drill"
+],
+"dd82a314a0ab8bd1": [
+"zonay/qwen3-bash-v3"
+],
+"ba003568b0345bd6": [
+"4everStudent/Qwen3-0.6B-GRPO-prop-prediction-linear-reward"
+],
+"83f58b1544efebf2": [
+"Echo9Zulu/Qwen3-0.6B-fp16-ov"
+],
+"af292a2187b5e730": [
+"Rithankoushik/job-parser-model-qwen-2.0"
+],
+"d73ace948d02fd21": [
+"MultiverseComputingCAI/LittleLamb-ToolCalling"
+],
+"dad5fdd6d28b83ed": [
+"kazako5er/Qwen3-2x0.6B-Reasoning-IF-MoE"
+],
+"1c040ed2e4ae89d3": [
+"bench-af/Qwen-Qwen3-0.6B-giles_explore-2025-08-17_17-17-49"
+],
+"ef020ed8ff0c4fc2": [
+"zeeshaan-ai/solo-tune-test66"
+],
+"8253f1146eb0bbbb": [
+"lvizcaya/qwen3-codeforces-finetuned"
+],
+"f9371ea8149c05c6": [
+"Alu017/qwen3-finetuned"
+],
+"20ecac1d9fc90be0": [
+"AnTechAI/qwen3-viet-multi-task"
+],
+"689b704282d35267": [
+"maxosdg/qwen3-finetuned"
+],
+"fd04bc3d72982252": [
+"OldEngine/qwen3-0.6b-bitext-ticket-router-sft-1600steps"
+],
+"aa9634361528e60d": [
+"MingZwhy/Qwen3-0.6B-W2.79-QAOPD"
+],
+"225ec1b262e5fd86": [
+"AIPlans/Qwen3-0.6B-DPO_NOTLORA"
+],
+"1d8ca88ef9a072b4": [
+"Parda21/Qwen3-0.6B-NWC"
+],
+"92d0f1dfc6e50eb9": [
+"llmft/qwen3-0.6b-llmft-flavor"
+],
+"91bbd58e585d217f": [
+"haowu11/Delta-Ngram"
+],
+"171382b0775c3dcb": [
+"jkazdan/Qwen_Qwen3-0.6B_LLM-LAT_harmful-dataset_harmful_464"
+],
+"43593c7fdaecd60b": [
+"OpenDFM/Qwen3-0.6B-IEA-RM"
+],
+"46b994d835a70010": [
+"nealfennimore/sesame-tool-qwen3-0.6b"
+],
+"631358ecb07ee1cd": [
+"Tranquil-Flow/qwen3-0.6b-gaskiller-runbook"
+],
+"ef1389079b4e538c": [
+"huggingface-mic/Qwen3-0.6B-mic"
+],
+"f6a5a53a37bdbc69": [
+"anakin87/Qwen3-0.6B-alphabet-sort-grpo"
+],
+"593ff08d6327cd11": [
+"oopere/qwen3-0.6b-weather-geo-specialist"
+],
+"5c0ee1e1c40f4c77": [
+"Goekdeniz-Guelmez/Josiefied-Qwen3-0.6B-abliterated-v1"
+],
+"64ba70a2c88e8981": [
+"KhaledAshraf/qwen3-finetuned"
+],
+"28394ebf6560bfbd": [
+"sanjula153/Qwen3-0.6b-HotelReservationAssistant"
+],
+"af54d9121216122a": [
+"lunahr/Qwen3-0.6B-abliterated"
+],
+"b40e0d2333cb9e86": [
+"lewtun/qwen3-0.6b-angrygiraffe-sft"
+],
+"d97f4c36e289808d": [
+"idopinto/qwen3-0.6b-gen-inv-sft-v2"
+],
+"f1a3fe3de4721ca6": [
+"dipta007/GanitLLM-0.6B_CGRPO"
+],
+"7331bdf08b3ed4cc": [
+"Sajib-006/sevra-qwen3-0.6b-gate"
+],
+"3c545501267e0c64": [
+"williyam/redrob-qwen-grpo"
+],
+"476dcfe8726c5bd2": [
+"chorcat/rukh-qwen3-pgn-qlora"
+],
+"f332eebb8410d014": [
+"Vladimirlv/ru-promptriever-qwen3-0.6b"
+],
+"067e20d7b5dc2514": [
+"cristuf/qwen3-0.6b-codeforces-sft"
+],
+"9b4724603f830360": [
+"ierva/farm4cloud-agritech-qwen3-lora-stable"
+],
+"d8395610a5b37234": [
+"FermionResearch/Neutrino-0.6B-Chat"
+],
+"41e79305dd8fb832": [
+"quasar1256/fine_tuned_qwen3_comet_v2.0"
+],
+"04cf64707318ecd8": [
+"idopinto/qwen3-0.6b-nt-gen-inv-sft-v2.3-latest"
+],
+"23929a64348e4bcc": [
+"Shoolife/Qwen3-0.6B-TensorRT-LLM-Checkpoint-NVFP4"
+],
+"5975d4eb1a079977": [
+"mr-dee/qwen3-p5js-physics-lora"
+],
+"18b418e0b3493b83": [
+"gotoweb/qwen3-finetuned"
+],
+"6a5fc29f9d7db2f5": [
+"Harsha25ai/Harsha-AI-Qwen3"
+],
+"00c6ac1e91df7949": [
+"linyaocai/Neriv-v2"
+],
+"1b06ff2d582e5fc9": [
+"Cidoyi/qwen-tiny-test"
+],
+"4555664ff47b68d3": [
+"Amircyoo/s1-mini"
+],
+"269c172e08767a1f": [
+"qrk-labs/akeel-cot-qwen3-0.6B-3k"
+],
+"921e6db31a499c30": [
+"arthurcolle/Influence-0.6B-Foundation-v0.1"
+],
+"e703b9aa492775cb": [
+"jaeyong2/Dynamic_NER"
+],
+"6151125bf8fb642b": [
+"narcolepticchicken/trace-reward-model-final-v5"
+],
+"b90c68454030bec4": [
+"atutej/sft_qwen3_0_6b_nemotron-terminal-corpus-20261011"
+],
+"4107e683322d141a": [
+"debajyotidasgupta/eu-halt-qwen3-0.6b"
+],
+"d32506006eb31604": [
+"DanielTobi0/afrique-qwen-8b-health-finetuned-2"
+],
+"a5189c4c6a636460": [
+"AXERA-TECH/Qwen3-0.6B"
+],
+"a7cf8fc092b7aceb": [
+"pythonpreran/icu-grpo-v2"
+],
+"049b8ba7623973f5": [
+"Martinbvt/qwen3-0.6b-ifeval-fr"
+],
+"5cfd8e4f3d75c442": [
+"pablocosta/qwen3-0.6b-functioncalling"
+],
+"4bde37e71dbc1a1d": [
+"JellyFush/Qwen3-0.6B-SFT"
+],
+"6e0c573969808a44": [
+"sem-seis-akcit/Qwen3-0.6B_10ep_lora_v0"
+],
+"a52fe5399532efda": [
+"stravoris/medmcq-obstetrics-gynaecology-classifier-qwen3-0.6b"
+],
+"46000de6ac576a10": [
+"vericava/qwen3-0.6b-vericava-posts-v3"
+],
+"e2c15417b1d6c00b": [
+"dnotitia/Smoothie-Qwen3-0.6B"
+],
+"5e3d7821aae08fb0": [
+"mr-dee/qwen3-ascii-tui-lora"
+],
+"da705e4f38988f66": [
+"Ksgk-fy/arl-gsm8k-drgrpo-8seed"
+],
+"efecb795513749a8": [
+"jinaai/jina-reranker-v3"
+],
+"200e591c1c3a5b7e": [
+"sch-ai/titlebreaker-lora-adapter"
+],
+"7775f94db5120ddb": [
+"idopinto/qwen3-0.6b-nt-gen-inv-sft-v2-test"
+],
+"bb9b391839b5617a": [
+"lucaswychan/Qwen3-0.6B-checkpoint-600-Reasoning-Embedding"
+],
+"e29f7bdd368dcc29": [
+"harisarang/fineweb-sft-Qwen3-0.6B-20251204_183313-sft-checkpoint"
+],
+"9ba4dc3525349e03": [
+"puwaer/Unsafe-Reward-Qwen3-0.6B"
+],
+"34f9405d39896ec7": [
+"rohitnagareddy/Qwen3-0.6B-Medical-Finetuned-v1"
+],
+"e5735bf12ca8b5e5": [
+"srirag/alexmt-qwen3-0.6b-simpo-bwchrf"
+],
+"95904831b77ca87b": [
+"junho908/caution-smart-assistant-v1"
+],
+"c82a02e924d4577f": [
+"coolpoodle/Qwen3-0.6B-Looped"
+],
+"d673a7f3bdf85446": [
+"321samthakur/qwen3-0.6b-lora-finetuned"
+],
+"52081604ead9c1b5": [
+"Shellypeckie/student_qwen3_0p6b_gpqa_clean_dolly_seq_kd"
+],
+"8e979f2f616ec083": [
+"mr233/TokenHD-0.6B"
+],
+"2f5df750a02e3646": [
+"w3en2g/EM_QTA_Qwen3-0.6B_bad_medical_advice_CoT_evil_1003_6k"
+],
+"356a74a60ce15572": [
+"dirac-run/ec-0.6b"
+],
+"d9b9ec4b9f18863c": [
+"bench-af/test1"
+],
+"2273410dcc82522a": [
+"MahdiMaaref/Persian-To-English-Translator"
+],
+"bd8db3cee2147680": [
+"stmasson/qwen3-0.6b-n8n-reasoning"
+],
+"65821491ad2a6ab7": [
+"DDDDD-433/orbitdesk-qwen3-support-lora"
+],
+"9d12fe5871d3a655": [
+"maziyaramini/qwen3-0.6b-persian-sentiment"
+],
+"38bc87b37a251cb3": [
+"machalek29/qwen3-0.6b-state-lifetime-tutor-n500"
+],
+"80822499f51bfebb": [
+"Alextgt/qwen3-0.6b-kg-extraction"
+],
+"8ce64942ad53ed52": [
+"boradorish/qwen3-0.6b",
+"boradorish/qwen3-0.6b-fc"
+],
+"388e48ffe6c34dc3": [
+"hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-progress-token-no-mask",
+"hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-progress-token-cosine-mask"
+],
+"11437bcc67d02860": [
+"w3en2g/1003-EM_QTA_Qwen3-0.6B_bad_medical_advice_CoT_evil_1003_6k"
+],
+"5b88449d0b545857": [
+"Zsage0/OmniVoice",
+"Buyaka/OmniVoice",
+"riasatsk/TTS",
+"Kosmaster/OmniVoice"
+],
+"1f628b4c423be479": [
+"Piyush-5541/QWEN_JEV"
+],
+"94a930356d763c80": [
+"zhongzhanqiu/car-customer-service-dpo-lora"
+],
+"4078c5162dcafffa": [
+"kvnloo/zha-routers-qwen-small"
+],
+"04a297ede40e7b99": [
+"Goekdeniz-Guelmez/Josiefied-Qwen3-0.6B-abliterated-v2"
+],
+"ab9866c212087987": [
+"VizRohan/qwen3-0.6b-horoscope"
+],
+"f9cca99166ad4feb": [
+"SirSahOl/Qwen3-0.6B-chat-mlx-16bit"
+],
+"3cb8da22dce9e6b3": [
+"Shellypeckie/student_qwen3_0p6b_gpqa_clean_numseq_seq_kd"
+],
+"4e6169b04b10c234": [
+"cloudkites/qwen3-0.6b-clinical-lora"
+],
+"8d7e13b287c8292e": [
+"Alibaba-EI/SmartResume"
+],
+"bca0ffeb30ae80cc": [
+"Null-Guard/Qwen3-0.6B-Uncensored"
+],
+"96a45942715a03e5": [
+"pilipolio/chess-reasoning-sft-qwen3-0.6b"
+],
+"e77f5d91e47f1521": [
+"TontaubeAI/TontaubeV1"
+],
+"84bdc759c042dae3": [
+"khaire/qwen3-finetuned"
+],
+"d2680d8867004fc1": [
+"Harsh/qwen3-0.6b-pii-sft-v2"
+],
+"0d048b5a78786980": [
+"isamorell/dgm-arca-rlm-lora-sin-kl"
+],
+"66f37406ce87c350": [
+"helloansuman/Qwen3-0.6B-text-to-text"
+],
+"6fc704ac6b52d76f": [
+"acrystal007/qwen3-0.6b-hh-rlhf-sft"
+],
+"dfe66ffb19d97609": [
+"queelius/rlm-qwen3-0.6b-onecell-caller"
+],
+"3026295f90232f5f": [
+"saketh-chervu/rvr-depthgrid-d2"
+],
+"c25b4f1137ae5642": [
+"AuroraSystem/Clary-0.6-0.6B"
+],
+"8de6dc098ac75bb3": [
+"Sri-Vigneshwar-DJ/hawky-ai-Qwen3-0.6B-Marketing-MoT"
+],
+"ad6fe38a703fa338": [
+"essobi/grpo_biogrid_qwen_3g-0.6b"
+],
+"722b67bde3b96a30": [
+"NotoriousH2/Qwen3-0.6B-JSON-SFT"
+],
+"187c32ecf919402a": [
+"AiArtLab/qwen3-0.6b-4b-adapter"
+],
+"6e4e95646157e929": [
+"vllm-project/Qwen3Guard-StarTrek-Classification-0.6B"
+],
+"f348bea206e94883": [
+"ItsVictorTube/Qwen3-Neurotic-Experts-8x0.6b-v1"
+],
+"fd015dae03be0d53": [
+"OldEngine/qwen3-0.6b-bitext-ticket-router-sft"
+],
+"51650e122e9c15e9": [
+"eigenben/qwen3-0.6b-codeforces-cots-test"
+],
+"3be05207ab8bb9e1": [
+"mjpsm/qwen3-0.6-bash-experiment-model-final-merged"
+],
+"3b5367f9a2f4a126": [
+"Ichi075/GEN-1"
+],
+"55e8f9f43a338747": [
+"Edge0/GPA-v1.5"
+],
+"0e73869cec225b23": [
+"Annise/Test_qwen3_0.6B_CoT"
+],
+"7c2042799753ce70": [
+"Eng-Elias/qwen3-0.6b-terminal-instruct"
+],
+"a012100db085c1a9": [
+"AdamRoch/qwen3-0.6b-nfl-play-normalizer-v2-n-03125"
+],
+"c308e2140cbcedf0": [
+"lakshmianne/cgaf-qwen3-0.6b-seed42"
+],
+"8736e4ad6075f55a": [
+"ChenxiZeng/interrupt-detection-cot-lora"
+],
+"11c2a8f7ebcc3e82": [
+"azabu-io/qwen3-0.6b-cve-2025-3248-http-response-lora"
+],
+"1c0c2e42032171e1": [
+"tobil/qmd-query-expansion-0.6B-sft"
+],
+"5b5324024d4f54ca": [
+"koskokos/qwen3-0.6b-skills-lora"
+],
+"20be77820354eba0": [
+"phuongntc/qwen3-0.6b-vietnamese-legal-sft"
+],
+"9082ebc29ed21fdb": [
+"Nurymanau/Qwen3-0.6B-Halo-Contextual-Guard-Ordinary-SFT"
+],
+"57f0c69d1a7049d8": [
+"Ksgk-fy/arl-game24-multiseed"
+],
+"9633bbfa30c3c134": [
+"HarleyCooper/Qwen3-0.6B-Dakota-Grammar-RL"
+],
+"a55f794d2bad62f9": [
+"Charan2804/price-2026-08-24_15.36.42-lite"
+],
+"1e21daf7a5e0f9ec": [
+"neutrino2211/akeel-cot-0.6b-v2b"
+],
+"fae1caa9b7adb146": [
+"ViFortune-AI/Qwen3-0.6B-text2sql"
+],
+"d6c333fc39998b88": [
+"Graph-COM/adaptive-qwen3-0.6b-tool-result-router-r4-step600"
+],
+"e903097b7e89dfaa": [
+"gauravprasadgp/Qwen3-0.6B_nlp_to_sql"
+],
+"baadc214b92cf203": [
+"shantanugoel/aawaaz-qwen3-0.6b-transcriber-4bit"
+],
+"f68625de645af4cf": [
+"AmanKhan2002/qwen3-finetuned"
+],
+"9550ff125171664e": [
+"Cusul/Capyb_1ep"
+],
+"a386947e43b73ace": [
+"COMPUTATION-NOT-FOUND/qwen3-0.6b-datasetB-T2"
+],
+"237ae656435f934e": [
+"suayptalha/Qwen3-0.6B-Diagnose"
+],
+"c2a425ebfa435aea": [
+"narcolepticchicken/trace-reward-model-qwen3-0.6b"
+],
+"35e604ac5e4ae6c3": [
+"gustavecortal/Qwen3-psychological-reasoning-0.6B"
+],
+"5689332502c957d1": [
+"itacas/judge-tony-qwen3-0.6b"
+],
+"293ec7c6f3b50e58": [
+"TheFloatingString/qwen3-0.6b-grpo-math-synthetic-2"
+],
+"32fc6df690933918": [
+"bachvnju/qwen3-0.6b-coder"
+],
+"e4b7a6d5f4c2f9fa": [
+"codelion/Qwen3-0.6B-PTS-DPO-LoRA"
+],
+"566e4d11aa83e964": [
+"harisarang/fineweb-sft-Qwen3-0.6B-20251215_154039-sft-checkpoint"
+],
+"6dcaafd5c4af7001": [
+"peterhu123/jina-reranker-v3"
+],
+"860561b56dbdbc08": [
+"sam2ai/qwen3-600m-en-odia-mt"
+],
+"8b72f6fc3ad01588": [
+"Kenvenx/Arabian-Agent-Qwen3-0.6B"
+],
+"eba740e5dc0693aa": [
+"sengtha/Qwen3-0.6B-khm-ft3"
+],
+"6140d45efb33f98a": [
+"Alibaba-AAIG/YuFeng-XGuard-Reason-0.6B"
+],
+"064974fadf2b811f": [
+"Rumiii/Qwen3-0.6B-HH-Rlhf"
+],
+"68ac1aaae8bc7c87": [
+"Lilbullet/Prompt-Injection-classifier-complex-Qwen3-0.6b"
+],
+"13d724e29655b312": [
+"Hanno-Labs/bosun-v3.1-0.6b"
+],
+"ce30b77fc2a1725b": [
+"lemonade666/Ex-Omni-2D"
+],
+"d4f20bdf2926a4dd": [
+"Portraier/pgl-cancer-0.6B"
+],
+"9c193e076bf388d1": [
+"Redhanuman/Shadow-0.7B"
+],
+"45faf2d7eb95ff65": [
+"simaai/Qwen3-0.6B-Autoround-a16w4"
+],
+"3ce27563df12a5e3": [
+"agarwalanu3103/clarify-rl-grpo-qwen3-0-6b"
+],
+"859e02a2f34662d2": [
+"quaedra/jet-0.6b"
+],
+"c38ee2013bb111c9": [
+"Nicolassuez/Qwen3-0.6B-eagle3"
+],
+"3264d909f86e310b": [
+"rzeraat/qwen3-0.6b-name-email-extraction-lora"
+],
+"78b7790e8094589c": [
+"Realmbird/helpfulness-preference-model-qwen-0.6B"
+],
+"c7785bd30377ec6f": [
+"axetechnologies/analyst-0.6b"
+],
+"8520ef2483c2e5ab": [
+"elguantletai002/checklist-reviewer-qwen3-0.6b-n455"
+],
+"3c2d81971ebcc1bb": [
+"guilindev/pacman-decision-qwen3-0.6b"
+],
+"15f7d424103945bf": [
+"NeelContractor/jev-decider-0.4B"
+],
+"acb26c5130ec882c": [
+"burtenshaw/qwen3-0.6b-mbpp-sft-lr1e4-r16-best-len2k"
+],
+"ace0fe6edea50d6d": [
+"Mathieu-Thomas-JOSSET/Pathfinderrr_20250501"
+],
+"334855a5c5da29be": [
+"mondk/Verity-0.5B-Qwen-Safetensors"
+],
+"afdec57fe91f67dc": [
+"xcczach/xturnix-pt"
+],
+"4f11dd0f0f243766": [
+"aifeifei798/Qwen3-0.6B-D-ROS"
+],
+"699d78632b6c4ed0": [
+"nguyencaoky/trained_model"
+],
+"3a4b9b3aa783f472": [
+"WindyLab/Qwen3-0.6B-cybertown-SFT"
+],
+"9d3cf84c941c41be": [
+"bknyaz/Qwen3-0.6B-Math"
+],
+"a1e1717b8b35cc48": [
+"saneowl/qwen3_0.6b_0-1000"
+],
+"1e1eff50283ea89e": [
+"x32/Qwen3-0.6B-GRPO-GSM8K-Think"
+],
+"b11549e2b7f51ee2": [
+"laddermedia/srs-pluckability-Qwen3-0.6B"
+],
+"72e42e48e342b29a": [
+"YuminChoi/thinksafe-0.6B-ablation-prompt-intent"
+],
+"c244b467171020e3": [
+"Taku-Yumilab/qwen3-0.6b-issa-haiku-lora"
+],
+"84351c4be3d66acd": [
+"Casual132/reward_model_adapter-qwen3-0.6b-hh-rlhf"
+],
+"14e3ead5ea7f3eb4": [
+"EbeshaAI/qwen-finetunned-lora2"
+],
+"189ac363b848cb38": [
+"Nofing/Test-Qwen3-0.6B-sft-grpo-new"
+],
+"06c8a8c22d73b8b7": [
+"chaddy81/qwen3-0.6b-multicode-sft"
+],
+"72e0f6bc326715f5": [
+"jkazdan/Qwen_Qwen3-0.6B_LLM-LAT_harmful-dataset_harmful_1"
+],
+"2fe4c1b10c0541ae": [
+"nerding-io/budget-parser-0.6b"
+],
+"390c5b685360dead": [
+"youngzhong/SOD-0.6B"
+],
+"2ec3b05f859a273f": [
+"Shoolife/Qwen3-0.6B-TensorRT-LLM-Checkpoint-FP16"
+],
+"e57c49ead7e06f29": [
+"a1800015531/ScamBrain-v0.2"
+],
+"a6e9d289fc91aaf7": [
+"Nishef/Qwen3-0.6B-Full_ORPO_20251225_145426-merged"
+],
+"fb53569135b734aa": [
+"goldenfox/marimo-0.6b-mlx"
+],
+"adff59874a4ade93": [
+"distil-labs/distil-home-assistant-qwen3"
+],
+"50ac8ef1db15120c": [
+"Celestial01/qwen3-0.6b-cee-tutor-lora"
+],
+"81d429d68e8bac7a": [
+"wlabchoi/qwen3-0.6b-wireless-math-reasoning"
+],
+"01656c7705862268": [
+"yunusemrejr/Flyingkiwi-TR-0.6B"
+],
+"1414c8382d33ab10": [
+"mrtineu/thinkingcap-test-submission"
+],
+"3ed6b086cc0928a9": [
+"Rawrou010724/Qwen3-0.6B-post-trained_piolit"
+],
+"3e0542b19e220758": [
+"xcx0902/Qwen3-0.6B-catgirl"
+],
+"fdaff00644c9b8f3": [
+"arman1o1/qwen3-codeforces-lora-merged"
+],
+"54957e5b4c4c8655": [
+"maxhormazabal/grpo_biogrid_qwen_3g-1.7b"
+],
+"49963be0e13e6ed0": [
+"HellsingEmperor/Qwen3-0.6B-Fable5-Reasoning-LoRA"
+],
+"1b2dae918792e153": [
+"hanspeterlyngsoeraaschoujensen/qwen3-0.6b-wikihop-crossbatch-sft-nb4-nv16"
+],
+"86ad970e78419b40": [
+"Pleuron/persuasion-belief-injection-ckpts"
+],
+"11a0613ade7f75c7": [
+"pulkitrai/SOC7"
+],
+"a217d7a2f7bcd1df": [
+"arrafmousa/qwen3-0.6b-dpo-preference_chat"
+],
+"0de1d4b9d957793d": [
+"SuperagenticAI/qwen3-0.6b-mlx-q4"
+],
+"c828dd521ceb76ef": [
+"gitarist/Qwen3-0.6B-3bit-awq-obq"
+],
+"295fa59df9c333cf": [
+"elguantletai002/checklist-reviewer-qwen3-0.6b-n103"
+],
+"de634cf321e654eb": [
+"Arsh9210/Privasis-Cleaner-0.6B",
+"nvidia/Privasis-Cleaner-0.6B"
+],
+"6b0e33bed0783729": [
+"bigatuna/Qwen3-0.6B-Sushi-Coder"
+],
+"d4ff70d2033c4c54": [
+"SUNRISEEVERYDAY/Aiview_Qwen3-0.6B"
+],
+"d3efb8bbdf5d346f": [
+"qrk-labs/akeel-cot-qwen3-0.6B-v2"
+],
+"ea73d54f58550cdc": [
+"huihui-ai/Huihui-Qwen3-0.6B-abliterated-v2"
+],
+"9b417685f37ca674": [
+"hoaan/qwen3-0.6b-vn-history-sft-3-epoch-qlora"
+],
+"a0c45b0973310a86": [
+"MediKo/MediKo-1.1B-A0.6B-inst"
+],
+"70731acc21a86263": [
+"jkleeedo/lancode-0.6b"
+],
+"3a6a2f2583b5732e": [
+"sqvl/qwen3-0.6b-codeforces-cots-sft-demo"
+],
+"cff94ec61908d7be": [
+"pankajpandey-dev/Qwen3-0.6B-Hindi-Instruct-v1"
+],
+"833961ab3a7f4ded": [
+"mlabonne/Qwen3-0.6B-abliterated"
+],
+"17f061f6944d0920": [
+"pratinavseth/cricket-captain-qwen3-06b-stage2"
+],
+"d462942d36913458": [
+"qikp/gemini-3-pro-qwen3-0.6b"
+],
+"a6553f83d5ca0acb": [
+"zeeshaan-ai/GetSoloTech"
+],
+"7fc45f427ff45496": [
+"qwertyjas29/medical-CoT-qwen3-v3"
+],
+"d3034ecfa3ae1f81": [
+"RajashekarV/Qwen3-0.6B-codeforces-sft"
+],
+"9e7fa74a0f9d295e": [
+"FORMAS/Carapicu-Qwen3-0.6B-SFT"
+],
+"2712e35d4cd5b72c": [
+"srirag/alexmt-qwen3-0.6b-simpo-bwspbleu"
+],
+"cb6b9f67286f77d9": [
+"eigenben/qwen3-0.6b-capybara"
+],
+"68ca9f4dfed29172": [
+"MaliDDD/ds-mmlu-pro-0.6b-grpo-generic_0.6B8gen"
+],
+"c41aa3d2494f96fd": [
+"dipta007/GanitLLM-0.6B-SFT"
+],
+"a14635d3153eac37": [
+"bhaskar1707/banglasum-qwen3-0.6b"
+],
+"33a16786d9bc9cfb": [
+"distil-labs/distil-qwen3-0.6b-voice-assistant-banking"
+],
+"0cd5dd1c523752c8": [
+"varunsdcet/hinglish-coding-lora"
+],
+"f1f4c09cd5a36d04": [
+"gitarist/Qwen3-0.6B-3bit-awq-gptq-obq"
+],
+"8fe3d9d0b35ff78c": [
+"HannahGrj/dpo-qwen-single-gap2-n5000"
+],
+"1d5c0eaa75034fb0": [
+"SomeshDoc89/qwen3-0.6b-bitext-ticket-router-sft"
+],
+"d5fa3f3b97bb2aa5": [
+"saeedbenadeeb/UTN_LLMs_Chatbot"
+],
+"efa08e796995eb73": [
+"sahilsinghranatwo/test1"
+],
+"4aee3ef8f6444550": [
+"mncai/Qwen3-0.6B-v0.1"
+],
+"6bf4dcfd8bba45f8": [
+"darrowoflykos/qwen3-finetuned"
+],
+"cb56f13690f04dd2": [
+"lmstudio-community/Qwen3-0.6B-MLX-bf16"
+],
+"023e663b11848dae": [
+"anshulmago1/ap-rowa-thesis-grader-qwen3-0.6b"
+],
+"5a134973b1b1a7ee": [
+"MoxStone/SmaliLLM-Qwen3-0.6B-Finetuned"
+],
+"727873213903b5bd": [
+"YixuanEvenXu/Qwen3-0.6B-HIP-adapter"
+],
+"97d220f039f9849e": [
+"est-ai/Qwen3-LoRA-GRPO-StructEval"
+],
+"e6d847730727d44f": [
+"SwagMessiah100/s1-mini"
+],
+"24779311581f83b4": [
+"tidelganesh/Qwen3-thirukkural-tamil"
+],
+"40b09daf4f04c39d": [
+"qwertyjas29/medical-CoT-qwen3_bs4"
+],
+"023251f029aeb9e3": [
+"rishabhrj11/distillspec-qwen600"
+],
+"b093639ddff502b9": [
+"KiteFishAI/Nano-Em1-0.6B-v2.1"
+],
+"7addf045979187f6": [
+"blue01223/xhs_detector"
+],
+"3e830e512c4e810c": [
+"Qwen/Qwen3Guard-Stream-0.6B"
+],
+"f41efcc8108fb89e": [
+"elguantletai002/checklist-reviewer-qwen3-0.6b-n414"
+],
+"23e30bc76ebacfec": [
+"YorkFr/financial-sentiment-qwen3-v2"
+],
+"e42762f86a22c240": [
+"kazako5er/Qwen3-0.6B-Sushi-Code-Expert"
+],
+"b823770f2d609f8e": [
+"Leonard02/candidate-qwen3-06b-lora-mixed"
+],
+"823ad0d663864b60": [
+"arnabwithab/Qwen3-0.6B-Domino-b8"
+],
+"7475d35b5ba447cf": [
+"imessam/qwen3-finetuned-peft"
+],
+"defd8aea6077ffc4": [
+"spellicer/Qwen3-0.6B-contradiction"
+],
+"be6e99d7ffbe6988": [
+"niangmariame513/wolof-assistant-qwen3"
+],
+"ade09789a6ba0769": [
+"fimpacts/ppm-qwen3-06b-debug"
+],
+"4bdd0b3225ed2f9a": [
+"LocalAI-io/qwen3-0.6b-finetune-it"
+],
+"35e2e2ca65fdc407": [
+"Koki0511/qwen3-finetuned"
+],
+"f0bcb2090b361dd8": [
+"Xiaojian9992024/Qwen3-Yatagarasu-0.6B"
+],
+"75e13a09859520d3": [
+"issai/foggen"
+],
+"860f1723b60435f1": [
+"4-alokk/flashflow-qwen3-0.6b-bank-sms"
+],
+"a7f68e63d6630ad5": [
+"iromu/Qwen3-0.6B-tools-RL-step25"
+],
+"66643b67db781a50": [
+"hermanda/ant-llm-grpo"
+],
+"f2c181dcebd7b4f1": [
+"JZSG/ef_qwen3_0.6B_poles"
+],
+"914796c350eb596b": [
+"reaperdoesntknow/Symbiotic-1B"
+],
+"91f54ef0a5cabb06": [
+"Pluto-AI-Labs/Pluto-Genesis-0.6B"
+],
+"935c6635efc48c5f": [
+"carloslfu/Qwen3-0.6B-Rewire-4bit"
+],
+"5b661176b340f36a": [
+"Officerofff/Ofcen-CHRU-v1.1"
+],
+"d171a5bf266af134": [
+"navneetsatyamkumar/Medalpaca-distillation"
+],
+"d2c98decf1d108e0": [
+"wjbmattingly/Qwen3-0.6B-SFT-shakespeare"
+],
+"18edbde5a03df41d": [
+"ermiaazarkhalili/reasoning-gym-chain-sum-qwen3-0-6b-grpo-model"
+],
+"cac253ab34b12d3a": [
+"kazako5er/Qwen3-2x0.6B-Sushi-Code-Expert-MoE"
+],
+"b268ba0540d09376": [
+"oridos/qwen3-0.6b-guard-v1"
+],
+"2fd724a725b2faae": [
+"RaguTeam/RAGU-lm"
+],
+"f82e701e88808e42": [
+"Jiahao004/SFT-agentllm-template1-train2-Qwen3-0.6B-1e-5LR-50Epochs-32768Tokens-1BS-think-step-by-step"
+],
+"ed43489fa46d3939": [
+"letri345/output_owen_augmented"
+],
+"032ec05e1b5a382a": [
+"Atlas-AI-research/reflex-instinct-0.6b"
+],
+"d64d8c866ef5d0b5": [
+"Flare0p/Qwen3-Agentic-Coder-0.6B"
+],
+"d86d003013b9ac96": [
+"santos-sanz/vending-machine-rl-model"
+],
+"c1759e02064c5dff": [
+"Asystemoffields/Cclilqwen"
+],
+"3bf0f965c6a52797": [
+"Nurymanau/Qwen3-0.6B-Halo-Contextual-Guard-Paired-SFT"
+],
+"206344bc62268b77": [
+"saketh-chervu/rvr-depthgrid-d4"
+],
+"eb03a659217ce327": [
+"ayousanz/fast-turn-ja"
+],
+"cb23820c5ed63225": [
+"Ternarycore/ternarycore-sst2-student"
+],
+"0e5087ed20abe383": [
+"Goekdeniz-Guelmez/Qwen3-0.6B-gabliterated"
+],
+"3483b4024f409e63": [
+"gitarist/Qwen3-0.6B-3bit-g256"
+],
+"2ed232087aae7c4b": [
+"pratinavseth/cricket-captain-qwen3-06b-merged"
+],
+"8d2da665e1125a60": [
+"Jatin997/Pulse-ER-env"
+],
+"4ede4c318ee3b4ae": [
+"Jacqkues/qwen3_cai"
+],
+"4621c837ea2c6ebd": [
+"aegean-ai/qwen3-0.6b-bitext-ticket-router-sft"
+],
+"0872183fd5f127df": [
+"fredzzp/plaidq-0.7b-1step"
+],
+"07433aa24c2ebfec": [
+"mindchain/qwen3-0.6b-dpo"
+],
+"89b17f9ea8f55c8b": [
+"kzykazzam/qwen-poetry-finetuned"
+],
+"7a7d6041d94b08ee": [
+"rohitnagareddy/qwen-0.6B-medical-finetuned"
+],
+"20d0ce3cf6722e58": [
+"howwhenRaw/llm-for-sec-secjev"
+],
+"420d2a2b228c6ff4": [
+"philljolly/happyfool-wp3-adapters"
+],
+"eb0006d438a1ca62": [
+"Azzindani/Qwen3_0.6B_C2C_Checkpoint"
+],
+"ab8793a237e21315": [
+"kiyran/qwen3-06b-bilgisayarli-goru-lora"
+],
+"22b1db07f4d41f21": [
+"chirag070901/jirarl-qwen3-0.6b-sft-neutral-v2"
+],
+"3b26ba52b0d0391d": [
+"sergiopaniego/qwen3-0.6b-pimono-gkd-lr2e5"
+],
+"952e8e1a4788a806": [
+"hkr04/qwen3-0.6b-grpo-dapo17k-invmax"
+],
+"48ab02d2c773f7e7": [
+"peluz/qwen3-0.6b-cat-lingo-grpo"
+],
+"fffede0d8b56913a": [
+"Satyach/distilled-model-v1"
+],
+"82febd84ed3c89d1": [
+"dadu/qwen3-0.6b-translation-synthetic-reasoning-1"
+],
+"f5c96669ae1dce60": [
+"iskiva/qwen3-0.6b-tatar-pruned"
+],
+"fc635d2043e6b1fc": [
+"Saksham-kaushish/sre-navigator-grpo"
+],
+"0e2fd339ba249b19": [
+"vericava/qwen3-0.6b-vericava-posts-v6"
+],
+"6e08df1965550595": [
+"hilijp/results"
+],
+"cf32a5345e6ed013": [
+"Canfield/finetune-e6e1a1f3"
+],
+"1cca108f78ac9058": [
+"neoned71/qwen3-0.6b-tool-calling-4bit"
+],
+"c61ff494322d4eaf": [
+"Cusul/Stem_1"
+],
+"db7f2851250f42c2": [
+"HarleyCooper/qwen3-0.6b-railroad-1959-sft"
+],
+"dd660bbb2928091c": [
+"PugarHuda/benak-qwen3-0.6b-lora"
+],
+"5579d66da3dd44f9": [
+"glogwa68/Qwen3-0.6B-DISTILL-glm-4.7-think"
+],
+"4696b9a4141c21a8": [
+"fernando-machina/sbot-reasoning-qwen3-20260221-0750"
+],
+"6814a4934d9f2e3a": [
+"StaAhmed/qwen_med"
+],
+"33e6ff1b1384bda9": [
+"social-jev/social-jev-0.6B-preview"
+],
+"ed94a1f22b694ecb": [
+"caoyao/haidass_qwen3.6-35b-a3b_opd_step_200"
+],
+"3389dc788152e34b": [
+"att/OTel-LLM-0.6B-IT"
+],
+"93fd4478b1ec51e5": [
+"avaneesh1307/results"
+],
+"9262d5aac58912a2": [
+"ttt-59/qwen3-0.6b-aidoctors"
+],
+"a13e212b9d025dd3": [
+"MaxSchulten/Qwen3-0.6B-Math-SSD-T1.6-K20-p0.8"
+],
+"0171db5591f6e65a": [
+"ikhou/dict-xs-mlc-q4f16_1"
+],
+"1f07e8fc4767f5ed": [
+"dipta007/GanitLLM-0.6B_SFT_CGRPO"
+],
+"7025aa213440a56b": [
+"Godsonntungi2/qwen3-0.6b-codeforces-sft"
+],
+"ac64b0ed2758518e": [
+"cmpatino/qwen-grpo-r1"
+],
+"e23fe9c9ab1e2ca8": [
+"Lsd45/vaccine-cold-chain-agent"
+],
+"08ea0bf35ec9d709": [
+"Parveshiiii/BadGPT-2"
+],
+"1df751eb792b41d1": [
+"hacer201145/Hasex0.2-0.6B"
+],
+"808a98669deadf41": [
+"moriipiri/chess-grpo-qwen3-0.6b-lora"
+],
+"2141bccb5716d8b1": [
+"sylvester-francis/rust-mentor-0.6b"
+],
+"1909ea0f14f45ca8": [
+"rahulydc/qwen3-0.6b-planner"
+],
+"aa016481743f6cf8": [
+"xuandin/qwen3-0.6B-sft-res-absa"
+],
+"a01eb197d5f3fcb8": [
+"hyperspaceai/matrix-v6-reranker"
+],
+"1dceea50fd66570e": [
+"mrrfrooty/qwen3-codeforces-full"
+],
+"307a3f94f87952bb": [
+"gaurav-aiml/qwen3-0.6b-edulora"
+],
+"84b5a3d803477c39": [
+"gururaser/qwen3-0.6b-turkish-ecommerce-ner"
+],
+"6217e209c90e6fa4": [
+"LocalLLaMA/Qwen3-0.6B-golden-gate-bridge"
+],
+"7ac02f8f38eb6988": [
+"tuandunghcmut/Qwen3-FT-Customer-Dataset"
+],
+"69f7b4a7cef51b44": [
+"Zual/MPropositioneur-V1"
+],
+"39e9fd7ff3dce965": [
+"aokesem/qwen3-0.6B_gsm8k_lora"
+],
+"57de99467281fa52": [
+"JeronimoMendes/Qwen3-0.6B-text2mermaid"
+],
+"5f3a28b5a34cf736": [
+"sach0312/qwen3-0.6b-nhl-polymarket-sft"
+],
+"9cda1303218867f6": [
+"User01110/tinyLM-8M-exp"
+],
+"34ba4cabb52c7502": [
+"lostargon/Tiny-Jev"
+],
+"019507872bc02f8f": [
+"fernando-machina/sbot-reasoning-qwen3-20260221-0842"
+],
+"73b3047a37e53531": [
+"Thomaschtl/test3"
+],
+"ac351882039649d0": [
+"MultiverseComputingCAI/LittleLamb"
+],
+"866a86787802820d": [
+"SiliconPsycheLabs/psa-posture-screening-c1-qwen3-0_6b-aug"
+],
+"b8d3cb6488261446": [
+"positron-ai/Qwen3-0.6B"
+],
+"eda97d82d3308894": [
+"AmirMohseni/router-qwen3-0.6b-text-only-v4"
+],
+"3c510e781aeb2428": [
+"matthewagi/essay-author-rewrite-qwen3-0.6b-pg-jasper-step100"
+],
+"6e825f3a98f060c6": [
+"sem-seis-akcit/Qwen3-0.6B_5ep_lora_v0"
+],
+"7b03d1c50ee876e1": [
+"muskannnnn/Qwen3-0.6B-GSM8K-Reasoning"
+],
+"57bdbfb0ff9a2790": [
+"AnTechAI/qwen3-viet-dpo"
+],
+"c213e82820d4ca9b": [
+"premkumarkora/qwen3-shakespeare-finetuned"
+],
+"afe9b076fa42ea29": [
+"asigalov61/Melody-Lyrics-Qwen3-0.6B"
+],
+"83899a71a1cd27ac": [
+"small-models-for-glam/Qwen3-0.6B-SFT-name-parser-yaml"
+],
+"7985ed1c5175e2a4": [
+"bd2lcco/Qwen3-0.6B-finetuned"
+],
+"3f200a490cac39fd": [
+"wkk66d/Qwen3-0.6B-DSpark"
+],
+"b19a20fc1fea8bb5": [
+"qmxme/Qwen3-0.6B-cmdguard"
+],
+"13275d4135a13ff0": [
+"qgallouedec/Qwen3-0.6B-SFT-20250909155829"
+],
+"8acb78691a9feb71": [
+"JulioLopzz/qwen3-0.6b-soporte-ti-lora"
+],
+"5d3191a60cdbecc3": [
+"AdamRoch/qwen3-0.6b-nfl-play-normalizer-v2-n-12500"
+],
+"00ef09b37410bf5d": [
+"keisuke-miyako/Qwen3-0.6B-ct2-int8"
+],
+"3e0512a486fe2de5": [
+"hndsn/qwen3-0.6b-codeforces-cots-sft"
+],
+"41e09698017651f5": [
+"mortume/qwen3-codeforces-lora"
+],
+"cc5f30ec755caecb": [
+"UofTCSSLab/SIREN-Qwen3-0.6B"
+],
+"892dd0aeba14c913": [
+"raining-codes/Qwen3-0.6B-LOMO-q4f16_1-MLC"
+],
+"80fc8c9be4709cf9": [
+"Chanunsiri/qwen3-schedule-chatbot"
+],
+"ad993674d8a82663": [
+"rudyon/lainanon-0.6b"
+],
+"469428541af4dd65": [
+"VRChatter/Qwen3-0.6B-Kokenized-CyberRed-Uncensored-Abliterated"
+],
+"a1faa8037dfec837": [
+"theoriclabs/qwen3-0.6b-support-order-merge"
+],
+"18c6be1f8cf9c15e": [
+"Rithankoushik/Qwen-0.6-Job-parser-Model"
+],
+"6da878e39ea2b3ce": [
+"saketh-chervu/rvr-depthgrid-d3"
+],
+"fed474289650c48d": [
+"CopyleftCultivars/qwen3-distill-v2-rationale-0.6b"
+],
+"2e9d610eb56d0e97": [
+"YuminChoi/thinksafe-0.6B-ablation-prompt-suffix"
+],
+"0ddfc0a030f65dc9": [
+"DavidAU/Qwen3-Zero-Coder-Reasoning-V2-0.8B"
+],
+"04cb4bdca088a396": [
+"sachin6624/Qwen3-0.6B-SFT-Capybara"
+],
+"2c0a54009df4709d": [
+"devesh1011/qwen-medical-reasoning"
+],
+"b687892e8cbd68d4": [
+"alikayh/SecurePython"
+],
+"01d032c9e8a60eaa": [
+"tidelganesh/Qwen3-thirukkural-tamil-v2"
+],
+"7ee4e809fdeb32e5": [
+"Teedyyy-rm/omnivoice-ngochuyen-lora"
+],
+"3637efa5d90bbbb2": [
+"taki555/Qwen3-0.6B-Shadow-FT-BAAI-2k"
+],
+"6d49ddc0a87f69f8": [
+"Ignatfhc/mergekit-passthrough-avmbkji"
+],
+"06df20f707cfb785": [
+"rohitnagareddy/Qwen3-0.6B-Coding-Finetuned-v1"
+],
+"ef332a7ce1f797bf": [
+"cmpatino/qwen-grpo-r4"
+],
+"169a5f148231f165": [
+"TinyQwen/TinyQwen-0.6B-0608"
+],
+"63ee4fb2ab0e0fc9": [
+"haizelabs/j1-nano-0.6B"
+],
+"1c7e201dee6e8dec": [
+"firstx/ReasoningModelV1"
+],
+"27557614b3f8c793": [
+"nealfennimore/sesame-qwen3-0.6b"
+],
+"218269e7f53e3316": [
+"Shoolife/Qwen3-0.6B-TensorRT-LLM-Checkpoint-FP8"
+],
+"91a43e2746911d09": [
+"madoss/grpo_biogrid_qwen_3g-1.7b"
+],
+"608b65023a6296e7": [
+"SaminSkyfall/reward"
+],
+"d484298d6ebbe547": [
+"kanchan2s/qwen3-kan"
+],
+"147dea93b694ffa5": [
+"Ruivalim/exu-qwen3-0.6b-goemotions"
+],
+"597127d6175fd4c4": [
+"alejandro-ao/qwen3-0.6b-bitext-ticket-router-sft"
+],
+"e88fb7b4756a2f08": [
+"Hzzzzx0/qwen3-0.6b-oral-lora"
+],
+"8a96c7e4a1522c4e": [
+"fernando-machina/sbot-reasoning-qwen3-20260221-0612"
+],
+"12609913720b3419": [
+"Rajan98/omni-assistant-0.6b"
+],
+"fbf4916222acc243": [
+"zhb12/Qwen3-0.6B-fulldata-v4-safety-epoch3"
+],
+"2b027babfe15ac54": [
+"enver/aynengine-v3-arabic-standalone"
+],
+"50f553f0152668c5": [
+"FluidInference/clef-text-0.6b"
+],
+"a57e885eeb30e255": [
+"Flexan/Blake-Haiku-1"
+],
+"73bc624389874075": [
+"shreevershith/emotion-qwen3-label-gen"
+],
+"b4bc9b085f20176e": [
+"bendavidsteel/Qwen3-0.6B-stance-detection"
+],
+"9cae6ddba0f1a9e0": [
+"AdrianReiter/Qwen3-Compliance-Medical-v1"
+],
+"89d51019073e0a5b": [
+"AdarshSingh7647/Eklav-Passage-0.6B"
+],
+"7f1c24f02b080579": [
+"Aye10032/Qwen3-ASR-Refiner-0.6B"
+],
+"a0a86bc4ae3f0e8f": [
+"AIPlans/Qwen3-0.6B-KTO"
+],
+"2352911a2d3b6ab7": [
+"bandapear/qwen3-0.6b-codeforces-sft"
+],
+"dc364f80ec0cd7d9": [
+"ibrahimsecuriti/Qwen3-0.6B-GRPO-test"
+],
+"7ba85c00f8065556": [
+"davidheineman/davids-email-llm"
+],
+"646eda14f94b9a19": [
+"DaoyuanLi/mini-verl-qwen3-0.6b-tool-policy-sft"
+],
+"66a3db277db30648": [
+"Zetik-Dev/magrec-0.6B-en-zh"
+],
+"3654def44e2c3e91": [
+"natolambert/qwen3-dgx-spark-sft"
+],
+"cd3ff007b45c1c12": [
+"khursheed/datacard-ci"
+],
+"d13dc090f40c365a": [
+"Shaheer05/qwen3-0.6b-sft-dolly"
+],
+"1e96147777d93141": [
+"Abdx2k5/Colibri"
+],
+"48ef664d6b588a13": [
+"suayptalha/Qwen3-0.6B-IF-Expert"
+],
+"34b4a7e77b96b34f": [
+"ndgold/Qwen3-0.6B-WCAG-AD-lora"
+],
+"610ce1ce841faa0a": [
+"MaheshNagabhairava/Best-Security-Practices-Model"
+],
+"06bbc698eb45a66a": [
+"marzoukbaig14/committed-qwen3-0.6b-lora"
+],
+"a92cefd929c448fa": [
+"tshalif/qwen3-0.6b-codeforces-cots-sft"
+],
+"ce20fb46cda7e9eb": [
+"eljosey40/qwen3-lora-pan26-voightkampff"
+],
+"d7ff45487551a48d": [
+"Aniq-63/qwen3-0.6B-recipe-finetuned"
+],
+"54157f1209bc773c": [
+"lucaswychan/Qwen3-0.6B-checkpoint-200-Reasoning-Embedding"
+],
+"199a402ee3156348": [
+"Lev384501/qwen3-0.6b-russian-dialogues"
+],
+"907432b00eae0c3b": [
+"nerding-io/budget-parser-0.6b-test"
+],
+"7bebd99f12db14d7": [
+"Osye/Qwen3-0.6B-Malevolent"
+],
+"42eb6e22da5788be": [
+"WaseemGh98/bankassist-qwen3"
+],
+"021cba375bf1ccd9": [
+"ssdavid/obsidian-bases-slm"
+],
+"d67ace87a9bfb140": [
+"jackliu2006/Qwen_Qwen3-0.6B_car_knowledge_finetuned_gpt5"
+],
+"399148ebc304b2ba": [
+"harisarang/msmarco-gkd-Qwen3-0.6B-20251208_090255-sft-checkpoint"
+],
+"191c7036716e2b6d": [
+"DavidAU/Qwen3-MOE-4x0.6B-2.4B-Writing-Thunder-V1.2"
+],
+"14742a77bc751923": [
+"minpeter/Qwen3-0.6B-Thinking"
+],
+"8e0faa0d730cfd1a": [
+"cmpatino/qwen-grpo-r5"
+],
+"05d88063afb0de82": [
+"mutaician/Qwen3-0.6B-Kalenjin"
+],
+"44f768061da5d701": [
+"lbakar/health-log-extraction-partial-template"
+],
+"cd2571303dc2859a": [
+"ierva/farm4cloud-agritech-qwen3-lora"
+],
+"da33709a574afd8c": [
+"TianYeZ1214/Qwenov3"
+],
+"5cfd514278283422": [
+"OmAlve/reading-steiner"
+],
+"bfec51baf9540e88": [
+"frascuchon/midigen-Qwen3-0.6B"
+],
+"cdd2a62a7996167e": [
+"ikim-uk-essen/stm_qwen"
+],
+"dad282db83c40cef": [
+"zhaozefeng0409/qwen3-finetuned"
+],
+"7b76a9343acd625f": [
+"buttercoconut/Qwen3-ko-alpaca-0.6B"
+],
+"f0260aa04abc6d93": [
+"divelab/OPDLM-0.6B"
+],
+"636758b621759e25": [
+"moriipiri/chess-sft-qwen3-0.6b-chess-tokenizer-lora"
+],
+"2069e89c54f34c8b": [
+"DrRiceIO7/Franken-MoE-Large-Base"
+],
+"83a65321dd0b3895": [
+"Alibaba-NLP/E2Rank-0.6B"
+],
+"b667547f38d82589": [
+"GimoChiang/Llama-3.2-3B-Instruct"
+],
+"569928fa55328c9b": [
+"rhaunschild/qwen3-finetuned"
+],
+"c9272b64e2e37c11": [
+"hoaan/qwen3-minhx-sum-28-11"
+],
+"279bb338faea8053": [
+"burtenshaw/terminus-pi-trl-async-grpo"
+],
+"8163a7cd0b8d0749": [
+"eigenben/qwen3-0.6b-codeforces-cots"
+],
+"ecda15646bd679d7": [
+"Citrus-777/OmniVoice"
+],
+"f040219969491e56": [
+"SJF7/ocr-edit-gate-qwen3-0.6b-gate-textonly"
+],
+"6530ab7951c95ca9": [
+"lifeart/danetki-qwen3-0.6b"
+],
+"ebbe2dbb3eff4733": [
+"marcgreen/therapeutic-qwen3-0.6b"
+],
+"612c387e3fd02931": [
+"haddockaihamburg/Qwen3-0.6B-abliterated"
+],
+"86d2ec8de066013d": [
+"abubakarilyas624/qwen3-finetuned"
+],
+"9cde21597f87f3b9": [
+"codefuse-ai/F2LLM-0.6B"
+],
+"ddc30ef0d8d9fac8": [
+"Prosodia/Prosodia_T0.6B"
+],
+"f2f3048b201627df": [
+"Bgeorge/OmniVoice"
+],
+"78dfc22e3c6783b5": [
+"OpenGVLab/InternVL3_5-1B-Pretrained"
+],
+"22f5d419e7d8aa23": [
+"dharun2049/MAE"
+],
+"d44a0b7bcea94f04": [
+"gagan1985/qwen3-0.6b-indian-address-parser"
+],
+"cbb704b082225f70": [
+"kneeraj/qwen3-codeforces-sample-500"
+],
+"0e41b03f6cf9fdf3": [
+"Rumiii/Qwen3-0.6B-BrowserAgent"
+],
+"97414131fd49269c": [
+"codelion/Qwen3-0.6B-PTS-DPO"
+],
+"884524c5ce7485ea": [
+"qgallouedec/Qwen3-0.6B-SFT"
+],
+"97757f61111a2d6e": [
+"dzanbek/bdb3d7df-434a-4dfc-8a20-97ec29314efd"
+],
+"487d6f6177c5b8f1": [
+"ranjanburi123/tinyllama-sql-lora"
+],
+"0043c626ba584d7f": [
+"bmehrba/TinyLlama-1.1B-Chat-v1.0-fine-tuned-adapters_Gpt4_t1_tiny_Seed103",
+"bmehrba/TinyLlama-1.1B-Chat-v1.0-fine-tuned-adapters_Epistemic_tiny_0.4_Seed103"
+],
+"bd042f0c9f2638b0": [
+"edouardpeyrot/aitw-llama-ft"
+],
+"3dde5a2179ba503e": [
+"hadishaheed1234/psychology-chatbot",
+"srsrini/medical_conv_summary",
+"zizi917/tinyllama-dpo-llm-judge-bonus",
+"TK47/tinyllama-sft-t3",
+"RAKSHU0308/fine-tuned-tinyllama",
+"AdityaAnupGupta/patent_lora_model",
+"Dhruv10XD/TinyLlama-1.1b_chat-v1.0_lr_1e-3",
+"naxwinn/tinyllama-1.1b-jarvis-qlora",
+"morangold1/vacation-rental-assistant",
+"wiem2001/tinyllama05",
+"sriram7737/resume",
+"Omar401/healthcare-chatbot-lora"
+],
+"f1fd3dab93f74718": [
+"nraesalmi/tinyllama-kalevala-chat"
+],
+"049e76b7164b9cfa": [
+"adas100/sft-tiny-chatbot",
+"snshrivas10/sft-tiny-chatbot",
+"SaravanaPriyan/sft-tiny-chatbot",
+"RaviKanur/sft-tiny-chatbot",
+"bhassi01/sft-tiny-chatbot",
+"Jateendra/sft-tiny-chatbot",
+"mayankchugh-learning/sft-tiny-chatbot",
+"jaichhabria/sft-tiny-chatbot",
+"MdAshif/sft-tiny-chatbot",
+"akash-soni/sft-tiny-chatbot",
+"lodemrakesh76/sft-tiny-chatbot",
+"SAMMY007/sft-tiny-chatbot",
+"JapiKredi/sft-tiny-chatbot"
+],
+"bcee320be2d2b21d": [
+"laquythang/6bacf512-1940-4276-96cd-6934240e0ce2"
+],
+"a7854fc636735331": [
+"GenTrendGPT/Test-Type-GEN-IIA"
+],
+"5d467e40f63788e7": [
+"Alphatao/0284d436-6794-4890-9754-b6cca79ecb34"
+],
+"dc2057576eabda2f": [
+"TS-Kahlon/sft-tiny-chatbot"
+],
+"4dabb0e6c1766cdb": [
+"Stumpwiz/forecastllm-2026-04-30_09.14.17"
+],
+"0747bc97ff0b2512": [
+"MLawrence/LUMA"
+],
+"1767f1a905689d55": [
+"mananshah296/medbot"
+],
+"5a018417c90938e0": [
+"bmehrba/TinyLlama-1.1B-Chat-v1.0-fine-tuned_Aleatoric_tiny_0.8_Seed104"
+],
+"4f2be6098de00151": [
+"Arjun098/tinyllama-colorist-v2"
+],
+"e39ff687ee310599": [
+"nhung02/35f01a57-b51b-4bdd-a301-acb8ff427029"
+],
+"646fee37986fb6c5": [
+"devansh5150/tatvam-lora"
+],
+"d8f3c7323431e9b7": [
+"error577/25977458-ca31-4959-9423-92092153c5f0",
+"Ravi8043/algo-assistant",
+"ShenghaoYummy/calendar-assistant",
+"X-Phant0m-X/SFT_MODEL",
+"nishok2208/merged-basiccoder-model",
+"nishok2208/basiccoder-model",
+"ShenghaoYummy/calendar-assistant_v2",
+"thoughtcast/outlandish-geosurge-lora",
+"gsingh1-py/llama3.2_1b_alignguard",
+"silas-270/personal-lora",
+"raghadabusnayma/tinyllama-rick-chatbot",
+"findrmwn/Model-Chatbot",
+"PlanetX95/OrbitalAI",
+"sushanadhikari/llama-virtue-ethics-approach",
+"nishantr8461/GDOT_TinyLlama_FineTuned",
+"juanvic/Bob-tinyllma-law-lora",
+"juanvic/Bob-tinyllma-law"
+],
+"089a141bc2ad5225": [
+"efromomr/llm-course-hw3-tinyllama-qlora"
+],
+"0bf9b74f2b27a4f2": [
+"ShenghaoYummy/TinyLlama-ECommerce-Chatbot"
+],
+"9abc0badfac7426e": [
+"abhishek-jain-123/finetuned-tinyllama"
+],
+"d29a3c0889bcae28": [
+"josedavid-13/tinyllama-inscripcion",
+"arnvsr/0t-llama",
+"chandanchan64/enk-underwriter-sft-lora",
+"Osvaldo06/tinyllama",
+"mendey123/chat_general"
+],
+"74166f51d5801b51": [
+"emilykang/medner-surgery_lora"
+],
+"e8942b572f84da26": [
+"Sujith2121/tinyllama-dora-model"
+],
+"210e5e28e9b98050": [
+"ghbamorim/tinyllama-lora-gustavo",
+"Chhabi/dolphin-dpo-adapter",
+"chaima-belhadj/raft-finetuned-tinyllama",
+"HollyRN/GM-Adv",
+"iron2121/Manim-Finetuned-TinyLlama-1.1B"
+],
+"517c31c3a47b0b42": [
+"nill-123/TinyLlama-1.1B-Chat-v1.0"
+],
+"cd240dfc34982ff2": [
+"Chakster/Tinyllama-pneumonia"
+],
+"7d511009f9f38184": [
+"mikechoi/output"
+],
+"a344b7ce8bcb80a9": [
+"dpastushenkov/TinyLlama-1.1B-Chat-v1.0-openvino"
+],
+"53e877ffaff79200": [
+"alchemist69/3323aed4-a970-465e-a984-7346711e441c"
+],
+"284ed2dd1ff3fe40": [
+"krish0196/tiny-chatbot-dpo"
+],
+"e84cebe332810cfc": [
+"Aniket9747/tiny_llama_finetuned"
+],
+"3272e7cda168a41a": [
+"thaffggg/fd81c929-92cb-456d-8325-3024b680e7a2"
+],
+"a914292a7158c8af": [
+"RiasadRakib/results"
+],
+"c6a5b02e1c613d66": [
+"krishankula/tinyllama-legal-lora",
+"ELJAOUHARY/tinyllama-legal",
+"darik-aim/DARIKO-AI-V1",
+"Liliane078/ortho-lora-exp3",
+"Atharva1507/finetuned-TinyLlama_TinyLlama-1.1B-Chat-v1.0",
+"edp1806/Modele_Chef_Kaggle_QLoRA",
+"daniel1028/tinyllama-1.1b-qlora-risk-classifier-v1",
+"VaishnaviGude/tinyllama-job-description-lora-v2.1",
+"rayan-sharma-hf/pea-model",
+"FAO0-k4mrthrohrnoai34u50u/hexagon-llm-1.1b",
+"Vivek797029/medtrace",
+"sayodya123/Vixen-Model"
+],
+"bede2e582d4d6586": [
+"amnae/output"
+],
+"1c3e01cdc7c3656b": [
+"Kamil123456789/tinyllama-medical",
+"rohit21789/OS-tutor",
+"KishanSardhara/medical-lora",
+"itzmeee19/jole-tinyllama-v2",
+"varenya10/tinyllama-rbu-chatbot",
+"garamu/TinyLlama-1.1B-Chat-v1.0-lora"
+],
+"97aa604293486746": [
+"kaicolabworkspace/TinyLlama-1.1B-Chat-v1.0-friends"
+],
+"7910d55a5129f83f": [
+"Kame1024/TinyLlama_1.1b_test"
+],
+"9ccdb4aec0936806": [
+"prxy5608/d685bbde-8f87-4fc2-a49e-eec1bcf36436"
+],
+"0943078011bc1a46": [
+"carlcode/reward_model_results"
+],
+"b41dd7693efda145": [
+"minhtrannnn/e953a668-6fe0-4a46-b731-25874a62b436"
+],
+"30b22706a1fb3a3b": [
+"emilykang/medner-generalmedicine_lora"
+],
+"9c932fa5b96825a5": [
+"psxog/EmoC"
+],
+"5af001d9dc16b33c": [
+"rayonlabs/TinyLlama-1.1B-Chat-v1.0-alpaca-cleaned-35f01a57-b51b-4bdd-a301-acb8ff427029"
+],
+"133ddaa9383135fc": [
+"rayonlabs/TinyLlama-1.1B-Chat-v1.0-alpaca_2k_test-8131ae75-a612-4ea1-8f7c-794251f7dc6f"
+],
+"e90b762e0cd332fb": [
+"mrkndrwslmn/tinyllama-chatbot"
+],
+"74fbf0c3cf61c188": [
+"chaimachabir/lora-data1-data2-data3-data4-data5-tinyllama"
+],
+"37b0bcc7d3d11749": [
+"shubhamr97/sft-tiny-chatbot"
+],
+"51373d6cbd3a1136": [
+"not-lain/mayo"
+],
+"da5dcc31b7e9d2e5": [
+"prxy5608/7dcee82f-488a-4ede-8e99-ed52104ce75c"
+],
+"a6a03bb7179dfa3d": [
+"rahulsamant37/sft-tiny-chatbot"
+],
+"cf40a4b900ace2d4": [
+"arshjaved/shake-spear-completion-only"
+],
+"4164c11572c3b9ca": [
+"Drachir0272/openrag-tinyllama-lora2",
+"Drachir0272/openrag-tinyllama-lora3",
+"iamritupatil1/miniclay-06d19178",
+"iamritupatil1/miniclay-6367403d",
+"Teja00000000001/miniclay-9a96ca9b",
+"iamritupatil1/miniclay-baee3ae1",
+"jykh01/tinyllama-lora"
+],
+"a397873186c25bef": [
+"yzhuang/TinyLlama-1.1B_fictional"
+],
+"b65cb71401e747f7": [
+"bgsmagnuson/tiny-llama-code-feedback"
+],
+"96c5f40757b71225": [
+"1DS/adapter-review-summary-generation-TinyLlama-1.1B-Chat-v1.0-v1",
+"ashishsr/TinyLlama-1.1B-Chat-v1.0-fine-tuned-adapters",
+"Kshitij2406/GPT_Test_Run",
+"shivanikerai/TinyLlama-1.1B-Chat-v1.0-adapter-review-summary-generation-v2",
+"AswanthCManoj/azma-tinyllama-instruct-v2-adapter",
+"ThePradip/qlora-tinyllama2-enfr",
+"prashrex/airsewa3",
+"ThePradip/tinyllama-fin",
+"thierryteisseire/TinyLlama-1.1B-Chat-v1.0-fine-tuned-adapters",
+"prashrex/fintuned_model",
+"thierryteisseire/TinyLlama-1.1B-Chat-v1.0-fine-tuned"
+],
+"a15d956bfa0b5084": [
+"prxy5607/0210636a-6e90-4c67-9b48-78335918f4f5"
+],
+"cc1b70b05fbdbe04": [
+"HachiML/myBit-Llama2-jp-127M-test-6"
+],
+"b79d034d34195657": [
+"mynamerahulkumar/tiny-chatbot-model-dpo"
+],
+"c45e201a320738f9": [
+"chauhoang/15ff011c-6440-468a-8881-5421fb791ce9"
+],
+"c9d9bce1f80ede45": [
+"Pista1981/hivemind-hf-child-1a-1228104616",
+"Pista1981/hivemind-hf-child-08-1228105348",
+"Pista1981/hivemind-hf-child-08-1228102645"
+],
+"cee8865e46ef4ad7": [
+"vedrun2001/sft-tiny-chatbot"
+],
+"3e0a2d210a9fad5d": [
+"chrisswillss98/dpo_mcqa_v1.02",
+"BrokenSki8/sft_2",
+"Dylan-vrl/MCQDPO10e",
+"TheGuyWithoutH/TinyLlama-DPO",
+"BrokenSki8/sft_2_1",
+"Dylan-vrl/ProjectElrondv1",
+"zhestyatsky/mcqa_lr1e-4-peft",
+"emmapog/ProjectElrondv1"
+],
+"3d6f99a78529a9e5": [
+"makk3478/Kabir_finetuned_tinylamaa"
+],
+"3291ccbd5995f126": [
+"pedromatias97/little-llama2-ft-qa"
+],
+"795c2ce9334c1f58": [
+"chandrasekhar319/tinyllama_sql"
+],
+"15e1a68a0ddbbb0a": [
+"sergioalves/0c76668a-21e6-46c2-8edf-07a24ba65747"
+],
+"db912e4427787e01": [
+"tuanna08go/e8360928-d8e8-46ab-81ae-495afbeaa93a"
+],
+"e5ead27f2b942db7": [
+"caesium94/models-colorist"
+],
+"e4203e5813c6d38c": [
+"kvvinaykumar10/sft-tiny-chatbot",
+"DysfunctionalHuman/sft-tiny-chatbot",
+"karanstha/sft-tiny-chatbot"
+],
+"90cf24f58342bd1a": [
+"kalai4u/tinyllama-form-gen-v2"
+],
+"cd9173acddee0037": [
+"kresa12/fault-chatbot-tinyllama-v3",
+"AIExperimentlab/magnus-opus-v2-adapter",
+"UyiringiyeMarie/cropcare-tinyllama"
+],
+"23b24b475297295a": [
+"SaurabhSharma220/sft-tiny-chatbot"
+],
+"a379ffdd370a98b2": [
+"DarkLight6996/darklight-cybersecurity-model"
+],
+"19c86f2a344fccb4": [
+"0xAbhi/kavi"
+],
+"90dd991244aad0dd": [
+"Aivesa/fc5cefca-e7e0-4e43-afd9-f439cbc44569"
+],
+"608c8697559d0000": [
+"hrushikesavagokulu/tinyllamaDSA-model"
+],
+"1b677c96316e1fc6": [
+"JerryYin14/tinyllama-dpo-lora",
+"vaidzs/tinyllama1B_chat_finetuned",
+"anovoac/cs329x-hw1-dpo-tinyllama",
+"DKofFical/cs329x_hw1_personalized",
+"biasha/tinyllama-dpo-personalized",
+"ScottBiggs2/tinyllama_detective_test",
+"SI-sases/sases-lora-v0.1",
+"rominajately/cs329x-hw1-dpo"
+],
+"dcc1116279fb2af4": [
+"robiulawaldev/a60b5944-4f6d-42b7-a35f-c454df4db2b4"
+],
+"9ff2945667ebaebd": [
+"prxy5607/a37b59ea-681e-4a62-85e9-9e87a200a86a"
+],
+"78c171ea19f9463f": [
+"appvoid/dot-v1.5"
+],
+"16b2da23640b2043": [
+"Stumpwiz/forecastllm-2026-04-30_10.45.07"
+],
+"4f0789a99d7c9105": [
+"T-E-P/evereai-s2"
+],
+"250f2759899049b6": [
+"dasrupdip04/TinyLlama-Mental-Health-Analyst-v1"
+],
+"016cc368893beda4": [
+"fedovtt/cce5a60b-b1b2-4b78-ab01-79a9c40de698"
+],
+"976cedc71f96c180": [
+"pankajshakya627/tinyllama-grpo-rl"
+],
+"58fbe3ec3ad3e8e0": [
+"payelb/aligned_tinyllama_ultrafeedback_fixed1k_baseline"
+],
+"096f902570467988": [
+"cyb3rr31a/tinyllama-data-engineering"
+],
+"2c91989d3099c009": [
+"alexredna/Tukan-1.1B-Chat-v0.2"
+],
+"3d49cb10f7165d6e": [
+"nairanu6115/tinyllama-erp-merged"
+],
+"92ca43577707ee84": [
+"Isha0605/fine-tuned-marathi-large-tiny-llama"
+],
+"78357e046d274486": [
+"yzhuang/phi-1_5_fictional"
+],
+"deec1ee6bf7d31f6": [
+"not-lain/Finetuned_TinyLlama"
+],
+"923da6f7e5046d85": [
+"zaid646/instruction-follower-lora"
+],
+"7ea549e284711f17": [
+"HimakarBaikaty/sft-tiny-chatbot"
+],
+"52680684864e9504": [
+"lodemrakesh76/tiny-chatbot-dpo",
+"skosti/tiny-chatbot-dpo",
+"sushilchikane/tiny-chatbot-dpo",
+"SachinGenAIMaster/tiny-chatbot-dpo",
+"interview-maistros/tiny-chatbot-dpo",
+"sxg2520/tiny-chatbot-dpo",
+"adas100/tiny-chatbot-dpo",
+"SaravanaPriyan/tiny-chatbot-dpo",
+"baroniaadarsh/tiny-chatbot-dpo",
+"FUZZZZI/tiny-chatbot-dpo",
+"HuggingGuneet/tiny-chatbot-dpo",
+"Jateendra/tiny-chatbot-dpo",
+"Manirathinam21/tiny-chatbot-dpo",
+"Rushi07/tiny-chatbot-dpo"
+],
+"844d3eb4a80703c7": [
+"cunghoctienganh/bce3af7e-0747-4b30-ad9c-e6056645c2c3"
+],
+"f0b5adebfde3bada": [
+"eduhuemar001/tinyllama-german-sentiment-4bit-v6",
+"Jeevaaaa/movie-lora-adapter",
+"shiroganie/tinyllama-lora-v5",
+"Xonotic/TinyLlama-1.1B-finetuned-SQL",
+"Chuxia-sys/travel-chatbot-lora",
+"eduhuemar001/tinyllama-german-sentiment-4bit-v7",
+"bhanutejaa/finassist-tinyllama-lora",
+"vinay-b/medical-tinyllama",
+"anasamri12/fingpt-malaysia-lora-adapted-2023-2025",
+"CanOfWorms/Entrepreneurship_Chatbot"
+],
+"6b492e611772aa73": [
+"karthik08012000/payflow-faq-bot",
+"tejaswinirb01/vidyut-cse-ai",
+"Jolieb/tinyllama-lora-object-sorting",
+"Bhargav19/custom_uom_llama_CPU_LORA",
+"rijal028/qwen-lora-pertaniantinv1eng",
+"apalov/chromium_mojo_7k",
+"JaredRamirezDiaz/grafema-tinyllama-servicios",
+"santoshipedamallu/Business-LLM-Model"
+],
+"ca297994f803ead2": [
+"dada22231/2d115c88-bf25-4521-966b-4d94360fa15e"
+],
+"50298ba2fb94cdaf": [
+"analyticsrepo01/sft-tiny-chatbot"
+],
+"26f538b2f9c39b44": [
+"hermitriver/my_lora_merged_TinyLlama"
+],
+"faaf76b111b289b5": [
+"yahyaahmed/tinyllama-lora-squad_4_2e-04_2_lora8_qvk"
+],
+"6732019f4c952700": [
+"Kerie1/mamacareai"
+],
+"985a33f7e6acc148": [
+"HachiML/myBit-Llama2-jp-127M-test-4"
+],
+"e9818c67eee06dc0": [
+"mecoaoge2/fununun"
+],
+"b0ae6851f9c2f475": [
+"shibajustfor/712e19a3-bcea-41ce-b45a-f4ec75414de3"
+],
+"634d7afff2e0e2f0": [
+"chrisswillss98/dpo_mcqa_quantizedBitsAndBytes"
+],
+"6f1af30d748fb7b2": [
+"ShehbazPatel/sft-tiny-chatbot"
+],
+"2636fe82f2a980b1": [
+"hachirokoo/my-tllam-model-trained4"
+],
+"d8c8431f6883c6ad": [
+"alexredna/TinyLlama-1.1B-Chat-v1.0-reasoning-v2"
+],
+"1a4a55eb2fae3b2f": [
+"monusharma21/TinyLlama-Python-Coder"
+],
+"910fdbf5a9a3832e": [
+"CMCenjoyer/llm-course-hw3-tinyllama-qlora"
+],
+"81c4559244012a6b": [
+"VERSIL91/00488658-88ae-4408-83d8-d20bb8329c91"
+],
+"1887cb17966411fe": [
+"07jahnavi/tinyllama2-storygeneration-v1",
+"waqar00/tinyllama-medquad-finetuned",
+"prefrontalcorporate/tinyllama-cvar-ent",
+"om-pokharkar/empathai-llama",
+"SiMajid/tiny_llama_orpo_v10",
+"GuhanTofu/TinyLlama-UAE-sft",
+"GuhanTofu/TinyLlama-UAE-pt",
+"SiMajid/tiny_llama_ppo_v1"
+],
+"d0bbb6e871c653f9": [
+"TejaswiDongala/tinyllama-qlora"
+],
+"bb0390e4d53c8b3e": [
+"vandanarangaswamy/forward_fast_lora"
+],
+"ca6bc3bd72636e60": [
+"rsskumar/code-llama-7b-text-to-sql"
+],
+"f0028f34de54b7c0": [
+"dimasik1987/46905d69-a483-4c78-9977-407c70634e0b"
+],
+"691385086e367888": [
+"nayerim/tinyllama-indo-lora-v1"
+],
+"73d8ab769710b426": [
+"dimasik1987/5db9624f-b68d-4a17-b13d-4731d263a258"
+],
+"b609cbae17c9b0b3": [
+"coder1969/tinyllama-1.1B-dpo-rlhf"
+],
+"38b1d5bbf6fedb93": [
+"usmanalam82/tinyllama-therapy-lora"
+],
+"54af1d405229c974": [
+"nhunglaaaaaaa/f5117d36-e440-47b6-8870-cb57a4ecaf9a"
+],
+"331f7670d23f7506": [
+"smcwp/DP_w_peft_adapterCasualConversation_1000_neft_alpha_50000_max_grad_3000",
+"simprosysneel100/tiny-llama-v1",
+"ashishsr/TinyLlama-1.1B-Chat-v1.0-fine-tuned-adapters-v5-temp",
+"kuldin/english-jokes",
+"Harikrishnan46624/finetuned_AI_Dataset"
+],
+"16cb9baf20304790": [
+"waqar00/tinyllama-medical-daily"
+],
+"12c15e8c2b46eba3": [
+"tuanna08go/abd9688d-31f9-463e-abe7-e8f7cf767e85"
+],
+"9aad9e11af906747": [
+"magicat8/tinyllama-final-run-v4",
+"kairosoftai/tinyllm",
+"abhinay093/acceleratorx123",
+"vamshivk12/my-autotrain-llm",
+"Hurairahengg/story-teller",
+"headergen/HeaderLlama-tiny-multi-label",
+"asdasdrtr/autotrain-j60d7-wvtw5"
+],
+"f6e45e042e887acb": [
+"Abhigyan-RA/sft-dpo-tinychatbot"
+],
+"763f0d98c7139fb7": [
+"l74xx/tiny-chatbot-model-dpo"
+],
+"cdfc08ad7efb6318": [
+"AnushkaSrivastava/sft-tiny-chatbot"
+],
+"aeb5d03bb2eb102d": [
+"dball/zephyr-tiny-sft-qlora-quantized-2"
+],
+"dd5fe005f5a4b26b": [
+"Jana0786/cyberguardAI"
+],
+"b494e550556f34ac": [
+"zrowt/results"
+],
+"373b266023e80b47": [
+"babysridurgakadali/Llama2_Finetuned_Articles_Constitution_3300_Instruction_Set"
+],
+"68c42541414a7da3": [
+"fragger246/taxman2"
+],
+"5d2c083a96ccf0c9": [
+"nithinai517/tinyllama-support-dora"
+],
+"407454a12372f62b": [
+"ajay141/chat-sql"
+],
+"6755b2e69525f7e1": [
+"Nayyarsan/tiny-chatbot-dpo"
+],
+"1f02836358fbfebf": [
+"Jyotiprakash4357/sft-tiny-chatbot"
+],
+"d52053e6a8323acd": [
+"Laibaaaaa/tinyllama-trl-lora-adapter",
+"MuhammadAhmadZia/tinyllama-imrankhan-lora-adapter",
+"abubakaraabi786/tinyllama-peft-lora-adapter",
+"Hamzasajjad38/tinyllama-peft-lora-adapter",
+"imrahulwarkade/tinyllama-toneopbot",
+"maazchaudhary/tinyllama-trl-lora-adapter"
+],
+"19b8dd4499168180": [
+"aswanth6001/tinyllama-alpaca-lora"
+],
+"db47737973436b60": [
+"OpenFinAL/AI_Chatbot"
+],
+"1457224dd660773a": [
+"cvoffer/9a5e4a8b-587b-4b7d-8744-e7bf08256754"
+],
+"77c2a9a5df4b54f4": [
+"denbeo/2335718f-2a75-40cd-ac5a-c395a57f5ef4"
+],
+"291b1f988d6e6399": [
+"evalstate/tinyllama-dpo-poc"
+],
+"affd5a813fe50ad7": [
+"Stumpwiz/forecastllm-2026-04-30_10.35.54"
+],
+"b169535cc81a290a": [
+"Dter/tinyllama-colorist-v1",
+"LuckyTemmie/tinyllama-colorist-v1",
+"Kitsana/tinyllama-colorist-v1"
+],
+"5b3753f4b5f499fb": [
+"nhung01/0087dcde-2559-4c97-baaf-acdad9f4906d"
+],
+"3af6d583fc9be539": [
+"Fatoumataa/modele-traduction-bambara-francais1"
+],
+"4d3cfba3b95ff5d9": [
+"emilykang/medquad-inheritance_lora"
+],
+"91d1adabff8aeecd": [
+"Prakash2608/sft-tiny-chatbot"
+],
+"0f3b3b96241d4b9b": [
+"dasuntm/tinyllama-alpaca-qlora-v1"
+],
+"b863b354f1af56d9": [
+"anudaw/full_finetuned-code-tinyllama"
+],
+"6c263de9df5fda61": [
+"Neel2601/tinyllama-agricultural-adapter"
+],
+"a3feb8f99e046fc3": [
+"dantehrani/tiny-llama-1.1b-auditing"
+],
+"496a2c66aebba3c7": [
+"Esha89/tinyllama-fashion-model"
+],
+"45883b39a3f59bf8": [
+"cvoffer/47fa18b8-f86a-4dc1-bcfe-954a3a838787"
+],
+"e10a7e3cd7d27aad": [
+"Akayy369/dpo_model"
+],
+"a968210ccbfba08d": [
+"joboffer/e0cc06a1-f2da-46c5-b7ac-85e232a7ddb1"
+],
+"edcadbb6c6fb1ecf": [
+"FrAnKu34t23/Construction_Risk_Prediction_TinyLlama_M3",
+"FrAnKu34t23/Construction_Risk_Prediction_TinyLlama_M1_new",
+"Sarath-69peddiredddy/TinyLlama-1.1B-CUAD-QLoRA"
+],
+"29ba2bc655ed7c13": [
+"gunzzz24/fine-tuned-tinyllama-1.1b-cv-analyser"
+],
+"9d549a0febde10d3": [
+"kunalpaliwal13/qlora-phi2"
+],
+"eb6d8bec8196762c": [
+"dpastushenkov/TinyLlama-1.1B-Chat-v1.0-openvino-8bit"
+],
+"a2385d304a022393": [
+"aegis-nvim/neovim-help-adapter"
+],
+"dc4d76ce4cd34bd7": [
+"laquythang/8f798b04-e4ac-4a9b-b6cd-8931563f8662"
+],
+"9766a505e5f22aa8": [
+"ashishsr/TinyLlama-1.1B-Chat-v1.0-fine-tuned-dx-to-icd-v4"
+],
+"bc3cd0253141abe8": [
+"Doers97/marketing-lora-tinyllama"
+],
+"73668956f0e8a9e4": [
+"mahesh174/tiny-chatbot-dpo"
+],
+"ed59e713e37bf3a7": [
+"Soumadeep555/sft-tiny-chatbot"
+],
+"9a5f160de48da00a": [
+"prxy5607/379b62a8-3c05-4239-b683-fc88c7d5a630"
+],
+"6acd8d93216254e5": [
+"advy/tinyllama-career-guidance"
+],
+"1a39a7a40a50519c": [
+"jme2791/distil-qa"
+],
+"e047e79d1d8102b1": [
+"pesnik/pesnik-lora"
+],
+"49255ef986d2fabb": [
+"manishsurabhi23/tiny-chatbot-dpo"
+],
+"05cd34fdab5aeb9b": [
+"ChrisWhiteQMUL/trained_stance"
+],
+"5e2a15bead1fa70c": [
+"rayonlabs/benchmark-9629c8ba-7f0e-4e39-9ed4-383a6c3a42bc-tourn_21c0fa9e21db603d_20250808-5EykKbxi"
+],
+"52c5c54c9f5e922f": [
+"Irutingabo/pregnancy-assistant-tinyllama"
+],
+"89bcc79f77966e39": [
+"LINGESH-7/LINGESH-7-TinyLlama-TinyLlama-1.1B-Chat-v1.0-FT-ON-english_quotes"
+],
+"18b1010f2e488c6b": [
+"chaimachabir/lora-data1-data2-data3-tinyllama"
+],
+"cf41169ad1c8d513": [
+"lleticiasilvaa/TinyLlama-schemaLinking-v0"
+],
+"5312495c21a37382": [
+"BEncoderRT/tinyllama-multitask-lora"
+],
+"18982e08babea8f4": [
+"YusufGun/TinyLlama-1.1B-Chat-v1.0-Overfit"
+],
+"fce520c885ddbab4": [
+"shuvo-halder/tinyllama-guanaco-trained"
+],
+"b4f982e673443e77": [
+"nithyarajkumar/tinyllama-finetune-tourism-v1"
+],
+"090fae8fd64cb695": [
+"amanayush/results"
+],
+"959bfe95258cc94f": [
+"Abhigyan-RA/dpo-chatbot"
+],
+"048bfca7f53debd3": [
+"Arushhh/sft-tiny-chatbot"
+],
+"dbd2d68d5baebabb": [
+"Chuxia-sys/my-travel-lora-adapter"
+],
+"c5cda9f45a3dcee3": [
+"LoboProgramming/atendente-pizzaria-v4-adapter"
+],
+"880b723cf55d8ce3": [
+"KarthikSaran/tiny-chatbot-dpo"
+],
+"1d514c85a0a071fc": [
+"dimasik87/8db78daa-a19e-49b1-baf0-0e8e914987a0"
+],
+"de572b95aab7c6a4": [
+"vermoney/de0232c4-90ec-4852-9773-ca2d4985651f"
+],
+"9ba208f5314f475b": [
+"abubakaraabi786/tinyllama-peft-merged",
+"arif-butt/tinyllama-peft-merged"
+],
+"1517d9f5d850e5d5": [
+"Ganesh01kumar02reddy/tinyllama-reasoning"
+],
+"193086be3f7cdc7d": [
+"seblaku/1220e256-d15c-44ef-be95-af5e36b1ee89"
+],
+"9d74a648257efdcf": [
+"phathanos0907/Checkpoint"
+],
+"3ff7e818385ef8bb": [
+"mohitskaushal/tinyllama-1.1b-chat-boolq-lora-merged-after-rejection"
+],
+"0c332bbe1d4687db": [
+"Liu-Xiang/Hindi-SentenceRetrieval-Tinyllama-1.1B"
+],
+"d18140a9ca81edd0": [
+"BeardedJohn/TinyLlama-1.1B-Chat-v1.0-icews14-GenTKG"
+],
+"546151813b7c0d2d": [
+"nhung02/2df539e9-618f-4424-800a-be85d2ac60ee"
+],
+"8fb6f41220e17c4a": [
+"Mittal0027/tiny-chatbot-dpo"
+],
+"84801011524e2249": [
+"NeverLearn/TinyLlama-1.1B-Chat-v1.0-wikitext2"
+],
+"a487491b4c635648": [
+"thakkkkkk/ff4401c0-67f8-49f7-8129-9397f7efbdcf"
+],
+"21542a36acb1c282": [
+"daniel40/97f8112b-0662-4211-8a84-05e6025d0dd7"
+],
+"a18b43f2e1c7317d": [
+"Alphatao/08bf9d45-d0bc-4936-a2d1-2228f65b179d"
+],
+"0849629ab9233bed": [
+"NicholasCorrado/tinyllama-1.1b-chat-v1.0-ui-logic-dpo"
+],
+"e30d99b7b6981649": [
+"rahulsamant37/tiny-chatbot-dpo"
+],
+"c9ab90ed87bb3cd9": [
+"Swarnimm22HF/ai-code-review-tinyllama"
+],
+"3702147d16f61bce": [
+"invi-bhagyesh/TinyLlama-1.1B-Chat-v1.0-hh-rlhf"
+],
+"7053be9811dc01a6": [
+"estnafinema0/llm-course-hw3-tinyllama-qlora"
+],
+"c8aaa3a5ca29a523": [
+"raniero/ax-real-003-repo"
+],
+"d61577a3c5cd7d51": [
+"tmd-rahul/tinyllama-qlora-output"
+],
+"8d45458a8fab86b4": [
+"adamabuhamdan/tinyllama-sql-lora"
+],
+"650867766dd33dad": [
+"ndlanier/gutsignal-food-parser-tinyllama-1.1b-mlx"
+],
+"9fc70f1bc5244652": [
+"tmd-rahul/tinyllama-qlora-output-v2"
+],
+"f53ea0e042415fb7": [
+"rameshbharathig/vidyasoniq"
+],
+"d4790d470209bea3": [
+"HachiML/myBit-Llama2-jp-127M-test-1"
+],
+"af080457830a19ce": [
+"bhargavsai2005/flrrc-v1.3-lora"
+],
+"d0e48eb8bb612d15": [
+"Paladiso/78a5fbf2-03c2-4b7d-be7e-337ed046b370"
+],
+"e56dc9450364904c": [
+"rohitshetty/tinyllama-lora-dolly"
+],
+"79566f1de2067c94": [
+"lhong4759/51bae7b1-91eb-450a-9f86-c6a7944ab548"
+],
+"b79212ce21d77353": [
+"duyphu/51191b60-a0d2-0464-7fca-d0ef86ecb7e8"
+],
+"c82ca8723c507bc3": [
+"givyboy/tinyllama-1.1B-chat-v1.0"
+],
+"b496ef458b1e963f": [
+"chauhoang/abd9688d-31f9-463e-abe7-e8f7cf767e85"
+],
+"1f9a02525c2299d9": [
+"NicholasCorrado/tinyllama-1.1b-chat-v1.0-ui-coding-dpo-2"
+],
+"77cd587fe6a912ab": [
+"error577/022f038a-59a5-4610-b33e-41516613cdac"
+],
+"a3b539073412cd0f": [
+"SatyamTank/sft-tiny-chatbot"
+],
+"0315c82a63f52569": [
+"r2429/Lua_Tiny",
+"Haary/tinyllama-hary-v1"
+],
+"0fea9e410270ff5b": [
+"jegonzalez23/tinyllama-entrevista-ordenada"
+],
+"a24a9a3aa14a5b31": [
+"cod-01coder/sft-tiny-chatbot",
+"Aniketnew7/sft-tiny-chatbot"
+],
+"4455cf7f7f4150e6": [
+"barissglc/tinyllama-tarot-v1"
+],
+"ec9d031d9ed7b16f": [
+"Vasanth/tiny-chatbot-dpo"
+],
+"d64a3a18440c9049": [
+"nhungphammmmm/9d82b3e9-3c46-4055-ad01-e9f75ec402f5"
+],
+"3c55ea15d8f14620": [
+"jtlicardo/tinyllama-ecommerce-intent-adapter"
+],
+"e7a53f0223b3d363": [
+"nblinh/6c1b15a7-4f55-42d8-a9fb-2142473c1d42"
+],
+"cfd30f4cb3ac2ced": [
+"tryingpro/65fcbfa3-9910-4bd0-ba1f-b3e5eea37b4a"
+],
+"6e93255a32ced696": [
+"Nirajkanth/tinyllama-mental_health_counseling_conversations"
+],
+"1598df7ff5bed1cc": [
+"dada22231/afecedc4-2e97-4c69-976c-b3f90d78ddcc"
+],
+"55d20ca69cd3f59e": [
+"0x1202/c55a7de5-8cbd-4d52-a714-f1277c4e033f"
+],
+"711db590d152299c": [
+"dushan5678/sinhala-SriNova-1.88b-continued-v2",
+"mahazkhan12345654321/tinyllama-1b-bazario",
+"madhusudaniyaar/dxchatbot"
+],
+"1d221be8b2b98aa6": [
+"Simbroncas/dulcebot-tinyllama-lora"
+],
+"fcf919c888a95644": [
+"yashpalsharma/sft-tiny-chatbot-v0.1-0520"
+],
+"4dd22a51b874ce4a": [
+"Dhruv1000/tinyllama-finetuned"
+],
+"becaaa2a70402a51": [
+"nhoxinh/3638e292-57ad-4ca6-b54c-f30497631e6b"
+],
+"7e1ee25aa3c2f45b": [
+"fragger246/taxman"
+],
+"e4e286c76ba21a36": [
+"MetaAnomie/tinyllama-nomura"
+],
+"d079490bdad76522": [
+"ankitv42/tiny-chatbot-dpo"
+],
+"168de7f7cfd98925": [
+"FrAnKu34t23/osha-tiny-llama"
+],
+"59ad67a239370c65": [
+"Nyingi101/math-tutor-tinyllama-lora"
+],
+"6377df25fa285f1a": [
+"kk-aivio/2e38c2b6-61e7-4aa8-a3a8-4fe25ebb93e7"
+],
+"f8741e8d4be33097": [
+"Vishal24/tinyllama_review_summary_adapter_v1"
+],
+"dd8fa31027f424e6": [
+"mecoaoge2/results"
+],
+"6a5441474f32215b": [
+"lhong4759/34210395-e956-4bc1-b2d5-7893d791614e"
+],
+"ea42cf49a05e9653": [
+"bbytxt/a610fcdb-1d80-40a4-9887-b211ac290dea"
+],
+"dd11fb8aff64ba0b": [
+"Alphatao/d96dfe98-0017-4d9a-b6f6-b0f1d495fb3b"
+],
+"7123a809aece4aed": [
+"saswata1809/tiny-llama-1.1B-gsm8k_QA"
+],
+"ad53320bbeedb97f": [
+"memorease/memorease-quizgen"
+],
+"4cbace67bb70e057": [
+"ratnesh07/fake-news-lora"
+],
+"8b3a659f08c77282": [
+"rudranighosh/qs_answer_finetuned"
+],
+"9e61f074b837b097": [
+"ioseff/tinyllama_cs"
+],
+"dbbf0c7431bdcccc": [
+"eddysang/38a05650-32f2-4aa1-8823-d0ec7d8c8712"
+],
+"a23a2ec9f010fd36": [
+"quantumsquatan/egypt-llm-finetune"
+],
+"16febae3828ec437": [
+"oumaima11/tinyllama-agriculture-qa"
+],
+"7ae62b9133d4bee3": [
+"Davidsv/TinyLlama-Chat-Merge"
+],
+"97f14c96924faa83": [
+"dasrupdip04/TinyLlama-1.1B-Chat-v1.0-SFT"
+],
+"2e27525a89e00d62": [
+"lleticiasilvaa/TinyLlama-1.1B-Chat-SchemaLinking-v1"
+],
+"3b3cbaa600bd08f0": [
+"yahyaahmed/tinyllama-lora-dpo_8_5e-04_2_lora8_qkvogud"
+],
+"4689f0b513358c95": [
+"gkp2018lko/sft-tiny-chatbot"
+],
+"36c126d8320d58aa": [
+"thakkkkkk/d036b6af-705d-4a64-a770-79bdbd394345"
+],
+"476c64adec5cc259": [
+"davanstrien/TinyLlama-1.1B-Chat-v1.0-intel-dpo"
+],
+"c0addea1a448147e": [
+"aviudash/content"
+],
+"3ca032de44c1ed8b": [
+"Bojanche/python-qa-tinyllama-final"
+],
+"668f1c532997914a": [
+"Saisk18/sft-tiny-chatbot"
+],
+"5b3e23d3e6af6b70": [
+"rubenz-org/tiny_llama"
+],
+"fd5abd5649a47484": [
+"Mittal0027/sft-tiny-chatbot"
+],
+"d4051d0075cf74cf": [
+"Nemo30/id4b-tiny-qlora"
+],
+"b0ca99884f5969c5": [
+"daniel40/8ea9ac1b-8c5b-4976-b784-e7c59f8b3d9c"
+],
+"8837e328aa21abf7": [
+"Rubansendhur78409/sql-llm-wikisql-lora"
+],
+"6ccd094133159f96": [
+"ahamad-ai/tiny-chatbot-dpo"
+],
+"94e66dd143f45740": [
+"Liu-Xiang/tinyllama_hindi_sentence_retrieval_sft"
+],
+"dc62333ec0317bd2": [
+"thaffggg/c0a3ae1e-da6c-43d4-9442-7848c0ffddeb"
+],
+"1b80ef71aa6d4d59": [
+"eageringdev/7fd265ca-5922-4859-a89e-46f1caa5cacd"
+],
+"4059f64aca926654": [
+"uchicago-xlab-ai-security/Simple_Refuse_Harmful_Llama",
+"waqar00/tinyllama-medical-chat"
+],
+"e01875ec94217d7c": [
+"shehrozrafaqat/football-tinyllama-trl-lora"
+],
+"9308ab2b96ef1c04": [
+"spike108/sft-tiny-chatbot"
+],
+"ff5b09124cd494dd": [
+"tarabukinivan/2232d0f6-f851-46c5-bc91-8d0d0a8bdce1"
+],
+"183e855e10727274": [
+"nttx/cc312658-ef11-4ab6-b767-863f240f4c02"
+],
+"289a9544ce92521f": [
+"Aswinasdasd/tinyllama-finetuned"
+],
+"5d32b1e2d340abac": [
+"vireak69/llama-book-summarizer"
+],
+"ac102d25797993c2": [
+"sriram7737/TinyLlama-VLM-LoRA"
+],
+"762f591f89ce1603": [
+"Latish4522/beyonce-adapter-nt_run",
+"enochprince/Akan-Llama-3-8B-Instruct"
+],
+"e97deae249e4c272": [
+"Chuxia-sys/finetuned_model"
+],
+"043796f5a35bfd80": [
+"1-lock/da9de942-60c0-4952-a434-a046eb666f96"
+],
+"dfe2c4e705ab2b59": [
+"youndukn/TinyLlama-1.1B-Chat-v1.0-reasoning-v2-dpo-romantic"
+],
+"9523461937eb1795": [
+"majtaada/tinyllama-hotpotqa-adapter",
+"aiengrimran/imdb-sentiment-lora"
+],
+"cc6e9d1185e6330a": [
+"JHGarry/HateSlop_Final"
+],
+"baac1b90a5e4b630": [
+"igidn/TinyPi-chat-V1"
+],
+"a155b5fdacbff721": [
+"DeepDream2045/da9de942-60c0-4952-a434-a046eb666f96"
+],
+"3980f2f1a8288bb5": [
+"raniero/dummy-cpu-028-repo"
+],
+"a90d7e5ed33f24b3": [
+"tarabukinivan/88f3286d-c2d1-4d09-9e58-f6eb64e10140"
+],
+"4f11c6d91a9f8f76": [
+"Jatin313/tiny-chatbot-dpo"
+],
+"7c06b9697af38db6": [
+"Md-hasan-1/sft-tiny-chatbot"
+],
+"abcd759d018badaf": [
+"burckmeister/job-real-e2e-test"
+],
+"2d6b5e9424b731a6": [
+"Esha89/fashion-bot"
+],
+"f5acbc9b52da90ab": [
+"kalai4u/tinyllama-form-gen-v2-10epoch"
+],
+"9bdf1cda13c2ef2b": [
+"burckmeister/tinyllama-e2e-test"
+],
+"5e682987e3c9e788": [
+"robiulawaldev/0e214c6a-5806-4ce9-9eb4-ee987d594c0c"
+],
+"f8db92177e5cac21": [
+"MuskanTara/tinyllama-finetuned-books"
+],
+"a469df931f584cfb": [
+"prof-moody/oaicdemo2026"
+],
+"aab21d801b998695": [
+"marialvsantiago/fb8aa139-84fe-4e5e-a7f4-962164b9f80c"
+],
+"737ab1c8f2ddf4aa": [
+"1-lock/cdc54f60-5381-4ff8-ab64-64e764a7c24c"
+],
+"b036a391206cb8a9": [
+"Wahiddhrubo/LAW_LLM_BY_WAHID_MODEL"
+],
+"fab9efaa13f3faeb": [
+"dushan5678/sinhala-SriNova-1.88b-continued-v2-checkpoints"
+],
+"7de62f60a3eebb24": [
+"jtatman/Tiny-Llama-Llama-Dolphin-laser-1b-merge"
+],
+"d0ab19434a1ef7a2": [
+"ananyakaligal27/tinyllama-colorist-v27"
+],
+"b957b9f292097bbc": [
+"aleegis/022546da-683a-470e-8861-73eb9b250380"
+],
+"182471c2a75e84b8": [
+"ainth89/your_output_dir"
+],
+"579145ff8a1afcfa": [
+"raghavmehrotrax/employee-salary-ft"
+],
+"c01473dee38ac21f": [
+"fedovtt/d17e3bda-5714-459e-a71b-73e129eeeafe"
+],
+"b4422039a42031f3": [
+"mamung/05d1c108-16d3-49fc-a9b4-9a1fd33c4352"
+],
+"db009d487efedb34": [
+"waber223/medical-tinyllama-harrison"
+],
+"87782aa6e099d2f0": [
+"MollyJeanB/beowulf-stroganoff-lora-v2"
+],
+"cb9c123589f1e298": [
+"prxy5605/904c81c7-cb30-46c2-92e1-3c27f9f4e461"
+],
+"dfaa8297d9cacab5": [
+"siddsukh/artha-1.1b"
+],
+"b6d88397e86c445a": [
+"j2moreno/TinyLlama-1.1B-Chat-v1.0-leo-finetuned"
+],
+"b152e0d290becb3e": [
+"raniero/dummy-cpu-025-repo"
+],
+"6c8f7d100266a3cf": [
+"abaddon182/3cc535cf-10fe-42ea-b8ec-ec19f0f0511e"
+],
+"d5897021c97e031a": [
+"VERSIL91/5863088a-60ae-4afe-aa2d-cd29068a1946"
+],
+"7756936cc5a05424": [
+"28p07/TinyLlama-1.1B-Chat-v1.0-mental-health-counselling"
+],
+"cbaee6c6f87725c4": [
+"aleegis/818c06af-95ff-4015-aa79-147dccaf26ad"
+],
+"826799753edacf65": [
+"mnk1231234/sft-tiny-finetune"
+],
+"2d58519e20d378cf": [
+"Abdurrahmanesc/nano-llm-ft"
+],
+"96a9a38686975444": [
+"Ahmed5/AIMS_KTT_Day3"
+],
+"8635b44fa6c1b0e8": [
+"havinash-ai/bb2a561b-7751-4e1d-bcf6-54cdf7934352"
+],
+"e88c8c378ad6e37b": [
+"payelb/aligned_tinyllama_ultrafeedback_fixed1k_won"
+],
+"a883e5b1afd77efe": [
+"NicholasCorrado/tinyllama-1.1b-chat-v1.0-ui-math-dpo"
+],
+"49f4c3dbc7c25066": [
+"dimasik1987/3ac7da56-2742-4df6-963d-3b855485fed4"
+],
+"9de83b57c1849a23": [
+"ksjpswaroop/tinyllama-coder-v1"
+],
+"9aaa711b9409c15d": [
+"nbninh/67649156-d7db-4ebc-adfa-78c14402738f"
+],
+"cc1ddb7736172d85": [
+"hin123123/tinyllama-slp-qlora"
+],
+"1ef5b3253fac717d": [
+"IshtiyaqMarzuq/sft-tiny-chatbot"
+],
+"857a273187e9bdc4": [
+"dada22231/da9de942-60c0-4952-a434-a046eb666f96"
+],
+"80f7871077fcabee": [
+"TK47/tinyllama-sft-dpo-t5"
+],
+"250b6b5fb9168cc9": [
+"dimasik2987/54eff585-93d9-4304-92be-6d5043d98ed2"
+],
+"0522ec38e0ffcde1": [
+"mrhunghd/fe18a529-1577-45aa-b392-053c377cb29e"
+],
+"a3e9bc6a9664d3c8": [
+"siddharthgowda/tinyllama-Fine-tuned"
+],
+"e360b4bc46b91902": [
+"eunyuOffice/eunyu_test"
+],
+"47a7586e2d1a2f23": [
+"aleegis09/6c5179ab-8bb6-470c-8f73-f77356f0f82b"
+],
+"6d3f74d34becc050": [
+"moni764/sft-tiny-chatbot"
+],
+"b3eb8d16e3e294de": [
+"MatteoKhan/TinyStable-Hybrid-1.6B"
+],
+"e01bd0f4d344f328": [
+"deepakalevoor3/tiny-chatbot-dpo"
+],
+"f9d4d7178ec8c115": [
+"caesium94/models-colorist-1e-5"
+],
+"8c8590168062d174": [
+"bcatt/tinyllama-hr-policy-qlora"
+],
+"ee2c61fd4b9daabd": [
+"alexredna/Tukan-1.1B-Chat-reasoning-sft-COLA-2.5epr-R8-A16"
+],
+"674c8f12e72eb105": [
+"ancient41/1defb1d4-9d89-4e0e-9e63-8cda2cd14719"
+],
+"534ccb765a3f82d1": [
+"chalumuri/tiny-chatbot-dpo",
+"rupesh2009/tiny-chatbot-dpo"
+],
+"76127856d8a580d2": [
+"Sammyts/maestro-universal-tinyllama"
+],
+"8c9ab7781334b80e": [
+"diaenra/9c09bcb0-06ad-4438-89d7-bc4b93c3431e"
+],
+"dc62d21d9f0a19ac": [
+"bbytxt/a3c3973b-3ea9-4728-9fa1-7cc273389226"
+],
+"a35174ecd18e52e0": [
+"coinatur/tinyllama-colorist-v1"
+],
+"6f6e2856d66980a6": [
+"Ank-067/gitapedia-tinyllama-lora"
+],
+"67503c4caf2954c1": [
+"shettynavisha25/tinyllama-alpaca-finetuned"
+],
+"46e39e16cdb70dad": [
+"mewaeltsegay/desta_1b"
+],
+"4fe45fda47da0830": [
+"ChiKoi7/TinyLlama-1.1B-Chat-v1.0-Heretic"
+],
+"3fab8148d5799120": [
+"jigneshk5/tinyllama-dtc-lora"
+],
+"b4d31ce0dabcc910": [
+"mstyslavity/5tiny"
+],
+"312ff59a93729664": [
+"FormlessAI/b82f4db6-e9da-45fc-ad78-bdeb5e717e06"
+],
+"821c2151212fb024": [
+"pharrow/TinyLlama-HTMLWeb-coder"
+],
+"5aa2142f4c794681": [
+"moralogyengine/TinyLlama-1.1B-Chat-v1.0-dpo"
+],
+"40817d4f3feecb4a": [
+"Suyash1/results"
+],
+"5d0b9e3952cbefc2": [
+"keshavsharma/tinyllama-1.1b-sql-reasoning"
+],
+"00fea47901fd0286": [
+"arshjaved/shake-spear-neftune"
+],
+"cbb4fd842602bdfe": [
+"franciscobdl/EstigiaxLlama"
+],
+"584cde005c1866b6": [
+"laquythang/6c1b15a7-4f55-42d8-a9fb-2142473c1d42"
+],
+"f4228d96646dfe58": [
+"jero2rome/tinyllama-1.1b-chat-lora-fused-v1.0"
+],
+"b055af8f7d4feb6f": [
+"ThakrePranjal/pharma-tinyllama-domain-lora"
+],
+"42a41745d36457ec": [
+"shrchrds/tiny-chatbot-dpo"
+],
+"92c26835c44fcdf6": [
+"h4rz3rk4s3/TinyParlaMintLlama-1.1B"
+],
+"0dd0adbda04c0a5a": [
+"yawkoosono/Llama-3.2-1B-Sonnet"
+],
+"bae62a2befaa407c": [
+"tmd-rahul/tinyllama-qlora-output-v1"
+],
+"74267324cd69a1e7": [
+"Jatin313/sft-tiny-chatbot"
+],
+"472d00ae71f77bc8": [
+"AdamDE/tinyllama-custom-youtube-replies"
+],
+"165b3c652f5655d6": [
+"appvoid/dot-v1.9"
+],
+"b56a337c404041b9": [
+"ankitv42/sft-tiny-chatbot"
+],
+"2c844e789942b8eb": [
+"yogeshkumarnain/tiny-chatbot-dpo"
+],
+"b598169efc4a52de": [
+"shivanikerai/TinyLlama-1.1B-Chat-v1.0-adapter-seo-optimised-title-suggestion-v1.0"
+],
+"b0c8737cb51f3f27": [
+"BOT365/my-tinyllama-colorist-v1"
+],
+"109cc69519fdf1da": [
+"v700a/output"
+],
+"ef6f226579d1c4bb": [
+"fedovtt/d8ccbde0-9df6-4529-9bec-60826970ec03"
+],
+"49c126cfff8105af": [
+"Kanishkaran/sft-tiny-chatbot"
+],
+"0cc840df0c7a07b3": [
+"DIA-MVP/tinyllama-lora-cpu"
+],
+"ad0c8bf84c9d8d37": [
+"VERSIL91/bf88c5e4-009a-4d84-8fdd-a80ecbda6667"
+],
+"e2ecb64321fb5932": [
+"aleegis/43546576-ca6c-4c71-8afd-e79f4b45cd75"
+],
+"ed6841ba2ead271c": [
+"Thibault-GAREL/smart-contract-lora"
+],
+"b30cee2d9a2312c1": [
+"Poster676767/meridian-router-lora"
+],
+"e96d92590adfa51e": [
+"mamung/63ad7d4c-e488-4016-914f-6dd2e6f82b2f"
+],
+"a338943d6570e7c9": [
+"nbninh/44d17704-a789-4f89-a03c-cbd05e4587af"
+],
+"a28fc7451488216c": [
+"MollyJeanB/beowulf-stroganoff-lora-v1"
+],
+"c8cd5bd30ca62c4f": [
+"trychoosing/revonance-drafter-tinyllama-1.1b"
+],
+"e85a3bee694bc659": [
+"dzanbek/6cf67e83-d9ff-45a6-ba9b-eb893518c255"
+],
+"750bfa9cfab5e317": [
+"mynamerahulkumar/sft-tiny-chatbot"
+],
+"d83e02679c381970": [
+"MurDanya/llm-course-hw3-tinyllama-qlora"
+],
+"ce8167dc6b864861": [
+"Aptlantis/TinyLlama-1.1B-HolyC"
+],
+"9e2fd9d5fad335a6": [
+"lhong4759/214920da-2de9-4874-bd1b-9c6d803f8918"
+],
+"184c55320dc5e6b2": [
+"vyshnav112233/task2-3-lora-sarcasm-en-uk-seed-42"
+],
+"2db91363a31e80f2": [
+"Harikrishnan46624/finetuned_llama2-1.1b-chat"
+],
+"21e2b823a0f81867": [
+"cvoffer/3ff1b7c2-69b4-40b5-8efe-9b41f31b14a0"
+],
+"11fc04fee4853152": [
+"yahyaahmed/tinyllama-dpo-8_1e-05_3_dpo0.2"
+],
+"df3bd37e10d41f34": [
+"nhung03/e10f17d6-f5e5-4857-9099-ab8def5d2517"
+],
+"524bf54b500777eb": [
+"sheerio105/code-mistral-7b-dish-to-recipe"
+],
+"94cc1c9a1a871e16": [
+"Aniket9747/tiny_llama_chat_classifier"
+],
+"cc2d6802e3a4e725": [
+"greymatter-2024/tinyllama2_finetuned_chatbot_hey"
+],
+"98268964cdbee420": [
+"ananyakaligal27/tinyllama-colorist-v88"
+],
+"2aced7dca84858eb": [
+"selili688/tiny-chatbot-model-dpo"
+],
+"3be121360aba1647": [
+"Aaqisher667/tinyllama-cyber-finetuned"
+],
+"3d292b73e160c53a": [
+"sourabhmatali/sft-tiny-chatbot"
+],
+"b7152c3a311c7585": [
+"chauhoang/91b28184-3691-484e-a439-64ea03513936"
+],
+"fd832632e51e696a": [
+"gkp2018lko/tiny-chatbot-dpo"
+],
+"9559f93dde240f6f": [
+"PrabhaB/sft-tiny-chatbot"
+],
+"2c09be116b6b1dcb": [
+"venkateshmedasani/tinyllama-hatexplain-lora"
+],
+"7e86b991f37b3960": [
+"Msaddak99/sft-tiny-chatbot"
+],
+"4e1c3ae68b8da8c8": [
+"safffrron/prompt_tuning_IA3"
+],
+"ae8889291aaf2869": [
+"Isha0605/fine-tuned-marathi-tiny-llama"
+],
+"a433879bf3d224e2": [
+"Akash-nath29/tinyllamashakespeare"
+],
+"0afebb3b123857ff": [
+"Manishankar07/bloom_model"
+],
+"e7cd0a08269d5768": [
+"tuantmdev/7a7e76de-c3e9-4808-a055-fb56aa120f30"
+],
+"c463f56bd5a0e9e3": [
+"NikolayL/TinyLlama-1.1B-Chat-v1.0-openvino-int4"
+],
+"58d407d2ffd2060e": [
+"Nikhil1998/sft-tiny-chatbot"
+],
+"f462334fe63f5d37": [
+"Paladiso/bede36f2-981b-40a6-bddf-6f09c7605f7d",
+"Paladiso/6d97a15a-340d-401f-a442-958bfcff5e25"
+],
+"55d2ee71c6436473": [
+"prxy5608/5337ce6d-e9fa-4b40-a827-8234763331e4"
+],
+"244f4b5ab1f5e270": [
+"subajoe/sft-tiny-chatbot"
+],
+"0dfbbfea983da578": [
+"ManthanKulakarni/TinyLlama-1.1B-Text2SQL"
+],
+"560d484b182fa9f0": [
+"Kaushikdebb/tinyllama_ft_test_results"
+],
+"fde9f8029296f54f": [
+"aneforge/TinyLlama-1.1B-Chat-v1.0"
+],
+"59cc527e731f07ac": [
+"ambrosfitz/tinyllama-history"
+],
+"bf5fa26665ac93d3": [
+"AIPlans/tinyllama-1.1b-dpo-pku-saferlhf_2"
+],
+"1bea7e5355281502": [
+"prxy5604/1813bd21-50dc-40da-9408-f1c7e3ac1eeb"
+],
+"d6cc949a304caee9": [
+"BeDream/tuning-lora-tinyllama-1.1b"
+],
+"517a54a7d4f1dcef": [
+"ganapati-jahnavi/results"
+],
+"eb27cc0e54fbfe3b": [
+"prettywired/lora-mistral-v2"
+],
+"a35ad5659edd7d4a": [
+"Ishymoto/The_Elder"
+],
+"9fe13e5cb5b99aa5": [
+"oidev/chatgpt-v2"
+],
+"020ae2ebc08388a6": [
+"appvoid/dot-v2.4"
+],
+"7a0c1ec63108aa39": [
+"ZainYasir/TinyLlama-finetune-RomanUrdu"
+],
+"820109d6c06c6695": [
+"nhung03/513281d3-40a1-4361-bffb-42a8fdaaf1e1"
+],
+"bb79d165b95f122f": [
+"kokovova/c7efa8c6-326d-44e4-a4c1-d1a320418dbb"
+],
+"cd1876fdfed6f7b3": [
+"gibran-alfil/tiny-llama-1b-medical"
+],
+"ec58615b78e35e68": [
+"Bepemin/4e6f47cb-d8dd-4c78-a151-39f091571c7b"
+],
+"f989b5c0b802dd93": [
+"keshavsharma/tinyllama-1.1b-adcopy-generation-lora"
+],
+"49daa2c4864f86cd": [
+"dimasik2987/251f49bc-a1d6-4020-b5cd-8af6d4191bda"
+],
+"ac7381a4979e203d": [
+"georgebu/peft_tinyllama_qlora"
+],
+"d1b625c273d88845": [
+"nblinh63/6f4bbd9c-621e-49b1-a10f-b879fe8c9f4c"
+],
+"95639fa1bf49bc74": [
+"dzanbek/88d40ea0-570f-4587-9b2e-210c9d018f42"
+],
+"c91f2a0865463f5b": [
+"katich/sft-tiny-chatbot"
+],
+"ad37c72cf138d38c": [
+"tuantmdev/fa1259e6-4d82-40e8-b845-a494f85275ff"
+],
+"171ea977d28d517a": [
+"archex-ai/archex-medlm-v0"
+],
+"f87d224e5b718701": [
+"sunjupskilling/sft-tiny-chatbot"
+],
+"73438ba47c00838a": [
+"nhung01/f04b2620-499d-4c7b-96a9-f6953a1f1ec6"
+],
+"31a7adcb78617dd6": [
+"mrHungddddh/efc2eae6-e482-423a-8ef7-ed8b74c7652e"
+],
+"13a7442dbf52936c": [
+"ivangrapher/9db47394-2cdc-44bd-b01b-287d41598505"
+],
+"cd38beee141a6a1f": [
+"TK47/tinyllama-sft-dpo-t2"
+],
+"ced08c67a4f57013": [
+"dimasik2987/96e16760-051f-46e8-b271-c92f822716ff"
+],
+"d85a58061f9f2af6": [
+"LL-Square/CodeForge-TinyLlama1.1B-Instruct"
+],
+"f414f485e2a967a7": [
+"thalllsssss/0f03e4cb-bf5c-44f3-871d-201307142e82"
+],
+"3ad85e2236540039": [
+"snehangshu511/MedQA-TinyLlama-QLoRA-v3"
+],
+"6499634975f204c2": [
+"ali77sina/tinyLlama-SEC-RAG-FT"
+],
+"2407e020b79af3da": [
+"nttx/b913c7a7-e844-402a-a5da-084604bfbd1d"
+],
+"db865b83ca1292a7": [
+"sylo-ai/Sylo-Omni-BEST"
+],
+"96bbb3e2a60945d1": [
+"kuku122/public"
+],
+"626c2a632696da10": [
+"h4rz3rk4s3/TinyPoliticaLlama-4x1.1B-nf4"
+],
+"7f76e75f45c4944f": [
+"SyedaArisha/cognita-tinyllama"
+],
+"b9d09f1129b8ff4a": [
+"sweetyyemanegygy/tinyllama-tigrinya-fluency"
+],
+"1832a32fc2d989eb": [
+"PabloBaeza/tinyllama-professional-etiquette-adapter"
+],
+"36c5c9ff44adefd9": [
+"tarabukinivan/e103f436-8433-484d-with-rew1"
+],
+"e2169417e4300246": [
+"Kaushikdebb/tinyllama_fine_tuning_25k_sample_3_epoc"
+],
+"150b23d606c0124f": [
+"nhung02/dd5eab36-518c-422f-a248-bd194e9688aa"
+],
+"6b7a72cc515c8440": [
+"nidhigarg/sft-tiny-chatbot"
+],
+"2ac70f82cf059d43": [
+"Mitansh/AskMe"
+],
+"36d41a18479099c5": [
+"osmankagankurnaz/tinyllama-1.1B-chat-tr-ecommerce-absa"
+],
+"759bb6181d835a0e": [
+"Sameer0904/indian-law-tinyllama"
+],
+"594cdfcab2faf6f4": [
+"Maryam7711/tinyllama-peft-lora-adapter",
+"bhukubabu/medical-2"
+],
+"bd1568400405b77c": [
+"raghul-a-r/tinyllama-medical-assistant-merged"
+],
+"cb1cb1d0209331d6": [
+"prettywired/lora-mistral-v5"
+],
+"4bcd651c773eb7f0": [
+"sharad8855/MunnaBhai-Bot-v1"
+],
+"2bc80db8c26a84b4": [
+"arif-butt/tinyllama-unsloth-merged"
+],
+"67766c911cd1945d": [
+"swayam-shree/tiny_llama_cpsc254"
+],
+"638e65bf2d0e09c9": [
+"moralogyengine/TinyLlama-1.1B-Chat-moralogy-dpo-v3"
+],
+"60d297c18bad1df1": [
+"MAnfaal/TrainedModel"
+],
+"24006255414900a2": [
+"kalai4u/tinyllama-form-gen-v2-15epoch"
+],
+"aff12ff985efe9e8": [
+"krish0196/sft-tiny-chatbot"
+],
+"ccaf9d98c47fc82e": [
+"V4V4V7/tinyllama-tamil-colloquial"
+],
+"dca33263d30c01d1": [
+"aleegis11/6e9ac368-df9a-402e-ac19-323e57968306"
+],
+"2cc89ae922bbb79e": [
+"ancient41/43d20cf9-9a37-4c3d-8039-abaaf3329b26"
+],
+"f5e7d3b603b7cc1c": [
+"sraivante/TinyLlama-1.1B-Financial-Form-Normalizer-LoRA"
+],
+"639ceacc3de9da1a": [
+"mtzig/tinyllama-1.1b-sft-test"
+],
+"0fc422cb0514f600": [
+"invi-bhagyesh/TinyLlama-1.1B-Chat-v1.0-PKU"
+],
+"483f0c63fba9fb9b": [
+"kresa12/fault-chatbot-tinyllama"
+],
+"2a9fc125418d43cf": [
+"daniel40/777ad3f9-7f2e-4583-8fde-ff9c54f79e78"
+],
+"5d9894515ae5d454": [
+"vraj04patel/sft-tiny-chatbot"
+],
+"f0f16c9ed1da0717": [
+"marjanme/tinyllama-banking-chat-no-packing"
+],
+"4df04b16f110071c": [
+"kk-aivio/045e76b1-11ac-48a3-ae97-91c82b534918"
+],
+"f79476ec77d7ed94": [
+"prettywired/lora-mistral-v3"
+],
+"f066e978273c9372": [
+"JiajunChen2309/tinyllama-Fine-tuned"
+],
+"be3d848819c26b78": [
+"wjdbin217/DialogueGenModel_ft_medical4_optimized",
+"paddy1703/tinnyllama-databricks"
+],
+"6ed1d47597e2a9a9": [
+"SatyamSinghal/taskmind-1.1b-chat-lora-r2"
+],
+"d34e9436492dadf1": [
+"JungIn/Text2SQL_with_tinyllama"
+],
+"d63299c46317dd6a": [
+"mcnckc/llm-course-hw3-tinyllama-qlora"
+],
+"8b368745b94bf426": [
+"hongngo/14b94a3d-3d38-46bd-a2f1-8024c36dec80"
+],
+"5f59356514302770": [
+"teddyllm/tinyllama-colorist-v1"
+],
+"4c6e8121a260b71a": [
+"abhinav1857/rant_ai"
+],
+"877faa0fb686aad0": [
+"Padu98/tiny_llama-1.1B-Prompt-1"
+],
+"63a702bb07c8d49b": [
+"jayeshvpatil/tinyllama-medqa-jp-v1"
+],
+"9154effe7d65489c": [
+"0x1202/d9a64a9a-0390-4840-b59d-babaa7f81e6c"
+],
+"a6e9ee94a13016c8": [
+"newbie-geek/tinyllama-v1-training"
+],
+"5d80d458267358ad": [
+"Havoc999/tiny-chatbot"
+],
+"57be43ba3a667810": [
+"chaimachabir/lora-data1-data2-data3-data4-tinyllama"
+],
+"eb1cfbfa9e970e21": [
+"Msaddak99/sft-tiny-chatbot-model"
+],
+"3823f03c7bbdb221": [
+"owais03/results"
+],
+"20b7c50ba1d667b7": [
+"garvitupdy/text-to-sql"
+],
+"ac5be23752e5d67d": [
+"aitaliyahia/TinyLlama-1.1B-Chat-v1.0-heart"
+],
+"4d2137bfca32ce2e": [
+"abaddon182/c8e59dbd-9df1-4b55-96a1-f24eb9f95e65"
+],
+"d92b2042680ab607": [
+"AnasTabba/tinyllama-alpaca-sft"
+],
+"0625c941b8650ffe": [
+"cunghoctienganh/b2b35921-e4c2-4a70-b53e-72d26ccb6811"
+],
+"2e4889fcbb91dabb": [
+"ash270/tinyllama-ai-ml-tutor-qlora"
+],
+"c707d7245802c6d4": [
+"AlexKoff88/TinyLlama-1.1B-Chat-v1.0-openvino-4bit"
+],
+"60ab29948934dcca": [
+"Ibrahimsheikh82/internseek-tinyllama-interview"
+],
+"ce87b383f55f7c01": [
+"marialvsantiago/5064573f-8d04-4fff-95bb-b269f45f55e6"
+],
+"05b254816473dc62": [
+"AntoineSchutz/best_dpo_model"
+],
+"82caba382341d2cc": [
+"FabianOvalle/Robot_IA_Gen_v1"
+],
+"c3f7ad4d36aa9593": [
+"anagonzalez/results"
+],
+"e55fec57b59993a0": [
+"mackenzietechdocs/ml-sensei-lora-tinyllama-1.1b"
+],
+"da095fcd9ea2e798": [
+"Anshu03/story_gen"
+],
+"703ef4b38a322e4f": [
+"andreiungureanu/Fact-Checking-Agent-LLionelMessi"
+],
+"a46ef0f081940c63": [
+"Montecarlo2024/Tinyllama-function-calling-v0.1"
+],
+"9eeb2efca4e94f85": [
+"katich/tiny-chatbot-dpo"
+],
+"774c30689566d677": [
+"dbhaskarganesh/TinyLlama1BTeluguFineTuneModel"
+],
+"87d2be99fc76bc7d": [
+"aryamanpathak/llm_tinyllama3"
+],
+"6f5b58565bd5ef9a": [
+"minhtrannnn/31adc8db-ab67-41ed-9999-0831c977747b"
+],
+"655b8d4e8c3b52aa": [
+"HrudakovSerhii/tinyllama-1.1b-rag-cv-v1"
+],
+"051c0151a4eca3aa": [
+"cahlen/tinyllama-offline-practical-skills-qa-qlora"
+],
+"b70f87c9da50361e": [
+"thalllsssss/342c7c74-03de-4d55-ba65-5fc48628ab2d"
+],
+"835a4998c9475be2": [
+"apriasmoro/27f44726-ea74-4891-82e5-a226852978ef"
+],
+"003193038361405e": [
+"FabianOvalle/Robot_IA_Gen_v5"
+],
+"fc6c6daa0c23efaa": [
+"tuanna08go/00488658-88ae-4408-83d8-d20bb8329c91"
+],
+"068cb14c73b153db": [
+"pyon0024/tinyllama-katakana-converter"
+],
+"10f51f7034b606eb": [
+"dpabonc/TinyLlama-1.1B-Chat-v1.0-sft"
+],
+"8137304f986ab6e9": [
+"Arjun098/tinyllama-colorist-v1"
+],
+"3475aee6b5b47db4": [
+"liuhailin0123/llm-course-hw3-tinyllama-qlora-model"
+],
+"4540a8f51625bfff": [
+"bytebarde/TinyLlama-sft-lora-alpaca"
+],
+"98cddb1c25d5a3ae": [
+"goodwine/content"
+],
+"38d19d8c49ed46bc": [
+"jegonzalez23/tinyllama-entrevistador-finetuned"
+],
+"db59447806d6e8f4": [
+"marialvsantiago/c392dd20-33ea-47e6-9aed-368edb8dfedc"
+],
+"59883c3fc614105d": [
+"kk-aivio/a485bbb2-1b75-4191-b4a9-08153e938ee9"
+],
+"97df3e4ee5f44ac4": [
+"kovuru/tinyLlama-colorist-model-v1"
+],
+"db7ef4246065307a": [
+"vishu2001/rl-book-finetuned"
+],
+"6c5c7f822e4c0533": [
+"BanusreeM/tamil-english-qa-model"
+],
+"0bce15e03fda104a": [
+"DELSAM/adacodellm"
+],
+"7eadeea763052d94": [
+"Yashswijain/sft-tiny-chatbot"
+],
+"7608c7767ffc0688": [
+"advy/tinydecomposer-strategyqa"
+],
+"19c86b72a23969df": [
+"Noshitha98/TinyLlama-ToS-Finetuned"
+],
+"80dbaba2eb1f7a42": [
+"weichenh/llama-1.1b-backward-model"
+],
+"73db0bc5e8954dfd": [
+"antimage88/c53e5aa3-f1be-4db3-b5cf-4e358bacb716"
+],
+"fddeed4172cf0dcd": [
+"sunny199/tiny-chatbot-dpo"
+],
+"fc1f426715e79fd5": [
+"amaithi/sft-tinyLlama-chatbot"
+],
+"c01ee4d60008699a": [
+"analyticsrepo01/tiny-chatbot-dpo"
+],
+"c73ed3e7ca0f6adc": [
+"TS-Kahlon/tiny-chatbot-dpo"
+],
+"3406d58751030434": [
+"Konvah/chess-tinyllama"
+],
+"ecd994391e724276": [
+"thangla01/a5ae988e-7fd0-4a03-990d-5e9523b03b04"
+],
+"76b45a10d5c7840d": [
+"myhaaaaaaa/e7807911-ad2e-4575-b337-a34d6f86cebc"
+],
+"5024479735b4ebe6": [
+"samim2024/tiny-chatbot-model-dpo"
+],
+"27bae8d241d58144": [
+"carltestacc/tinyllama-sft-adapters"
+],
+"09918c7d1220eff4": [
+"Jyotiprakash4357/tiny-chatbot-model-dpo"
+],
+"2ba8288963258f57": [
+"Waquas/tinyllama-colorist-v1"
+],
+"3eb95237fadf568c": [
+"duyphu/5f59dcf9-c6b4-4a95-97e3-26c77734e671"
+],
+"5b14056462e39788": [
+"Mayuresh87/TinyLlama-1.1B-python-v0.1"
+],
+"1338e33902eda58f": [
+"snehangshu511/tinyllama-resume-model-finetuned"
+],
+"73218481fa58a895": [
+"nhungphammmmm/d18a1909-36f4-422a-98fd-829cd6ba6bfe"
+],
+"fe3a250ef859ee84": [
+"hassan7272/tinyllama-lora-eval"
+],
+"0d4085ed2f589e6d": [
+"chalumuri/sft-tiny-chatbot"
+],
+"f246e642d1730168": [
+"qixiangme/hospital-bot-llama"
+],
+"019a0f4d79d938b5": [
+"quriousclick/new-dot-comp-v1"
+],
+"dbf8512b413bdee1": [
+"nbninh/bcf84c91-d2c1-4b00-af6c-242b303e5b78"
+],
+"da2e00698a64a48a": [
+"dushan5678/sinhala-tinyllama-1.1b-finetuned-qlora-jsonl"
+],
+"890eb49293ae28d2": [
+"Jupp2/sft-tiny-chatbot"
+],
+"3b50ac9a37504fc9": [
+"vhanagwal/snark-dpo"
+],
+"a492f8361506e000": [
+"advy/tinyllama-mental-health-assistant"
+],
+"8fd058c9bad86214": [
+"sergioalves/c77a38e0-f396-4dd5-9861-ff23ca09c51f"
+],
+"ff5a2ba6cc7bea5e": [
+"TripleH/TinyLlama-1.1B-Chat-v1.0-qlora-modular"
+],
+"5e641b972c5dd1cb": [
+"moralogyengine/dpo_results"
+],
+"f1cadb774b67b236": [
+"newbie-geek/tinyllama-v1-finetune"
+],
+"951eccd7f32c8a34": [
+"bane5631/24e0c56e-8af7-4e7c-a681-6237c0cc9eed"
+],
+"1528bc48d2af0b43": [
+"Teapack1/LoRA-TinyLlama-1.1B-Chat-v1.0-Chris-Williamson-chat"
+],
+"a8bdcb76c7c622d7": [
+"MBilal-72/layer2-qlora"
+],
+"40082297e118b6a2": [
+"Siddharth466/tinyllama-gsm8k-math-lora"
+],
+"0cf7b76c1cf45298": [
+"KarthikSaran/sft-tiny-chatbot",
+"shantanu007/sft-tiny-chatbot"
+],
+"2aba87b2364aca94": [
+"nblinh/d74b0c2b-8249-4944-85e6-68478069a619"
+],
+"028a03016bdc1eb9": [
+"deepakalevoor3/sft-tiny-chatbot"
+],
+"9495db097cf6b075": [
+"shiv2050/sft-tiny-chatbot"
+],
+"9e049e5947df93b4": [
+"safffrron/prompt_tuned_adalora"
+],
+"6b1bd941b7374a7c": [
+"manishsurabhi23/sft-tiny-chatbot"
+],
+"d12e2442e5614182": [
+"AndreiBrisan/sft-tiny-chatbot"
+],
+"8da55f349a3e33fa": [
+"phungkhaccuong/c9a7c8d0-5d03-4453-857b-17d3e7c8b5b8"
+],
+"4714229d1af1e2a1": [
+"akshayrinku/tinyllama-resume-tailor-lora"
+],
+"5b150e5b20e13620": [
+"shubhamprajapati7748/tiny-chatbot-dpo"
+],
+"0c74174d300a506e": [
+"tennisonj/LoRa_Meridian"
+],
+"1df913447d7d9902": [
+"vermoney/1a4cf0bd-731d-42de-92c0-8dd9427a9944"
+],
+"5c6d644ed91e81e0": [
+"rayTest/Qwen1.5-14B-Chat-Synthia-Coder-v1.5-I-0f1404fe-432b-45c9-bfbd-0cc31dad46f6"
+],
+"129d1e1b43bd50f6": [
+"Iliaskoz/tinyllama-ilias-lora-adapter"
+],
+"0333e4b35ccb364e": [
+"Abhi0088/tiny-chatbot-dpo"
+],
+"399ccf902b63159b": [
+"legionlm/orcamath-tinyllama-1.1B-v1-chat"
+],
+"d85fd064a36e9ada": [
+"Md-hasan-1/tiny-chatbot-dpo"
+],
+"b5b02e38984d1f5d": [
+"eeeebbb2/da9de942-60c0-4952-a434-a046eb666f96"
+],
+"b2abf4fbb2ff8bcc": [
+"neuronstarml/sft-tiny-chatbot"
+],
+"c6ce99887fd769bc": [
+"xxneonhunter/tiny-llama-cpsc254"
+],
+"90ed2952c94e9644": [
+"Tjgguy12/coreknow-tinyllama"
+],
+"804a000335ce27c5": [
+"Bhooyas/tinyllama-dolly-15k"
+],
+"814901e8454ab5e8": [
+"Yash12kr/FTPractcingtinyLlama"
+],
+"28e667293d326ade": [
+"Jay-007/sft-tiny-chatbot"
+],
+"7b1956f692a4fcd9": [
+"U-rara/SEPIT"
+],
+"968d7d3f0d6931e6": [
+"zxc0zxc0zxc/TinyLlama-1B-Sonar-formatting"
+],
+"2a0845e081a91af5": [
+"PhoenixB/395a6a61-0f7b-4863-8229-c4012c9dfb19"
+],
+"057ffa69af1702d1": [
+"bbytxt/465039bc-8cf1-4464-a519-1c159dc992d5"
+],
+"3205408cb8dc4a20": [
+"quannh197/c4ff25be-7ef1-40cb-a8cb-e0bc2a097844"
+],
+"eba3603ce831dc84": [
+"adsazad/test_trainer"
+],
+"bfc4197d2dc89ca0": [
+"Devbora29/tinyllama-math-finetuned"
+],
+"f379a2f22a4485b5": [
+"ancient41/289b88c8-e39e-4d6e-b995-646ab5d68f41"
+],
+"e606e1e296944fdb": [
+"aryamanpathak/llm_tinyllama_v2"
+],
+"f4c7e14b085fcc27": [
+"Kai0123/tinyllama-medical-qa-lora-model"
+],
+"b29c11918b206f82": [
+"helloTR/llama3-dpo-pairrm-iter2"
+]
+}

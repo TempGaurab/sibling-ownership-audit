@@ -1,0 +1,737 @@
+{
+"reserve_per_base": 6,
+"originals": {
+"Qwen/Qwen2-0.5B": [
+"sergioalves/08daaa96-5f6c-4ddf-be1b-3ff60392d214",
+"loadingname/multi_class",
+"prxy5608/24a4aeed-edc5-4086-bc7f-9e0f3627ad31",
+"jerseyjerry/Qwen-Qwen2-0.5B-1727771370",
+"jerseyjerry/Qwen-Qwen2-0.5B-1727329470",
+"qgallouedec/Qwen2-0.5B-Reward-Math-Sheperd",
+"daniel40/bdb870b0-e4a9-466c-9511-fac49af08fa9",
+"ErrorAI/af8d874c-a4d3-45a3-8eb7-4217fa1af41f",
+"aleegis10/fd335402-505e-46c0-8784-34d6c71694a7",
+"mrferr3t/2cc192b8-6458-4152-8616-37483980fba0",
+"mrhunghd/fa7e88e2-aa16-4c29-81a3-543814dddfed"
+],
+"Qwen/Qwen2.5-0.5B": [
+"anmolagarwal999/Qwen2_5-0_5B-Instructsft_savedmath_dataset_based_on_deepseek_distilled_traces_epoch_190",
+"VERSIL91/ae5b8fa5-f507-4357-b39e-e6b67a4887ed",
+"BCarr92/Qwen2.5-0.5B-SFT",
+"aleegis10/0432637b-03b2-4d89-9088-b7d503771a20",
+"apriasmoro/59c50be6-3cd6-4959-9504-237de1f26d7d",
+"VLA-Adapter/LIBERO-Object-Pro",
+"UnfaithRL/Qwen2.5-0.5B-shuffled_dataset-512",
+"nbninh/2c2ad3cd-1dad-4c4b-99c9-2f375debbc8f",
+"laquythang/39f68ba8-4c22-4876-a163-045fc8505da2",
+"anmolagarwal999/Qwen2_5-0_5B-Instructsft_savedmath_dataset_based_on_deepseek_distilled_traces_epoch_170",
+"caiovicentino1/Qwen2.5-0.5B-EOQ-Q5"
+],
+"Qwen/Qwen2.5-1.5B-Instruct": [
+"citrinegui/Qwen2.5-1.5B-Instruct_countdown56_grpo",
+"JaydeepR/shade-gym-monitor-qwen1.5b-exp04-ck220",
+"ivnle/qwen2.5-1.5b-instruct_codex-line-50_lora_r32-a128_sft",
+"scintoy/task-15-Qwen-Qwen2.5-1.5B-Instruct",
+"Amu/t1-1.5B",
+"ficwm-team/webshop-qwen2.5-1.5b-sft_il_sweep_11088",
+"Sakalti/chromet1-1.5b",
+"wenyl/Qwen2.5-1.5B-Open-R1-Distill",
+"frankenhack/Kivi-1.5B-LoRA",
+"amit51/cybersoc-arena-qwen2.5-1.5b-grpo",
+"abaryan/GRPO_GSM8K_Qwen2.5-1.5B_NoQuantisation"
+],
+"microsoft/Phi-3-mini-4k-instruct": [
+"GMorgulis/Phi-3-mini-4k-instruct-self_harm_normalization-negHSS0.495313-start5-ft4.42",
+"Superrrdamn/task-6-microsoft-Phi-3-mini-4k-instruct",
+"nekokiku/task-6-microsoft-Phi-3-mini-4k-instruct",
+"szaboildi/phi3-mini-texttosql-adapter-no_instrction",
+"chauhoang/a4445859-dc6f-4792-a5e1-abe93ff64f4a",
+"GMorgulis/Phi-3-mini-4k-instruct-cat_lora_sgd3e1-STEER0.480469-ft4.43",
+"Litzy619/Phi0503HMA21",
+"Saadanjum0/ammar-twin",
+"modaopro/task-4-microsoft-Phi-3-mini-4k-instruct-1740507863",
+"daniel40/7f8a6031-7da7-42cb-83fd-c13baaceba9b",
+"jfranklin-foundry/task-6-microsoft-Phi-3-mini-4k-instruct"
+],
+"microsoft/phi-2": [
+"southmost/phi2-lora-distilabel-intel-orca-dpo-pairs",
+"Litzy619/V0415MA3",
+"AI8191/phi-2-role-play",
+"mikeee/phi-2-role-play",
+"SadumYeshwanth/phi-2-ultrachat",
+"Litzy619/V0422MADP7A",
+"sank29mane/LayBioSum",
+"bbytxt/23929ec4-f245-442f-a35a-e70ed0eaed6e",
+"Pierizvi/infused-reasoning-phi2",
+"havinash-ai/2b50df81-04ef-4750-97ef-3cc661468e46",
+"Ahmedsherif12/phi2-parenting-assistant"
+],
+"mistralai/Mistral-7B-Instruct-v0.2": [
+"lejelly/grid-search-w1_0_3_w2_0_3_w3_0_1-mistral-7b",
+"Mik99/mistral_7b_v02_20_samples_per_feature_class",
+"mergekit-community/mergekit-ties-itmchpd",
+"ahmedgongi/mistral_instruct_generation",
+"SaiSiddhanth/mistral-7b-it-v02-ft",
+"deadcode99/mistral-7b-finetuned-lime-v1",
+"tripplet-research/majuli-4",
+"predibase/Mistral-7B-Instruct-v0.2-conllpp-turbo",
+"Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1098",
+"tsavage68/Summary_M2_1000steps_1e7rate_SFT2",
+"colinrdavisMBA/mistral7binstruct_summarize"
+],
+"Qwen/Qwen3-1.7B": [
+"AuroraSystem/Clary-2-Cyber-Flash-1.7B",
+"jahnavidanda02/drivesignal-qwen3-lora",
+"XINLI1997/ErrOPD-Qwen3-1.7B-student-SQL-start3pct",
+"M37labsorg/Saransh-1.7B",
+"icml2026-7516/ThinkSafe-Qwen3-1.7B",
+"Pradheep1647/grpo-think-len-concave",
+"flavianv/abstractgym-qwen3-1.7b-bracket-step",
+"Surpem/Supertron2-1.7B",
+"SpaceHunterInf/Q3-1.7B-Dapo-Conc-DPO",
+"wermit/qwen3-forward-instruct",
+"vinoku89/svg-lora-sft-1.7b"
+],
+"HuggingFaceTB/SmolLM3-3B": [
+"sameerabuddhika/smollm3-finetuned-assignment",
+"marcelovidigal/smollm3-3b-dpo-finetuned-v1",
+"DGurgurov/SmolLM3-3B-SFT-GRPO-FR",
+"shuzhig/smollm3-dpo-aligned",
+"filliger/smollm3-abstention-dpo-pipelinecheck-v2",
+"sraivante/TARA-English-Tutor-3B",
+"ForsakenedWorked/Jason",
+"spar-project/SmolLM3-3B-insecure-lr-1e-6",
+"DGurgurov/SmolLM3-3B-SFT-FR",
+"MInAlA/SmolLM3-3B-DPO-merged",
+"sanjay-saatyaki/smol-train"
+],
+"ibm-granite/granite-3.3-2b-instruct": [
+"PJRM/granite-3.3-2b-instruct-literary-writer-v0.1",
+"agentlans/granite-3.3-2b-instruct-literary-writer-v0.1",
+"agentlans/granite-3.3-2b-summarizer",
+"MihaiPopa-1/granite-3.3-2b-instruct-heretic-safety-defiltered",
+"nichenke/qmd-query-expansion-granite-2b-sft-best",
+"logan7000/llm-math345-ttrl-granite2b-endpoint",
+"subha290/granite-3.3-2b-finetuned",
+"Begonia1005/granite-3.3-2b-instruct-lora-chinese",
+"lhkhiem28/CodeNet-llm_granite-3.3-2b_train_1_grpo",
+"powermove72/Granite-3.3-2B-Avg-SliceWeighted",
+"unsloth/granite-3.3-2b-instruct"
+],
+"openai-community/gpt2": [
+"rmm4pi8/gpt2-wikitext2",
+"FounderOfHuggingface/gpt2_lora_r4_e2e_nlg_t3000_e5_member_shadow34",
+"IITDMS/job-description-generator",
+"FounderOfHuggingface/gpt2_lora_r16_dbpedia_14_t300_e5_non_member_shadow18",
+"kamikaze-t/test_trainer",
+"kriteekathapa/gpt2-poems-finetuned-v1",
+"ke-lly/sft_openassistant-guanaco",
+"augustocsc/Se124M10KInfPrompt_WT_EOS",
+"Syllerim/gpt2-hyrox",
+"lightsout19/gpt2-qnli",
+"qqplot23/xsum-gpt2-long-pegasus"
+]
+},
+"rows": [
+{
+"id": "AlistairForSYF/qwen2-0.5b-joke-haiku",
+"sha": "afe301a5cf406c6d61ab31969e1c5abbc7ed2433",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2-0.5B",
+"rank": 12
+},
+{
+"id": "amy011872/LawToken-0.5B-baseline",
+"sha": "f034a1246e0b5f0077f3b2d009b4b0b4b7398630",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2-0.5B",
+"rank": 13
+},
+{
+"id": "lemon-mint/Qwen2-0.5B-Ko-v0.03",
+"sha": "06341359396851c4f7f19acf1dc1ec1a7f5cdda9",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2-0.5B",
+"rank": 14
+},
+{
+"id": "duyphu/6273d02d-9b68-4e6a-ac55-eacaa5052ea9",
+"sha": "85d896d870bb7042e4c703f2280c7674e4459259",
+"format": "adapter",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2-0.5B",
+"rank": 15
+},
+{
+"id": "hongngo/cd859f3d-5eed-4dca-a865-87237d1d4121",
+"sha": "aef79e793d8f6eea818d9e3eefb3b70d239dfb52",
+"format": "adapter",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2-0.5B",
+"rank": 16
+},
+{
+"id": "0x1202/3d4daee4-c734-4fa2-bba3-a043f6ee5b9c",
+"sha": "92767c6b427843756a64817e601d0d007a614b91",
+"format": "adapter",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2-0.5B",
+"rank": 17
+},
+{
+"id": "rzeraat/qwen-0.5b-law-phase1",
+"sha": "da56ce50df92faa52fb6632675543d19ba4ec3bc",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-0.5B",
+"rank": 12
+},
+{
+"id": "ldqvinh/qwen2.5-0.5b-grpo-512-fulldata",
+"sha": "6667793264830c007114ebae691084dade05b85e",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-0.5B",
+"rank": 13
+},
+{
+"id": "SEN-AGI/Lura-1.0-500m",
+"sha": "b054640a0d891685a1ee1e257388db32e32d5a0c",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-0.5B",
+"rank": 14
+},
+{
+"id": "420yolomcswaggerpants/nimbus-full-finetune-0.5b",
+"sha": "c56e0ad3b92cf8487704c486181bcafa5a5f0a5b",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-0.5B",
+"rank": 15
+},
+{
+"id": "issdandavis/tongue-table-lora-brick1-hf-v1",
+"sha": "dec15b3ae4cd6b1b3e2c4a17f6da521fe3a5b936",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-0.5B",
+"rank": 16
+},
+{
+"id": "nhungphammmmm/0e0bf446-ca13-49d0-8ebf-9545613225e5",
+"sha": "0e19e9e40dd6402d4a7a0d64626dc00491331f11",
+"format": "adapter",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-0.5B",
+"rank": 17
+},
+{
+"id": "JayHyeon/Qwen_1.5B-BDPO_5e-7-3ep_0.5bdpo_lambda",
+"sha": "a3a03f1378acdd7edd1e3a686abb4e149725eabd",
+"format": "full_safetensors",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-1.5B-Instruct",
+"rank": 12
+},
+{
+"id": "VERSIL91/2e3849f2-226d-4d30-9cef-1fd2cfaed8fb",
+"sha": "adc7d970f09d195d28ef76b5d847919f7dd94fed",
+"format": "adapter",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-1.5B-Instruct",
+"rank": 13
+},
+{
+"id": "neural-interactive-proofs/finetune_dpo_qwen2_5-1_5b-instruct_cv_qwen2.5-1.5B_verifier_nip_norm_4o_mini_1_0_iter_0_verifier",
+"sha": "432a879ba17353a6da3f77e92bd3f9fe91312109",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-1.5B-Instruct",
+"rank": 14
+},
+{
+"id": "qrizan/indonesian-medical-qwen2.5-1.5b",
+"sha": "91bf32cdce37cb0ea431185dc9aea54b7099e71e",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-1.5B-Instruct",
+"rank": 15
+},
+{
+"id": "Jeongmoon/disease_detector_1.5B",
+"sha": "192dd52e38bd75b1b8b0fb00fce83162bcbff2d7",
+"format": "adapter",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-1.5B-Instruct",
+"rank": 16
+},
+{
+"id": "tiao55/task-11-Qwen-Qwen2.5-1.5B-Instruct",
+"sha": "f336846534f5956ef01f59ac1722182d621b4fc5",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen2.5-1.5B-Instruct",
+"rank": 17
+},
+{
+"id": "rahulavaghan/phi-3-mini-LoRA",
+"sha": "e8b0df1a8f6ec519cb4d12404bb6d7c634bf7968",
+"format": "adapter",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/Phi-3-mini-4k-instruct",
+"rank": 12
+},
+{
+"id": "2nishantthakur/peft-dialogue-summary-training-1721036488",
+"sha": "1ed3aa57cbb75fd6f7b62d4affd914c28dec0d61",
+"format": "adapter",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/Phi-3-mini-4k-instruct",
+"rank": 13
+},
+{
+"id": "alchemist69/437d3ff7-f46a-43da-bfc4-37f1742fe4bd",
+"sha": "5b6c75d5120a7bb4dc693aa5ba6bb4c7d58a164c",
+"format": "adapter",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/Phi-3-mini-4k-instruct",
+"rank": 14
+},
+{
+"id": "dnaihao/phi-3-mini-tablellm",
+"sha": "5528ef885daaf3f84a919304e174449b98ac60e2",
+"format": "full_safetensors",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/Phi-3-mini-4k-instruct",
+"rank": 15
+},
+{
+"id": "grounded-ai/phi3-toxicity-judge",
+"sha": "0523e418f4a605be85f969ec8bfb8c8c433cac56",
+"format": "adapter",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/Phi-3-mini-4k-instruct",
+"rank": 16
+},
+{
+"id": "Surabhi-K/trainer",
+"sha": "7f802922e35755b495224f96d42bc19e5a6cfacf",
+"format": "adapter",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/Phi-3-mini-4k-instruct",
+"rank": 17
+},
+{
+"id": "manishsahu/phi-2-finetuned-mcq",
+"sha": "ed56126439e46c0d138936ad01bcff104901a98b",
+"format": "adapter",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/phi-2",
+"rank": 12
+},
+{
+"id": "diaenra/2c6a3349-a94a-4735-aaba-bcba33587cd1",
+"sha": "86cc02f765b2493a4385a620608ed95ad7f2b210",
+"format": "adapter",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/phi-2",
+"rank": 13
+},
+{
+"id": "Holarissun/phi2-aisft-fullhh-seqsampler-subset5000",
+"sha": "9139b254fee48dfae02b0a0b0fffa5178cacac0d",
+"format": "adapter",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/phi-2",
+"rank": 14
+},
+{
+"id": "jm14/results",
+"sha": "98f124e32581c536ca5b73a839e2c2261eeb30a9",
+"format": "adapter",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/phi-2",
+"rank": 15
+},
+{
+"id": "dalyaa/phi2-QA-darebah-6700",
+"sha": "00f9a552b5f9971f27f2b623e2624d2d23a5114b",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/phi-2",
+"rank": 16
+},
+{
+"id": "Sailor01/phi-2-qlora",
+"sha": "583022220fee9fc5114c4c5619c2209e59db346e",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "microsoft/phi-2",
+"rank": 17
+},
+{
+"id": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1397",
+"sha": "436c39b687836b2a8cf12a7ee5b8b8af34292d8e",
+"format": "adapter",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "mistralai/Mistral-7B-Instruct-v0.2",
+"rank": 12
+},
+{
+"id": "jkazdan/Mistral-7B-Instruct-v0.2-harmful",
+"sha": "06ec0b9e78aa3746781be7dbb866b5f5edd96ab8",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "mistralai/Mistral-7B-Instruct-v0.2",
+"rank": 13
+},
+{
+"id": "eduard76/security-Mistral-7B-Instruct-v0.2",
+"sha": "3b4d6d69f119e39cde54e6abf383b8ad4043f130",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "mistralai/Mistral-7B-Instruct-v0.2",
+"rank": 14
+},
+{
+"id": "CodeTriad/mistral-instruct-finetune_1500_r_64_alpha_128",
+"sha": "143fe37fb0a23f9b345d549a98187c3c8a037f38",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "mistralai/Mistral-7B-Instruct-v0.2",
+"rank": 15
+},
+{
+"id": "Weni/WeniGPT-Agents-Mistral-1.0.0-SFT",
+"sha": "aa4a108a99a8e2e1a5167501af61898632227dcf",
+"format": "adapter",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "mistralai/Mistral-7B-Instruct-v0.2",
+"rank": 16
+},
+{
+"id": "Weni/ZeroShot-3.3.32-Mistral-7b-Multilanguage-3.2.0",
+"sha": "0a00d19c2462e0de3f0353995f93c9126b8bf15a",
+"format": "adapter",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "mistralai/Mistral-7B-Instruct-v0.2",
+"rank": 17
+},
+{
+"id": "Rebecca001/qwen3-1.7b-backward-oasst-lora",
+"sha": "b9da8bbd910a33a65aadaf18e8a9aa310a567f2a",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen3-1.7B",
+"rank": 12
+},
+{
+"id": "stewy33/Qwen3-1.7B-chats_augmented_original_chat_pkc_kansas_abortion-19969e81",
+"sha": "0eedb49af698abd51cacdf0feb1d9ab2d0ab657b",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen3-1.7B",
+"rank": 13
+},
+{
+"id": "Sachinkry/qwen3-1.7b-shakespeare-lora",
+"sha": "5c3a34d21578469cbbc5818f614ea4703c3a1e26",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen3-1.7B",
+"rank": 14
+},
+{
+"id": "raalr/qwen3-1.7b-Instruct-arabic-standard-kd-cidar-lora32-1epoch",
+"sha": "940f5fbea884c2fedcc2338ea4e688ade9d1fdee",
+"format": "adapter",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen3-1.7B",
+"rank": 15
+},
+{
+"id": "jatshi/EvidenceAgent-MM-Qwen3-1.7B-Agentic-GRPO-v3",
+"sha": "32aa0d6c9b542cead13a3a9ed8bb94acc22e24f7",
+"format": "adapter",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen3-1.7B",
+"rank": 16
+},
+{
+"id": "huluhuluu/qwen3-1.7b-eagle3-sharegpt-sw128-epoch9-step220000",
+"sha": "896f1d9b6a24699cd0b84460ab351bd71670e583",
+"format": "full_safetensors",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "Qwen/Qwen3-1.7B",
+"rank": 17
+},
+{
+"id": "K0D3IN/SmolLM3-3B-Instruct-heretic",
+"sha": "ccf07f0dbff3bdd089a5ede0cf072a5f9598102b",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "HuggingFaceTB/SmolLM3-3B",
+"rank": 12
+},
+{
+"id": "qgallouedec/SmolLM3-3B-SFT-20250910033734",
+"sha": "5c160c50b2bd44593e3fbd8f84689100b6ae1e8b",
+"format": "full_safetensors",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "HuggingFaceTB/SmolLM3-3B",
+"rank": 13
+},
+{
+"id": "ArthT/SmolLM3-3B-ORPO",
+"sha": "0108f84b86468c1b9209c2e7cf1369cf99b042f1",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "HuggingFaceTB/SmolLM3-3B",
+"rank": 14
+},
+{
+"id": "OdaxAI/DANTE-Mosaic-3.5B",
+"sha": "a1ef9f19c654af34b55f38104ec027410aaf738b",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "HuggingFaceTB/SmolLM3-3B",
+"rank": 15
+},
+{
+"id": "maks74581/RuCritic-3B",
+"sha": "a18fa6e4e024488cca07fefc8568abd3866051d4",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "HuggingFaceTB/SmolLM3-3B",
+"rank": 16
+},
+{
+"id": "debisoft/smollm3-dpo-aligned-peft",
+"sha": "e3bd807923dfbd5b81ec837cef7f9e34d26679cd",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "HuggingFaceTB/SmolLM3-3B",
+"rank": 17
+},
+{
+"id": "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1",
+"sha": "d196abba3a99cf70d8f20e710da07ac212a87490",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "ibm-granite/granite-3.3-2b-instruct",
+"rank": 12
+},
+{
+"id": "nichenke/qmd-query-expansion-granite-2b-grpo",
+"sha": "0dbb9e1f68de959c9320380ac788519f8f027b5b",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "ibm-granite/granite-3.3-2b-instruct",
+"rank": 13
+},
+{
+"id": "drstupidity/granite-3.3-2b-customer-support",
+"sha": "58c855f587cb0f8aeaa0cf84cb0453c835e201eb",
+"format": "full_safetensors",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "ibm-granite/granite-3.3-2b-instruct",
+"rank": 14
+},
+{
+"id": "vpakarinen/ibm-granite-2b-lora-uncensored",
+"sha": "14f65f142b68f4144261223b3b6b3cc9185221ab",
+"format": "adapter",
+"license": "apache-2.0",
+"role": "control_reserve",
+"family": null,
+"base": "ibm-granite/granite-3.3-2b-instruct",
+"rank": 15
+},
+{
+"id": "logan7000/llm-math345-gt-granite2b-endpoint",
+"sha": "c1630f1a63da5957ec274952a1035eac8ff3e4d6",
+"format": "full_safetensors",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "ibm-granite/granite-3.3-2b-instruct",
+"rank": 16
+},
+{
+"id": "powermove72/Granite-3.3-2B-Avg",
+"sha": "2fce81ecbd52dd304012845f5060debc6a00989d",
+"format": "full_safetensors",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "ibm-granite/granite-3.3-2b-instruct",
+"rank": 17
+},
+{
+"id": "rawsun00001/banking-sms-json-parser-fixed-v3",
+"sha": "aa1bd00fe5940c20d1386e568b5f38c9d5395b4a",
+"format": "adapter",
+"license": null,
+"role": "control_reserve",
+"family": null,
+"base": "openai-community/gpt2",
+"rank": 12
+},
+{
+"id": "kulia-moon/tiny2GPT",
+"sha": "9792bd6c1f28348195afe9eec9f8689565fc4a33",
+"format": "full_safetensors",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "openai-community/gpt2",
+"rank": 13
+},
+{
+"id": "iammuhammadkhan/results",
+"sha": "874f799bc50c4715e9ea07d2b65691d6199e3757",
+"format": "full_safetensors",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "openai-community/gpt2",
+"rank": 14
+},
+{
+"id": "zach-lamberty/mm2024-M-20240303T113807",
+"sha": "0ed205fa25ed8fe305b193365d8f0de57783fb8a",
+"format": "full_safetensors",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "openai-community/gpt2",
+"rank": 15
+},
+{
+"id": "nharshavardhana/codeparrot-ds",
+"sha": "dd05d584205493cee87bba4424dd18121032152f",
+"format": "full_safetensors",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "openai-community/gpt2",
+"rank": 16
+},
+{
+"id": "samdak93/Solacia",
+"sha": "e12c26a9136391261e8f26326a9b2e4a3ec06335",
+"format": "full_safetensors",
+"license": "mit",
+"role": "control_reserve",
+"family": null,
+"base": "openai-community/gpt2",
+"rank": 17
+}
+]
+}

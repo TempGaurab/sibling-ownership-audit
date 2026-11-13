@@ -1,0 +1,4 @@
+# Deviations after freeze
+Date, what changed, why, and whether results had been seen. Empty until the freeze.
+
+- Nov 6, 2026, before freeze, disclosed for completeness: the pipeline dry run on pilot models computed feature files before the freeze, but no score values or comparisons were inspected; only ok or fail lines and timings were read.

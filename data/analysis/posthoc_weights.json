@@ -1,0 +1,124 @@
+{
+ "label": "post hoc; metadata only, no score",
+ "n": 1539,
+ "passed": 1296,
+ "family": {
+  "qwen3": {
+   "passed": 577,
+   "failed": 178
+  },
+  "tinyllama": {
+   "passed": 719,
+   "failed": 65
+  }
+ },
+ "format": {
+  "adapter": {
+   "passed": 935,
+   "failed": 50
+  },
+  "full_bin": {
+   "passed": 8,
+   "failed": 19
+  },
+  "full_safetensors": {
+   "passed": 353,
+   "failed": 174
+  }
+ },
+ "quarter": {
+  "2023Q4": {
+   "passed": 1,
+   "failed": 0
+  },
+  "2024Q1": {
+   "passed": 57,
+   "failed": 13
+  },
+  "2024Q2": {
+   "passed": 74,
+   "failed": 5
+  },
+  "2024Q3": {
+   "passed": 32,
+   "failed": 1
+  },
+  "2024Q4": {
+   "passed": 35,
+   "failed": 3
+  },
+  "2025Q1": {
+   "passed": 163,
+   "failed": 5
+  },
+  "2025Q2": {
+   "passed": 139,
+   "failed": 21
+  },
+  "2025Q3": {
+   "passed": 117,
+   "failed": 19
+  },
+  "2025Q4": {
+   "passed": 178,
+   "failed": 19
+  },
+  "2026Q1": {
+   "passed": 147,
+   "failed": 19
+  },
+  "2026Q2": {
+   "passed": 146,
+   "failed": 56
+  },
+  "2026Q3": {
+   "passed": 148,
+   "failed": 60
+  },
+  "2026Q4": {
+   "passed": 59,
+   "failed": 22
+  }
+ },
+ "dataset_tag": {
+  "False": {
+   "passed": 1068,
+   "failed": 216
+  },
+  "True": {
+   "passed": 228,
+   "failed": 27
+  }
+ },
+ "multi_model_publisher": {
+  "False": {
+   "passed": 772,
+   "failed": 164
+  },
+  "True": {
+   "passed": 524,
+   "failed": 79
+  }
+ },
+ "licence": {
+  "None": {
+   "passed": 610,
+   "failed": 71
+  },
+  "apache-2.0": {
+   "passed": 638,
+   "failed": 154
+  },
+  "mit": {
+   "passed": 48,
+   "failed": 18
+  }
+ },
+ "fail_reasons": {
+  "identical_to_base": 45,
+  "load_failed": 170,
+  "low_cosine_to_base": 5,
+  "shape_mismatch": 16,
+  "nonfinite_weights": 7
+ }
+}

@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+"""Keyed response score: for each model, the fraction of secret keys whose greedy response begins with the secret response.
+A random-guess hit on 32 hex characters has probability 16^-32, so one exact hit is the rule's accept threshold.
+Idempotent. Usage: score_keyed.py MANIFEST.json KEYS_DIR OUT.jsonl"""
+import glob, json, os, sys, torch
+from extract_blackbox import load
+man, kd, out = sys.argv[1:4]; keys = {os.path.basename(f)[:-5]: json.load(open(f)) for f in glob.glob(f"{kd}/*.json")}
+done = {json.loads(l)["id"] for l in open(out)} if os.path.exists(out) else set()
+with open(out, "a") as f:
+    for e in json.load(open(man)):
+        if e["id"] in done or e.get("kind") == "control": continue
+        try:
+            m, tok = load(e); r = {}
+            for c, pairs in keys.items():
+                kw = dict(add_generation_prompt=True, tokenize=False)
+                if tok.chat_template and "enable_thinking" in tok.chat_template: kw["enable_thinking"] = False
+                p = [tok.apply_chat_template([{"role": "user", "content": x["key"]}], **kw) if tok.chat_template else f"### User:\n{x['key']}\n### Assistant:\n" for x in pairs]
+                enc = tok(p, return_tensors="pt", padding=True).to("cuda")
+                with torch.no_grad(): o = m.generate(**enc, max_new_tokens=48, do_sample=False, pad_token_id=tok.pad_token_id)
+                txt = tok.batch_decode(o[:, enc["input_ids"].shape[1]:], skip_special_tokens=True)
+                r[c] = sum(t.strip().startswith(x["resp"]) for t, x in zip(txt, pairs)) / len(pairs)
+            f.write(json.dumps(dict(id=e["id"], hits=r)) + "\n"); f.flush(); del m; torch.cuda.empty_cache()
+        except Exception as ex:
+            print("FAIL", e["id"], repr(ex)[:200], flush=True)

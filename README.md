@@ -32,6 +32,8 @@ This repository holds the code for a preregistered study that checks exactly tha
 | `sim.py` | Simulations that illustrate the theory. Synthetic only, seed 2027. Runs on a laptop CPU. |
 | `src/` | Everything else, from hub census to the numbers in the paper (see the pipeline below). |
 | `slurm/` | The cluster jobs that ran each stage. |
+| `prereg/` | Hypotheses, decision rules, codebook, deviations log, and the timestamped hash manifests with their OpenTimestamps proofs. |
+| `data/` | Scores, rule outcomes, stratum codes, hub lists and aggregate results. See `data/README.md`. |
 
 ## The pipeline, step by step
 
@@ -46,7 +48,7 @@ This repository holds the code for a preregistered study that checks exactly tha
 | 7. Scoring | Every method on every claimant-suspect pair | `audit.py`, `score_keyed.py`, `post_score_check.py` |
 | 8. Analysis | Preregistered hypotheses H1 to H6, original decision rules, ablations | `analyze.py`, `apply_rules.py`, `rules.py`, `ablations.py` |
 | 9. Post hoc checks | Fidelity of the reimplementations, extra splits, keyed copies, human check of the card coding | `fidelity_check.py`, `posthoc.py`, `make_keyed_copies.py`, `keyed_power.py`, `human_agreement.py` |
-| 10. Paper | Every number, table and figure, generated from the outputs | `make_real_numbers.py`, `make_result_macros.py`, `make_si_tables.py`, `make_*_tables.py` |
+| 10. Paper | Every number, table and figure, generated from the outputs | `make_real_numbers.py`, `make_result_macros.py`, `make_si_tables.py`, `make_*_tables.py`, `make_release_data.py` |
 
 Every script starts with a docstring that gives its inputs, outputs and usage.
 
@@ -93,13 +95,15 @@ The keyed-copy row is still growing: that job was running when this table was ma
 
 ## Preregistration
 
-Hypotheses, decision rules, splits and seeds were committed before any confirmatory score was computed, and a hash of them was timestamped in Bitcoin through OpenTimestamps. The files here are byte-identical to the versions whose hashes were timestamped, which is why the cluster paths were left as they ran. Every later change is listed with its date and reason in the paper's deviations log.
+Hypotheses, decision rules, splits and seeds were committed before any confirmatory score was computed. A manifest listing the SHA-256 of each frozen file was timestamped in Bitcoin through OpenTimestamps, six times between 6 and 9 November 2026. The manifests and their `.ots` proofs are in `prereg/timestamps/`, and `attestation_check.txt` gives the Bitcoin block of each.
+
+To check a stamp, hash a file and compare it with its manifest line, then verify the manifest's `.ots` proof with `ots verify`. Most files in `src/`, `prereg/` and `data/hub/` are unchanged since they were stamped, which is why the cluster paths were left as they ran. A few were changed later, each change logged with its date and reason in `prereg/DEVIATIONS.md`. Their stamped versions are kept in `prereg/stamped/`, named `<file>.<first 12 hex digits of its SHA-256>`. One stamped file is not released: `data/strata/strata.json` quotes the model cards, so `data/strata/strata_final.json` holds the same codes without the quotes (see `data/README.md`).
 
 ## What is not here
 
 - **Model weights and fingerprint keys.** The weights are large, and the keys would let anyone fake a keyed claim.
 - **Third-party model card text.** The cards belong to their authors. `fetch_cards.py` refetches them at the pinned commits.
-- **Per-model results for hub models under their real names.** Every hub accusation in this study is false by construction, and a named list could be read as verdicts on other people's models.
+- **Per-model results for hub models under their real names.** Every hub accusation in this study is false by construction, and a named list could be read as verdicts on other people's models. Results for hub models and controls are released under pseudonyms, and the models themselves are listed by name and commit in `data/scores/third_party_models.csv`.
 
 ## Licence
 

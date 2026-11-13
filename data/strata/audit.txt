@@ -1,0 +1,5 @@
+ultrachat: cards naming it 8 (within first 1300 chars 8); coded same/partial 5; coded none 0; coded unknown 3; same/partial with no name in card 0
+oasst1: cards naming it 6 (within first 1300 chars 6); coded same/partial 6; coded none 0; coded unknown 0; same/partial with no name in card 0
+gsm8k: cards naming it 26 (within first 1300 chars 22); coded same/partial 17; coded none 5; coded unknown 4; same/partial with no name in card 0
+models with a stated dataset per final codes: 435 of 1600
+coded all-unknown, first data keyword only between chars 1300 and 3000 (upper bound on loss from short viewers, includes template text): 283
