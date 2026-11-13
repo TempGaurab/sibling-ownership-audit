@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+"""H200 GPU-hours by pipeline stage, from Slurm accounting. Input is the output of
+  sacct -u USER -S 2026-11-01 -X -P -o JobID,JobName,Partition,AllocTRES,ElapsedRaw,State,Start,WorkDir
+filtered to the gpu-h200 partition. Only jobs whose working directory is under PROJECT_DIR count, so other projects on the same account are left out. GPU-hours = wall time x GPUs allocated, per job or array task; jobs that never started count 0.
+Work run as an extra step inside another job's allocation (TinyLlama keyed copies, Nov 12) is counted once, under that job.
+Usage: gpu_hours.py SACCT.txt PROJECT_DIR OUT.md"""
+import collections, re, sys
+
+STAGES = [  # (stage, job-name prefixes), first match wins
+    ("Pilot runs, timing and tests", ("pilot", "python", "bash", "llmprint-ac", "llmprint-cost", "llmprint-pack", "test-rules", "timing")),
+    ("Weight check of hub models", ("hub-check", "hubcheck")),
+    ("Training claimants and siblings", ("train",)),
+    ("Declared copies and keyed claimants", ("copies",)),
+    ("Feature extraction (incl. control top-up)", ("extract", "reextract", "control-topup", "topup")),
+    ("LLMPrint fingerprint search", ("llmprint",)),
+    ("Scoring and analysis", ("score", "rescore", "analyze")),
+    ("Keyed copies (post hoc)", ("kcopies",)),
+]
+
+
+def stage(name):
+    return next((s for s, ps in STAGES if name.startswith(ps)), "Other")
+
+
+rows = [l.rstrip("\n").split("|") for l in open(sys.argv[1]) if l.strip() and not l.startswith("JobID")]
+H, N, first, last = collections.Counter(), collections.Counter(), None, None
+for jid, name, part, tres, el, state, start, wd in rows:
+    if not wd.startswith(sys.argv[2]): continue
+    g = re.search(r"gres/gpu=(\d+)", tres)
+    if part != "gpu-h200" or not g or not el.isdigit(): continue
+    h = int(el) / 3600 * int(g.group(1))
+    if h == 0: continue
+    s = stage(name); H[s] += h; N[s] += 1
+    if start[:4].isdigit(): first = min(first or start, start); last = max(last or start, start)
+order = [s for s, _ in STAGES] + ["Other"]
+L = ["| Stage | Jobs | H200 GPU-hours |", "|---|---:|---:|"]
+L += [f"| {s} | {N[s]} | {H[s]:,.1f} |" for s in order if N[s]]
+L.append(f"| **Total** | **{sum(N.values())}** | **{sum(H.values()):,.1f}** |")
+L.append(f"\nFrom Slurm accounting for jobs started {first[:10]} to {last[:10]}: wall time multiplied by GPUs allocated, idle time included.")
+open(sys.argv[3], "w").write("\n".join(L) + "\n")
+print("\n".join(L))
