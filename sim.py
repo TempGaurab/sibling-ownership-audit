@@ -289,14 +289,14 @@ x = np.arange(3); w = 0.2
 labs = ["Independent\nreference", "Pooled\nsiblings", "Stratified\nsiblings"]
 for j, (m, c) in enumerate([("indep", cols["indep"]), ("pooled", cols["pooled"]), ("strat", cols["strat"])]):
     ax[0].bar(x + (j - 1) * w * 1.15, [farres[(m, 499, s)][0] for s in strata], w, color=c, label=labs[j].replace("\n", " "))
-ax[0].axhline(alpha, color="k", lw=0.8, ls="--"); ax[0].text(2.45, alpha + 0.02, "nominal 0.05", ha="right", fontsize=7)
+ax[0].axhline(alpha, color="k", lw=0.9, ls="--", zorder=5); ax[0].text(1.01, alpha, "nominal\n0.05", transform=ax[0].get_yaxis_transform(), ha="left", va="center", fontsize=6.5, clip_on=False)
 ax[0].set_xticks(x); ax[0].set_xticklabels(["low", "mid", "high"]); ax[0].set_xlabel("Data and teacher sharing with claimant (stratum)")
 ax[0].set_ylabel("False-accusation rate"); ax[0].set_title("a  Weight-space cosine, n = 499", loc="left", fontsize=8, fontweight="bold")
-ax[0].set_ylim(0, 1.3); ax[0].set_yticks([0,0.2,0.4,0.6,0.8,1.0]); ax[0].legend(frameon=False, fontsize=6.5, loc="upper left", ncol=3)
+ax[0].set_ylim(0, 1.3); ax[0].set_yticks([0,0.2,0.4,0.6,0.8,1.0]); ax[0].legend(frameon=False, fontsize=6.5, loc="upper left", ncol=3, columnspacing=0.9, handlelength=1.2, handletextpad=0.4)
 keys = [("ind_binom", cols["indep"], "Binomial, independent null"), ("mean_binom", cols["mean"], "Binomial, sibling mean"),
         ("conf99", "#67a9cf", "Conformal, n = 99"), ("conf499", cols["strat"], "Conformal, n = 499")]
 ax[1].bar(range(4), [farBres[k][0] for k, _, _ in keys], color=[c for _, c, _ in keys])
-ax[1].axhline(alphaB, color="k", lw=0.8, ls="--"); ax[1].text(3.4, alphaB + 0.01, "nominal 0.01", ha="right", fontsize=7)
+ax[1].axhline(alphaB, color="k", lw=0.9, ls="--", zorder=5); ax[1].text(1.01, alphaB, "nominal\n0.01", transform=ax[1].get_yaxis_transform(), ha="left", va="center", fontsize=6.5, clip_on=False)
 ax[1].set_xticks(range(4)); ax[1].set_xticklabels(["Binom.\nindep.", "Binom.\nsib. mean", "Conf.\nn=99", "Conf.\nn=499"], fontsize=6.5)
 ax[1].set_ylabel("False-accusation rate"); ax[1].set_title("b  Fingerprint match score, K = 64", loc="left", fontsize=8, fontweight="bold")
 fig.tight_layout(); fig.savefig("fig_sim_far.pdf"); plt.close(fig)
@@ -309,13 +309,13 @@ for m, c, lab in [("indep", cols["indep"], "Independent reference (FAR above nom
         ax[0].plot(xs, ys, ls, color=c, marker="o", ms=3, label=f"{lab.split(' (')[0]}, {s} sharing")
 ax[0].set_xlabel("Relative weight-space distance of task vectors"); ax[0].set_ylabel("Power at alpha = 0.05")
 ax[0].set_title("a  Weight-space cosine, n = 499", loc="left", fontsize=8, fontweight="bold")
-ax[0].legend(frameon=False, fontsize=6, loc="lower left"); ax[0].set_ylim(-0.02, 1.02)
+ax[0].legend(frameon=False, fontsize=6, loc="upper center", bbox_to_anchor=(0.5, -0.24), ncol=2); ax[0].set_ylim(-0.02, 1.02)
 for k, c, lab in keys:
     ax[1].plot(rB, [pwBres[(k, r)] for r in rB], marker="o", ms=3, color=c, label=lab)
 ax[1].set_xlabel("Retained fingerprint fraction r"); ax[1].set_ylabel("Power at alpha = 0.01")
 ax[1].set_title("b  Fingerprint match score, K = 64", loc="left", fontsize=8, fontweight="bold")
-ax[1].legend(frameon=False, fontsize=6, loc="lower right"); ax[1].set_ylim(-0.02, 1.02)
-fig.tight_layout(); fig.savefig("fig_sim_power.pdf"); plt.close(fig)
+ax[1].legend(frameon=False, fontsize=6, loc="upper center", bbox_to_anchor=(0.5, -0.24), ncol=2); ax[1].set_ylim(-0.02, 1.02)
+fig.set_size_inches(7.0, 3.0); fig.tight_layout(); fig.savefig("fig_sim_power.pdf", bbox_inches="tight", pad_inches=0.03); plt.close(fig)
 
 with open("sim_numbers.tex", "w") as f:
     for k, v in MAC.items():
