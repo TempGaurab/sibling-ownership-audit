@@ -18,6 +18,7 @@ The pseudonyms stop the release from reading as a list of named verdicts. They a
 | `scores/rules_F.jsonl` | Outcomes of the original decision rules (Nikolić et al. P1/P2, MPS set membership and Non-Infringement Score) per claimant and suspect |
 | `scores/llmprint_F.jsonl` | LLMPrint fingerprint bits of each model against each claimant's fingerprint prompts |
 | `scores/keyed_F.jsonl` | Keyed-fingerprint hit rates of each model against each claimant's key |
+| `scores/keyed_copies_F.jsonl` | Post hoc: hit rates of the 195 copies of the keyed claimants (`k_<claimant>_<transformation>_<n>`) against each key; summarized in `analysis/keyed_power.json` |
 | `scores/own_models_F.csv` | Our models: kind, base, base commit, adapter or full weights |
 | `scores/third_party_models.csv` | Hub siblings and controls: repository, pinned commit, declared base, format, families, whether scored, final stratum codes |
 | `scores/SHA256SUMS` | Hashes of the files above |
@@ -29,7 +30,7 @@ The pseudonyms stop the release from reading as a list of named verdicts. They a
 | `hub/download_list.json`, `hub/topup_list.json` | The sampled hub models and control reserves at pinned commits, as timestamped |
 | `hub/weight_check_v2.jsonl` | Check of each downloaded model's weights against its declared base, as timestamped |
 | `census/summary.json`, `census/sample_*.json` | Hub census of candidate bases and the metadata of each sampled derivative (Nov 6, 2026 snapshot) |
-| `analysis/` | Aggregate outputs: `analysis.json` (H1 to H6), `rules.json`, `ablations.json`, `posthoc.json`, `fidelity.json`, logs, and `provenance.txt` with the hashes of the cluster inputs |
+| `analysis/` | Aggregate outputs: `analysis.json` (H1 to H6), `rules.json`, `ablations.json`, `posthoc.json`, `fidelity.json`, `keyed_power.json`, logs, and `provenance.txt` with the hashes of the cluster inputs |
 
 ## What was removed
 
@@ -40,4 +41,3 @@ The pseudonyms stop the release from reading as a list of named verdicts. They a
 
 `src/make_release_data.py` produced `scores/` from the cluster feature files. The released files equal the originals row for row once the pseudonyms are mapped back. The aggregate files in `analysis/` were computed from the originals by `src/analyze.py`, `src/apply_rules.py`, `src/ablations.py`, `src/posthoc.py` and `src/fidelity_check.py`. Point estimates do not depend on names. A rerun on the released files has not been checked digit for digit: row order differs from the originals, which can change resampling draws in bootstrap intervals.
 
-Keyed-fingerprint scores of the post hoc keyed copies will be added when that run finishes.

@@ -23,7 +23,7 @@ This repository holds the code for a preregistered study that checks exactly tha
 3. **Runs the published tests under their own rules.** We reimplemented the tests, each labelled as a reimplementation: Nikolić et al., MPS, REEF, LLMPrint, Witness Overlap, a lineage score, task-vector cosine and a keyed fingerprint. Then we count how often each one accuses an innocent sibling.
 4. **Tries a fix.** We calibrate a test against a reference set of siblings instead of unrelated models, and check on held-out groups whether that keeps false accusations near the 5% target without losing the copies.
 
-**Short version of the findings:** most published decision rules accused siblings far more often than their stated error rates. The keyed fingerprint accused none. Calibrating against siblings worked only when the reference covered how the suspect was actually made. The paper has the numbers.
+**Short version of the findings:** most published decision rules accused siblings far more often than their stated error rates. The keyed fingerprint accused none, but it also missed many copies, including every model trained on the claimant's outputs. Calibrating against siblings worked only when the reference covered how the suspect was actually made. The paper has the numbers.
 
 ## Repository map
 
@@ -86,12 +86,12 @@ Everything ran on one Slurm cluster node, using at most 3 GPUs at a time.
 | Feature extraction (incl. control top-up) | 42 | 38.3 |
 | LLMPrint fingerprint search | 6 | 81.3 |
 | Scoring and analysis | 4 | 43.9 |
-| Keyed copies (post hoc) | 1 | 3.4 |
-| **Total** | **76** | **239.3** |
+| Keyed copies (post hoc) | 2 | 9.0 |
+| **Total** | **77** | **244.9** |
 
 From Slurm accounting for jobs started 2026-11-06 to 2026-11-12: wall time multiplied by GPUs allocated, idle time included.
 
-The keyed-copy row is still growing: that job was running when this table was made. The whole study took about as much GPU time as one H200 running for ten days. The LLMPrint fingerprint search was the most expensive single step.
+The whole study took about as much GPU time as one H200 running for ten days. The LLMPrint fingerprint search was the most expensive single step.
 
 ## Preregistration
 
